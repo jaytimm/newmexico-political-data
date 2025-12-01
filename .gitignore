@@ -1,0 +1,25 @@
+# RStudio files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Session data
+.Rapp.history
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# R package build artifacts
+.Rcheck/
+
+# Environment files
+*.env
+
+# Misc
+*.swp
+
+# Raw data folder
+data-raw/
+raw-data/

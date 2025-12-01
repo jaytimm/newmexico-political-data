@@ -1,0 +1,276 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+# Install and load pacman if not already installed
+if (!require("pacman", quietly = TRUE)) {
+  install.packages("pacman")
+}
+
+# Install and load all required packages
+pacman::p_load(
+  tidycensus,  # Census data access
+  sf,          # Spatial data handling
+  dplyr,       # Data manipulation
+  data.table,  # Fast data operations
+  zoo          # Time series operations (for na.locf)
+)
+```
+
+
+
+# New Mexico Political Data
+
+## Overview
+
+This project integrates New Mexico political geography and election data into a unified analytical dataset.
+
+The combined dataset includes:
+
+- **Precinct Boundaries**: Voting Tabulation Districts (VTDs) from the New Mexico Secretary of State's 2020 redistricting cycle
+- **Election Results**: Precinct-level returns and statewide totals from general elections (2000-2024)
+- **District Crosswalks**: Mappings between precincts and their congressional, state house, and state senate districts
+
+Election results cover:
+
+- **Congressional races** (U.S. House)
+- **State legislative races** (State House and State Senate)
+- **Statewide offices** (Governor, U.S. Senate, presidential electors, and other statewide positions)
+
+
+
+```{r include=FALSE}
+# Configuration: Choose any ACS variable and year
+nm_var  <- "DP02_0068P"   # ACS variable (used as placeholder - any variable works for boundaries)
+nm_year <- 2023            # Year of ACS data
+
+# Define the geographic levels to fetch
+geo_list <- list(
+  counties       = "county",
+  cong_district  = "congressional district",
+  upper_chamber  = "state legislative district (upper chamber)",
+  lower_chamber  = "state legislative district (lower chamber)"
+)
+
+# Function to fetch boundaries for a single geography type
+get_boundaries <- function(geo) {
+  tidycensus::get_acs(
+    geography = geo,
+    variables = nm_var,
+    year      = nm_year,
+    survey    = "acs5",
+    state     = "NM",
+    geometry  = TRUE  # Keep geometry for spatial operations
+  ) |>
+    dplyr::select(GEOID, NAME, estimate, geometry)
+}
+
+nm_boundaries <- lapply(geo_list, get_boundaries)
+```
+
+
+
+## § Load Precinct Boundaries
+
+This section loads the official Voting Tabulation District (VTD) boundaries that define New Mexico's voting precincts. These boundaries are from the 2020 redistricting cycle and represent the current precinct geography used in state elections.
+
+The GeoJSON file is read as an sf (simple features) spatial object, preserving both the geometric data and precinct identifiers needed for spatial joins.
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+# Load precinct boundaries from GeoJSON file
+nm_vtd_map <- sf::st_read("raw-data/gstore.rgis/NM_VTD_20211002.geojson")
+
+# Save for future use
+dir.create("data/boundaries", showWarnings = FALSE, recursive = TRUE)
+saveRDS(nm_vtd_map, "data/boundaries/nm_vtd_map_2021.rds")
+```
+
+
+**Output**: 
+- `data/boundaries/nm_vtd_map_2021.rds` - Spatial object (sf) containing precinct boundaries with COUNTY_NAM and VTD_NUM identifiers
+
+
+
+## § Load and Process Federal Election Results
+
+This section processes raw election data files from the New Mexico Secretary of State. The files have a hierarchical structure that requires flattening: county names appear in separate rows from precinct results, and vote channels (early voting, election day, etc.) are broken out separately.
+
+The code handles several data cleaning challenges:
+- Fills county names down to precinct rows
+- Aggregates votes across different vote channels (early, election day, absentee)
+- Excludes judicial races and voter privacy suppressions
+- Creates both statewide totals and precinct-level breakdowns by party
+
+Three key outputs are generated:
+
+1. **Final Results**: Statewide winner and vote share calculations for every race
+2. **Precinct-Level Results**: Democratic, Republican, and other party votes by precinct for every race
+3. **Precinct-District Crosswalk**: Maps each precinct to its congressional district, state house district, and state senate district (extracted from 2024 races)
+
+
+```{r}
+fs <- list.files("~/Dropbox/GitHub/git-projects/nm-political-data/raw-data/electionstats.sos.nm.gov/", full.names = T)
+bigun99 <- lapply(fs, read.csv) |> data.table::rbindlist()
+
+# ============================================================
+# Load and clean raw election data
+# ===========================================================
+bigun <- bigun99 |> 
+  filter(election_type == 'General') |>
+  filter(!grepl('Court', office_name)) |>
+  filter(district_type %in% c('Congressional District',
+                              'State Representative District',
+                              'State Senate District',
+                              'State')) |>
+  mutate(pc = ifelse(grepl('[0-9]', division_name), 
+                     NA, division_name)) |>
+  mutate(election_date = format(as.Date(election_date), "%Y")) |>
+  
+  ## 
+  mutate(vote_channel = ifelse(is.na(vote_channel), 'Election Day 2000', vote_channel)) |>
+  mutate(division_name = sub(' - .*$', '', division_name)) |>
+  tidyr::fill(pc, .direction = 'down') |>
+  select(election_type, election_date, office_name, district_type, district_name,
+         candidate_name, division_type, pc, division_name,
+         vote_channel, is_winner, candidate_party_name, votes)
+
+
+## not a problem for any totals or win calculations.  The placement of voter privacy row relative to county name breaks fill-down process in creation of 'pc' column -- not a horrible problem: two precincts in two races are broken -- underlying data issue, and could be solved here -- 
+prob_precincts <- bigun |> filter(pc == 'Voter Privacy', division_name != 'Voter Privacy') |>
+  distinct(election_date, office_name, district_type, district_name)
+
+
+# ============================================================
+# Filter to precinct and state level, exclude Voter Privacy
+# ============================================================
+df <- bigun |>
+  filter(division_type %in% c("Precinct", "County")) |>
+  filter(vote_channel != "Voter Privacy") |>
+  filter(!pc %in% c('Fed', 'Voter Privacy')) |> # see prob precincts above
+  mutate(votes = as.numeric(votes))
+
+# ============================================================
+# TABLE 1: FINAL RESULTS (Statewide)
+# ============================================================
+
+final_results <- df |>
+  filter(division_type == "County") |>
+  filter(!candidate_name %in% c("Total Ballots Cast", "Total Votes Cast")) |>
+  group_by(election_date, office_name, district_name, candidate_name, 
+           candidate_party_name) |>
+  summarise(votes = sum(votes, na.rm = TRUE), .groups = "drop") |>
+  group_by(election_date, office_name, district_name) |>
+  mutate(
+    is_winner = votes == max(votes),
+    pct = round(votes / sum(votes) * 100, 1)
+  ) |>
+  ungroup() |>
+  arrange(election_date, office_name, district_name, desc(votes))
+
+# ============================================================
+# TABLE 2: PRECINCT-LEVEL D/R/OTHER
+# ============================================================
+
+# Map parties to D/R/Other
+precinct_data <- df |>
+  filter(division_type == "Precinct") |>
+  filter(candidate_name != "Total Votes Cast") |>
+  mutate(party_collapsed = case_when(
+    candidate_party_name == "Democratic" ~ "dem",
+    candidate_party_name == "Republican" ~ "rep",
+    TRUE ~ "other"
+  ))
+
+# Sum votes by precinct/race/party (collapsing vote channels)
+precinct_aggregated <- precinct_data |>
+  group_by(election_date, office_name, district_type, district_name,
+           pc, division_name, party_collapsed) |>
+  summarise(votes = sum(votes, na.rm = TRUE), .groups = "drop")
+
+# Pivot to wide format (dem, rep, other columns)
+precinct_wide <- precinct_aggregated |>
+  tidyr::pivot_wider(
+    names_from = party_collapsed,
+    values_from = votes,
+    values_fill = 0
+  )
+
+# Calculate votes_cast from actual "Total Votes Cast" rows
+total_votes <- df |>
+  filter(division_type == "Precinct") |>
+  filter(candidate_name == "Total Votes Cast") |>
+  group_by(election_date, office_name, district_type, district_name, 
+           pc, division_name) |>
+  summarise(votes_cast = sum(votes, na.rm = TRUE), .groups = "drop")
+
+# Join total votes and calculate other
+precinct_level <- precinct_wide |>
+  left_join(total_votes, by = c("election_date", "office_name", "district_type", "district_name", "pc", "division_name")) |>
+  mutate(other = votes_cast - (dem + rep)) |>
+  select(election_date, office_name, district_type, district_name, 
+         pc, division_name, dem, rep, other, votes_cast) |>
+  arrange(election_date, office_name, pc, division_name) |>
+  rename(COUNTY_NAM = pc, VTD_NUM = division_name)
+
+
+
+# ============================================================
+# View results
+# ============================================================
+precinct_districts <- precinct_level |>
+  filter(district_type != 'State', election_date == '2024') |>
+  select(COUNTY_NAM, VTD_NUM, district_name, office_name, district_type) |>
+  distinct() |>
+  # mutate(district_num = stringr::str_extract(office_name, "\\d+")) |>
+  select(-office_name) |>
+  tidyr::pivot_wider(
+    names_from = district_type,
+    values_from = district_name,
+    values_fn = first
+  ) |>
+  janitor::clean_names() |>
+  rename(COUNTY_NAM = county_nam, VTD_NUM = vtd_num)
+
+
+# Save for future use
+dir.create("data/elections", showWarnings = FALSE, recursive = TRUE)
+saveRDS(precinct_districts, "data/boundaries/nm_precinct_districts_2021.rds")
+saveRDS(precinct_level, "data/elections/nm_precinct_level_results_2000-24.rds")
+saveRDS(final_results, "data/elections/nm_election_results_2000-24.rds")
+```
+
+
+**Outputs**: 
+
+- `data/boundaries/nm_precinct_districts_2021.rds` - Crosswalk mapping each precinct (COUNTY_NAM + VTD_NUM) to its congressional_district, state_representative_district, and state_senate_district
+
+- `data/elections/nm_precinct_level_results_2000-24.rds` - Precinct-level Democratic, Republican, and other party vote totals for all general elections 2000-2024
+
+- `data/elections/nm_election_results_2000-24.rds` - Statewide election results with winners and vote percentages for all races 2000-2024
+
+
+
+## Quick Start: Loading Processed Data
+
+After running the processing scripts above, load the cleaned data for analysis:
+
+```{r}
+# Load precinct boundaries
+nm_vtd_map <- readRDS("data/boundaries/nm_vtd_map_2021.rds")
+
+# Load precinct-to-district crosswalk
+precinct_districts <- readRDS("data/boundaries/nm_precinct_districts_2021.rds")
+
+# Load precinct-level election results
+precinct_results <- readRDS("data/elections/nm_precinct_level_results_2000-24.rds")
+
+# Load statewide results
+final_results <- readRDS("data/elections/nm_election_results_2000-24.rds")
+```
+
+
