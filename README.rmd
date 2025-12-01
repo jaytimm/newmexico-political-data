@@ -44,7 +44,7 @@ Election results cover:
 
 
 
-```{r include=FALSE}
+```{r eval=FALSE, include=FALSE}
 # Configuration: Choose any ACS variable and year
 nm_var  <- "DP02_0068P"   # ACS variable (used as placeholder - any variable works for boundaries)
 nm_year <- 2023            # Year of ACS data
@@ -83,7 +83,7 @@ The GeoJSON file is read as an sf (simple features) spatial object, preserving b
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
 # Load precinct boundaries from GeoJSON file
-nm_vtd_map <- sf::st_read("raw-data/gstore.rgis/NM_VTD_20211002.geojson")
+nm_vtd_map <- sf::st_read("data-raw/gstore.rgis/NM_VTD_20211002.geojson")
 
 # Save for future use
 dir.create("data/boundaries", showWarnings = FALSE, recursive = TRUE)
@@ -113,8 +113,8 @@ Three key outputs are generated:
 3. **Precinct-District Crosswalk**: Maps each precinct to its congressional district, state house district, and state senate district (extracted from 2024 races)
 
 
-```{r}
-fs <- list.files("~/Dropbox/GitHub/git-projects/nm-political-data/raw-data/electionstats.sos.nm.gov/", full.names = T)
+```{r include=FALSE}
+fs <- list.files("~/Dropbox/GitHub/git-projects/newmexico-political-data/data-raw/electionstats.sos.nm.gov/", full.names = T)
 bigun99 <- lapply(fs, read.csv) |> data.table::rbindlist()
 
 # ============================================================
