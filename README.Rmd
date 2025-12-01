@@ -2,12 +2,14 @@
 output: 
   md_document:
     variant: markdown_github
+    preserve_yaml: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(knitr)
 library(dplyr)
+library(kableExtra)
 ```
 
 # New Mexico Political Data
@@ -32,15 +34,29 @@ All data covers general elections from 2000 through 2024.
 
 The table below shows which offices have data available for each election year. For district-based offices (U.S. Representative, State Senate, State Representative), the number in parentheses indicates how many districts are included.
 
-```{r composition-table}
+```{r composition-table, results='asis'}
 # Read the composition table CSV
 comp_table <- read.csv("data/data_composition.csv", stringsAsFactors = FALSE, check.names = FALSE, na.strings = "")
 
 # Replace any NA values with empty strings
 comp_table[is.na(comp_table)] <- ""
 
-# Generate markdown table
-kable(comp_table, format = "markdown", align = c("l", rep("c", ncol(comp_table) - 1)))
+# Generate HTML table with no wrapping (GitHub markdown supports HTML tables)
+cat('<table style="white-space: nowrap;">\n')
+cat('<thead><tr><th align="left">Office</th>')
+for (col in 2:ncol(comp_table)) {
+  cat(paste0('<th align="center">', names(comp_table)[col], '</th>'))
+}
+cat('</tr></thead>\n<tbody>\n')
+for (i in 1:nrow(comp_table)) {
+  cat('<tr>')
+  cat(paste0('<td style="white-space: nowrap;">', comp_table[i, 1], '</td>'))
+  for (j in 2:ncol(comp_table)) {
+    cat(paste0('<td align="center" style="white-space: nowrap;">', comp_table[i, j], '</td>'))
+  }
+  cat('</tr>\n')
+}
+cat('</tbody></table>\n')
 ```
 
 ## Data Files
@@ -80,19 +96,13 @@ The processing script is available in `scripts/process_election_data.R`.
 Load the data files in R:
 
 ```{r quick-start, echo=TRUE, eval=FALSE}
-# Load required packages
-library(sf)      # For spatial data
-library(readr)   # For reading CSV files (optional, base R works too)
-
 # Load precinct boundaries with district assignments
-nm_vtd <- st_read("data/boundaries/nm_vtd_with_districts_2021.geojson")
+nm_vtd <- sf::st_read("data/boundaries/nm_vtd_with_districts_2021.geojson")
 
 # Load precinct-level election results
-precinct_results <- read.csv("data/elections/nm_precinct_results_2000-24.csv", 
-                              stringsAsFactors = FALSE)
+precinct_results <- read.csv("data/elections/nm_precinct_results_2000-24.csv")
 
 # Load statewide election results
-statewide_results <- read.csv("data/elections/nm_election_results_2000-24.csv", 
-                              stringsAsFactors = FALSE)
+statewide_results <- read.csv("data/elections/nm_election_results_2000-24.csv")
 ```
 

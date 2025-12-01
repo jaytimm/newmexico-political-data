@@ -1,3 +1,10 @@
+---
+output: 
+  md_document:
+    variant: markdown_github
+    preserve_yaml: true
+---
+
 # New Mexico Political Data
 
 A collection of New Mexico election results and political geography data
@@ -30,19 +37,468 @@ election year. For district-based offices (U.S. Representative, State
 Senate, State Representative), the number in parentheses indicates how
 many districts are included.
 
-| Office | 2000 | 2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 | 2022 | 2024 |
-|:--------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:--:|:---:|:---:|:---:|:---:|:---:|
-| Attorney General |  | X |  | X |  | X |  |  |  | X |  | X |  |
-| Commissioner of Public Lands |  |  |  | X |  | X |  |  |  | X |  | X |  |
-| Governor |  | X |  | X |  |  |  |  |  | X |  | X |  |
-| President of the United States |  |  | X |  | X |  | X |  | X |  | X |  | X |
-| Secretary of State |  |  |  | X |  | X |  |  | X | X |  | X |  |
-| State Auditor |  | X |  | X |  | X |  |  |  | X |  | X |  |
-| State Representative | X (70) | X (70) | X (70) | X (69) | X (70) | X (70) | X (70) |  | X (70) | X (70) | X (70) | X (70) | X (70) |
-| State Senate | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |
-| State Treasurer |  | X |  | X |  | X |  |  |  | X |  | X |  |
-| United States Representative | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) |  | X (3) | X (3) | X (3) | X (3) | X (3) |
-| United States Senator |  |  |  | X | X |  | X |  |  | X | X |  | X |
+<table style="white-space: nowrap;">
+<thead>
+<tr>
+<th align="left">
+Office
+</th>
+<th align="center">
+2000
+</th>
+<th align="center">
+2002
+</th>
+<th align="center">
+2004
+</th>
+<th align="center">
+2006
+</th>
+<th align="center">
+2008
+</th>
+<th align="center">
+2010
+</th>
+<th align="center">
+2012
+</th>
+<th align="center">
+2014
+</th>
+<th align="center">
+2016
+</th>
+<th align="center">
+2018
+</th>
+<th align="center">
+2020
+</th>
+<th align="center">
+2022
+</th>
+<th align="center">
+2024
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="white-space: nowrap;">
+Attorney General
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+Commissioner of Public Lands
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+Governor
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+President of the United States
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+Secretary of State
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+State Auditor
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+State Representative
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (69)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (70)
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+State Senate
+</td>
+<td align="center" style="white-space: nowrap;">
+X (42)
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X (42)
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X (42)
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X (42)
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X (42)
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X (42)
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X (42)
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+State Treasurer
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+United States Representative
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+<td align="center" style="white-space: nowrap;">
+X (3)
+</td>
+</tr>
+<tr>
+<td style="white-space: nowrap;">
+United States Senator
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+<td align="center" style="white-space: nowrap;">
+</td>
+<td align="center" style="white-space: nowrap;">
+X
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Data Files
 
@@ -97,18 +553,12 @@ The processing script is available in `scripts/process_election_data.R`.
 Load the data files in R:
 
 ``` r
-# Load required packages
-library(sf)      # For spatial data
-library(readr)   # For reading CSV files (optional, base R works too)
-
 # Load precinct boundaries with district assignments
-nm_vtd <- st_read("data/boundaries/nm_vtd_with_districts_2021.geojson")
+nm_vtd <- sf::st_read("data/boundaries/nm_vtd_with_districts_2021.geojson")
 
 # Load precinct-level election results
-precinct_results <- read.csv("data/elections/nm_precinct_results_2000-24.csv", 
-                              stringsAsFactors = FALSE)
+precinct_results <- read.csv("data/elections/nm_precinct_results_2000-24.csv")
 
 # Load statewide election results
-statewide_results <- read.csv("data/elections/nm_election_results_2000-24.csv", 
-                              stringsAsFactors = FALSE)
+statewide_results <- read.csv("data/elections/nm_election_results_2000-24.csv")
 ```
