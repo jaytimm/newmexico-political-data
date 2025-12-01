@@ -1,0 +1,1936 @@
+"election_date","office_name","district_name","candidate_name","candidate_party_name","votes","is_winner","pct"
+"2000","State Representative","1","James Nicholas Tinnin, Jr.","Republican",4943,TRUE,56.5
+"2000","State Representative","1","Jerry Sandel","Democratic",3800,FALSE,43.5
+"2000","State Representative","10","Henry ""Kiki"" Saavedra","Democratic",3194,TRUE,72.2
+"2000","State Representative","10","David W. Ware","Republican",1231,FALSE,27.8
+"2000","State Representative","11","Rick Miera","Democratic",5578,TRUE,78.6
+"2000","State Representative","11","Harold E. Davis De Garcia","Republican",1516,FALSE,21.4
+"2000","State Representative","12","James G. Taylor","Democratic",3903,TRUE,66.6
+"2000","State Representative","12","Frank K. Hass","Republican",1502,FALSE,25.6
+"2000","State Representative","12","Allen F. Cooper","Green",459,FALSE,7.8
+"2000","State Representative","13","Daniel P. Silva","Democratic",4608,TRUE,67.8
+"2000","State Representative","13","Stephen R. Ulibarri","Republican",2192,FALSE,32.2
+"2000","State Representative","14","Miguel P. Garcia","Democratic",4491,TRUE,78.2
+"2000","State Representative","14","Gwen J. Poe","Republican",1250,FALSE,21.8
+"2000","State Representative","15","John А. Sanchez","Republican",5083,TRUE,51
+"2000","State Representative","15","Raymond G. Sanchez","Democratic",4877,FALSE,49
+"2000","State Representative","16","Ray Ruiz","Democratic",8226,TRUE,100
+"2000","State Representative","17","Edward C. Sandoval","Democratic",4721,TRUE,69.2
+"2000","State Representative","17","Glenn R. Garcia","Republican",2106,FALSE,30.8
+"2000","State Representative","18","Gail C. Beam","Democratic",6864,TRUE,100
+"2000","State Representative","19","Sheryl M. Williams Stapleton","Democratic",5174,TRUE,100
+"2000","State Representative","2","Thomas C. Taylor","Republican",6601,TRUE,98.5
+"2000","State Representative","2","Destri C. Gleim","",102,FALSE,1.5
+"2000","State Representative","20","Ted Hobbs","Republican",6092,TRUE,100
+"2000","State Representative","21","Mimi Stewart","Democratic",4101,TRUE,54
+"2000","State Representative","21","Gregory B. Mortensen","Republican",3496,FALSE,46
+"2000","State Representative","22","Ron Godbey","Republican",8431,TRUE,100
+"2000","State Representative","23","Robert M. Burpo","Republican",11369,TRUE,100
+"2000","State Representative","24","George D. Buffet","Republican",7405,TRUE,100
+"2000","State Representative","25","Danice R. Picraux","Democratic",5629,TRUE,69.4
+"2000","State Representative","25","Matthew S. Pollard","Republican",2481,FALSE,30.6
+"2000","State Representative","26","Al Park","Democratic",2683,TRUE,51.8
+"2000","State Representative","26","Art Hawkins","Republican",2493,FALSE,48.2
+"2000","State Representative","27","Lorenzo A. Larranaga","Republican",6470,TRUE,100
+"2000","State Representative","28","Joe Mohorovic","Republican",5144,TRUE,58.6
+"2000","State Representative","28","Karen L. Hopkins","Democratic",3629,FALSE,41.4
+"2000","State Representative","29","William W. Fuller","Republican",9736,TRUE,59.7
+"2000","State Representative","29","Joann B. Anders","Democratic",6580,FALSE,40.3
+"2000","State Representative","3","Sandra L. Townsend","Republican",6540,TRUE,76.4
+"2000","State Representative","3","Clyde B. Vicenti","Democratic",2023,FALSE,23.6
+"2000","State Representative","30","Pauline K. Gubbels","Republican",5076,TRUE,53.6
+"2000","State Representative","30","Terry Brunner","Democratic",4397,FALSE,46.4
+"2000","State Representative","31","Joseph M. Thompson","Republican",11124,TRUE,100
+"2000","State Representative","32","Dona G. Irwin","Democratic",4307,TRUE,58.6
+"2000","State Representative","32","Mary Kay Reese","Republican",3048,FALSE,41.4
+"2000","State Representative","33","J. Paul Taylor","Democratic",4874,TRUE,69.2
+"2000","State Representative","33","James L. Bawcum","Republican",2173,FALSE,30.8
+"2000","State Representative","34","Mary Helen Garcia","Democratic",3831,TRUE,100
+"2000","State Representative","35","Benjamin B. Rios","Democratic",4058,TRUE,65
+"2000","State Representative","35","Allen D. Crawford","Republican",2187,FALSE,35
+"2000","State Representative","36","Andrew ""Andy"" Nuñez","Democratic",4061,TRUE,50.2
+"2000","State Representative","36","E.G. (SMOKEY) Blanton","Republican",4027,FALSE,49.8
+"2000","State Representative","37","William E. Boykin","Republican",5811,TRUE,65.6
+"2000","State Representative","37","David W. Pruett","Independent",3044,FALSE,34.4
+"2000","State Representative","38","Dianne Hamilton","Republican",6622,TRUE,100
+"2000","State Representative","39","Manuel G. Herrera","Democratic",5006,TRUE,65.6
+"2000","State Representative","39","Garry W. Klassen","Republican",2627,FALSE,34.4
+"2000","State Representative","4","Ray Begaye","Democratic",4297,TRUE,68.7
+"2000","State Representative","4","Verlin A. Hammons","Republican",1956,FALSE,31.3
+"2000","State Representative","40","Nick L. Salazar","Democratic",6216,TRUE,100
+"2000","State Representative","41","Debbie А. Rodella","Democratic",5128,TRUE,66.4
+"2000","State Representative","41","Michael W. Naranjo","Republican",2600,FALSE,33.6
+"2000","State Representative","42","Roberto ""Bobby"" J. Gonzales","Democratic",7523,TRUE,100
+"2000","State Representative","43","Jeannette O. Wallace","Republican",8849,TRUE,83.7
+"2000","State Representative","43","Gary W. Miles","Libertarian",1721,FALSE,16.3
+"2000","State Representative","44","Judy Vanderstar Russell","Republican",6962,TRUE,55.8
+"2000","State Representative","44","Victor L. Scherzinger","Democratic",5525,FALSE,44.2
+"2000","State Representative","45","Patsy G. Trujillo","Democratic",6758,TRUE,100
+"2000","State Representative","46","Ben Lujan","Democratic",5933,TRUE,63.3
+"2000","State Representative","46","Robb Young Hirsch","Independent",3445,FALSE,36.7
+"2000","State Representative","47","Max Coll","Democratic",9758,TRUE,71.2
+"2000","State Representative","47","F. Gregg Bemis, JR.","Republican",3948,FALSE,28.8
+"2000","State Representative","48","Luciano ""LUCKY"" Varela","Democratic",7586,TRUE,100
+"2000","State Representative","49","Don Tripp","Republican",6847,TRUE,61.3
+"2000","State Representative","49","Michael Olguin","Democratic",4326,FALSE,38.7
+"2000","State Representative","5","Patricia ""Patty"" А. Lundstrom","Democratic",4087,TRUE,67.4
+"2000","State Representative","5","Daniel J. Kruis","Republican",1981,FALSE,32.6
+"2000","State Representative","50","Rhonda S. King","Democratic",6709,TRUE,59.6
+"2000","State Representative","50","Teresa Kirchner","Republican",4540,FALSE,40.4
+"2000","State Representative","51","Gloria C. Vaughn","Republican",2475,TRUE,54.6
+"2000","State Representative","51","Inez M. Moncada","Democratic",2054,FALSE,45.4
+"2000","State Representative","52","Delores C. Wright","Democratic",3136,TRUE,50.5
+"2000","State Representative","52","Jan D. Thomas","Republican",3075,FALSE,49.5
+"2000","State Representative","53","Terry T. Marquardt","Republican",6437,TRUE,97.5
+"2000","State Representative","53","Pamela A. Hansmire","",165,FALSE,2.5
+"2000","State Representative","54","Joe M. Stell","Democratic",4857,TRUE,100
+"2000","State Representative","55","John A. Heaton","Democratic",5092,TRUE,59
+"2000","State Representative","55","Bob Martin","Republican",3541,FALSE,41
+"2000","State Representative","56","Dub Williams","Republican",6788,TRUE,71.4
+"2000","State Representative","56","Jeni (Bebe) Flores Alexander","Democratic",2714,FALSE,28.6
+"2000","State Representative","57","Daniel Foley","Republican",6985,TRUE,100
+"2000","State Representative","58","Pauline J. Ponce","Democratic",2454,TRUE,50.2
+"2000","State Representative","58","Dara Dana","Republican",2434,FALSE,49.8
+"2000","State Representative","59","Avon W. Wilson","Republican",4572,TRUE,69.7
+"2000","State Representative","59","Alfredo Dominguez, III","Democratic",1984,FALSE,30.3
+"2000","State Representative","6","George J. Hanosh","Democratic",4691,TRUE,100
+"2000","State Representative","60","Marsha C. Atkin","Republican",5104,TRUE,57.5
+"2000","State Representative","60","James L. Moran","Democratic",3773,FALSE,42.5
+"2000","State Representative","61","Donald L. Whitaker","Democratic",2420,TRUE,65.2
+"2000","State Representative","61","Johnny H. Small, Jr.","Republican",1294,FALSE,34.8
+"2000","State Representative","62","Donald E. Bratton","Republican",4765,TRUE,65.9
+"2000","State Representative","62","Garry A. Buie","Democratic",2469,FALSE,34.1
+"2000","State Representative","63","Mario Urioste","Democratic",2134,TRUE,53.6
+"2000","State Representative","63","Ronald G. Hannaberry","Republican",1847,FALSE,46.4
+"2000","State Representative","64","Anna M. Crook","Republican",6466,TRUE,100
+"2000","State Representative","65","James R. Madalena","Democratic",5246,TRUE,77.3
+"2000","State Representative","65","Charles D. Mellon","Libertarian",1543,FALSE,22.7
+"2000","State Representative","66","Earlene Roberts","Republican",5607,TRUE,100
+"2000","State Representative","67","Brian K. Moore","Republican",5227,TRUE,64.8
+"2000","State Representative","67","Charlie Maciel, Jr.","Democratic",2840,FALSE,35.2
+"2000","State Representative","68","Bengie Regensberg","Democratic",5171,TRUE,57.6
+"2000","State Representative","68","Susan S. Medina","Republican",3807,FALSE,42.4
+"2000","State Representative","69","W. Ken Martinez","Democratic",5598,TRUE,100
+"2000","State Representative","7","Kandy Cordova","Democratic",5285,TRUE,50.2
+"2000","State Representative","7","P. David Vickers","Republican",5248,FALSE,49.8
+"2000","State Representative","70","Richard D. Vigil","Democratic",6049,TRUE,100
+"2000","State Representative","8","Fred Luna","Democratic",4432,TRUE,49.1
+"2000","State Representative","8","Jackie Farnsworth","Republican",4097,FALSE,45.4
+"2000","State Representative","8","Richard Allen Winecoff","Green",493,FALSE,5.5
+"2000","State Representative","9","Leo C. Watchman, Jr.","Democratic",4727,TRUE,100
+"2000","State Senate","1","William E. Sharer","Republican",10232,TRUE,81.8
+"2000","State Senate","1","Ronald E. Barrett","Libertarian",2276,FALSE,18.2
+"2000","State Senate","10","Ramsay L. Gorham","Republican",9209,TRUE,53.8
+"2000","State Senate","10","Janice D. Paster","Democratic",7907,FALSE,46.2
+"2000","State Senate","11","Linda M. Lopez","Democratic",6976,TRUE,68.1
+"2000","State Senate","11","Richard Ray Sanchez","Republican",3262,FALSE,31.9
+"2000","State Senate","12","Richard M. Romero","Democratic",7826,TRUE,74.1
+"2000","State Senate","12","Carlton R. Pennington","Republican",2742,FALSE,25.9
+"2000","State Senate","13","Dede Feldman","Democratic",10229,TRUE,100
+"2000","State Senate","14","Manny M. Aragon","Democratic",4573,TRUE,55.4
+"2000","State Senate","14","Bill M. Paiz","Republican",3682,FALSE,44.6
+"2000","State Senate","14","Hector Correa","",3,FALSE,0
+"2000","State Senate","15","Helen Diane Snyder","Republican",7958,TRUE,53.5
+"2000","State Senate","15","Andrew D. Mills","Democratic",6917,FALSE,46.5
+"2000","State Senate","16","Cisco McSorley","Democratic",11084,TRUE,100
+"2000","State Senate","17","Shannon Robinson","Democratic",5169,TRUE,59.1
+"2000","State Senate","17","Mary A. Gilbert","Republican",3584,FALSE,40.9
+"2000","State Senate","18","Mark L. Boitano","Republican",10971,TRUE,100
+"2000","State Senate","19","Sue Wilson","Republican",12917,TRUE,100
+"2000","State Senate","2","Allen V. Hurt","Republican",9234,TRUE,65.3
+"2000","State Senate","2","Darla Whitney-Welles","Democratic",4899,FALSE,34.7
+"2000","State Senate","20","William H. Payne","Republican",12228,TRUE,100
+"2000","State Senate","21","Kent L. Cravens","Republican",17866,TRUE,100
+"2000","State Senate","22","Leonard Tsosie","Democratic",9229,TRUE,100
+"2000","State Senate","23","Joseph J. Carraro","Republican",15571,TRUE,82.7
+"2000","State Senate","23","Ronald E. Bjornstad","Libertarian",3258,FALSE,17.3
+"2000","State Senate","24","Nancy Rodriguez","Democratic",11075,TRUE,100
+"2000","State Senate","25","Roman M. Maes, III","Democratic",12720,TRUE,62.5
+"2000","State Senate","25","Ann Tyner Gleason","Green",7638,FALSE,37.5
+"2000","State Senate","26","Bernadette M. Sanchez","Democratic",9487,TRUE,63.9
+"2000","State Senate","26","Jerry T. Daniele","Republican",5368,FALSE,36.1
+"2000","State Senate","27","Stuart Ingle","Republican",6221,TRUE,100
+"2000","State Senate","28","Ben D. Altamirano","Democratic",9339,TRUE,60.8
+"2000","State Senate","28","Richard J. Choate","Republican",6017,FALSE,39.2
+"2000","State Senate","29","Michael S. Sanchez","Democratic",8597,TRUE,51.2
+"2000","State Senate","29","David C. Chavez","Republican",7541,FALSE,44.9
+"2000","State Senate","29","Alfred Bennett, III","Independent",641,FALSE,3.8
+"2000","State Senate","3","John Pinto","Democratic",8080,TRUE,77.6
+"2000","State Senate","3","Jimmie Garnenez, Sr.","Republican",2327,FALSE,22.4
+"2000","State Senate","30","Joseph A. Fidel","Democratic",10498,TRUE,100
+"2000","State Senate","31","Cynthia L. Nava","Democratic",5466,TRUE,59.3
+"2000","State Senate","31","Samuel Reyes","Republican",3759,FALSE,40.7
+"2000","State Senate","32","Timothy Z. Jennings","Democratic",4928,TRUE,59.2
+"2000","State Senate","32","Henry Zuniga","Republican",3398,FALSE,40.8
+"2000","State Senate","33","Rod Adair","Republican",10326,TRUE,100
+"2000","State Senate","34","Don Kidd","Republican",9955,TRUE,100
+"2000","State Senate","35","John Arthur Smith","Democratic",9346,TRUE,100
+"2000","State Senate","36","Mary Jane M. Garcia","Democratic",6876,TRUE,58.5
+"2000","State Senate","36","John S. Townsend, III","Republican",4875,FALSE,41.5
+"2000","State Senate","37","Leonard Lee Rawson","Republican",9050,TRUE,71.3
+"2000","State Senate","37","Vincent Dovydaitis, Jr.","Independent",3645,FALSE,28.7
+"2000","State Senate","38","Mary K. Papen","Democratic",6560,TRUE,59.2
+"2000","State Senate","38","Narendra N. Gunaji","Republican",4514,FALSE,40.8
+"2000","State Senate","39","Phil A. Griego","Democratic",9108,TRUE,56.1
+"2000","State Senate","39","Robert H. Skigen","Republican",7118,FALSE,43.9
+"2000","State Senate","4","Lidio G. Rainaldi","Democratic",6862,TRUE,100
+"2000","State Senate","40","Dianna J. Duran","Republican",9186,TRUE,69.1
+"2000","State Senate","40","Mable M. Frary","Democratic",4104,FALSE,30.9
+"2000","State Senate","41","Carroll H. Leavell","Republican",4574,TRUE,100
+"2000","State Senate","42","Shirley M. Bailey","Republican",9149,TRUE,92.6
+"2000","State Senate","42","John D. Norris","",726,FALSE,7.4
+"2000","State Senate","5","Richard C. Martinez","Democratic",10751,TRUE,100
+"2000","State Senate","6","Carlos R. Cisneros","Democratic",11745,TRUE,100
+"2000","State Senate","7","Patrick H. Lyons","Republican",10489,TRUE,68.8
+"2000","State Senate","7","Al Lopez","Democratic",4761,FALSE,31.2
+"2000","State Senate","8","Pete Campos","Democratic",10796,TRUE,100
+"2000","State Senate","9","Steve Komadina","Republican",11703,TRUE,55.1
+"2000","State Senate","9","Brad L. Hays","Democratic",9532,FALSE,44.9
+"2000","United States Representative","1","Heather A. Wilson","Republican",107296,TRUE,50.3
+"2000","United States Representative","1","John J. Kelly","Democratic",92187,FALSE,43.3
+"2000","United States Representative","1","Daniel Kerlinsky","Green",13656,FALSE,6.4
+"2000","United States Representative","2","Joe R. Skeen","Republican",100742,TRUE,58.1
+"2000","United States Representative","2","Michael A. Montoya","Democratic",72614,FALSE,41.9
+"2000","United States Representative","3","Tom Udall","Democratic",135040,TRUE,67.2
+"2000","United States Representative","3","Lisa L. Lutz","Republican",65979,FALSE,32.8
+"2002","Attorney General","New Mexico","Patricia A. Madrid","Democratic",273183,TRUE,57.1
+"2002","Attorney General","New Mexico","Rob Perry","Republican",179718,FALSE,37.6
+"2002","Attorney General","New Mexico","Ann Tyner Gleason","Green",25192,FALSE,5.3
+"2002","Governor","New Mexico","Bill Richardson and Diane D. Denish","Democratic",268693,TRUE,55.5
+"2002","Governor","New Mexico","John A. Sanchez and Rod Adair","Republican",189074,FALSE,39
+"2002","Governor","New Mexico","David E. Bacon and Kathleen M. Sanchez","Green",26466,FALSE,5.5
+"2002","State Auditor","New Mexico","Domingo P. Martinez","Democratic",238507,TRUE,52.2
+"2002","State Auditor","New Mexico","Tom Benavides","Republican",218756,FALSE,47.8
+"2002","State Representative","1","Thomas C. Taylor","Republican",6440,TRUE,100
+"2002","State Representative","10","Henry ""Kiki"" Saavedra","Democratic",3369,TRUE,100
+"2002","State Representative","11","Rick Miera","Democratic",5488,TRUE,79.5
+"2002","State Representative","11","Harold E. Davis De Garcia","Republican",1416,FALSE,20.5
+"2002","State Representative","12","James G. Taylor","Democratic",3680,TRUE,100
+"2002","State Representative","13","Daniel P. Silva","Democratic",3885,TRUE,100
+"2002","State Representative","14","Miguel P. Garcia","Democratic",3819,TRUE,75.5
+"2002","State Representative","14","Jerry J. Sanchez","Republican",1238,FALSE,24.5
+"2002","State Representative","15","Teresa А. Zanetti","Republican",4282,TRUE,51.4
+"2002","State Representative","15","Steve P. Archibeque","Democratic",4056,FALSE,48.6
+"2002","State Representative","16","Ray Ruiz","Democratic",5169,TRUE,100
+"2002","State Representative","17","Edward C. Sandoval","Democratic",6237,TRUE,100
+"2002","State Representative","18","Gail C. Beam","Democratic",5946,TRUE,100
+"2002","State Representative","19","Sheryl M. Williams Stapleton","Democratic",3658,TRUE,71.4
+"2002","State Representative","19","Donald L. Thompson","Green",1463,FALSE,28.6
+"2002","State Representative","2","Nick Tinnin","Republican",4574,TRUE,100
+"2002","State Representative","20","Ted Hobbs","Republican",5912,TRUE,66.2
+"2002","State Representative","20","Christopher Spyros Catechis","Democratic",3014,FALSE,33.8
+"2002","State Representative","21","Mimi Stewart","Democratic",3228,TRUE,60.5
+"2002","State Representative","21","Armando M. Cordoba","Republican",2111,FALSE,39.5
+"2002","State Representative","22","Ron Godbey","Republican",6294,TRUE,64.7
+"2002","State Representative","22","Margaret Palumbo","Democratic",3438,FALSE,35.3
+"2002","State Representative","23","Eric А. Youngberg","Republican",4926,TRUE,56
+"2002","State Representative","23","Jim Southard","Democratic",3868,FALSE,44
+"2002","State Representative","24","Janice E. Arnold-Jones","Republican",5361,TRUE,59
+"2002","State Representative","24","Marilynn W. Cooper","Democratic",3733,FALSE,41
+"2002","State Representative","25","Danice R. Picraux","Democratic",6433,TRUE,100
+"2002","State Representative","26","Al Park","Democratic",3163,TRUE,100
+"2002","State Representative","27","Lorenzo A. Larranaga","Republican",6802,TRUE,66
+"2002","State Representative","27","John A. Ingram","Democratic",3506,FALSE,34
+"2002","State Representative","28","Rory Ogle","Republican",5636,TRUE,61.7
+"2002","State Representative","28","John В. Mondragon","Democratic",3501,FALSE,38.3
+"2002","State Representative","29","Thomas Anthony Anderson","Republican",4697,TRUE,60.1
+"2002","State Representative","29","Joann B. Anders","Democratic",3113,FALSE,39.9
+"2002","State Representative","3","Sandra L. Townsend","Republican",5694,TRUE,100
+"2002","State Representative","30","Robert W. White","Republican",5481,TRUE,63.6
+"2002","State Representative","30","Andrew D. Mills","Democratic",3137,FALSE,36.4
+"2002","State Representative","31","Joseph M. Thompson","Republican",6233,TRUE,62.7
+"2002","State Representative","31","David S. Campbell","Democratic",3711,FALSE,37.3
+"2002","State Representative","32","Dona G. Irwin","Democratic",4349,TRUE,100
+"2002","State Representative","33","J. Paul Taylor","Democratic",4269,TRUE,100
+"2002","State Representative","34","Mary Helen Garcia","Democratic",1881,TRUE,64.3
+"2002","State Representative","34","Daniel L. Rollings","Republican",1044,FALSE,35.7
+"2002","State Representative","35","Antonio Luján","Democratic",3122,TRUE,62.4
+"2002","State Representative","35","Henry A. Young","Republican",1885,FALSE,37.6
+"2002","State Representative","36","Andrew ""Andy"" Nuñez","Democratic",2874,TRUE,50.8
+"2002","State Representative","36","Mary L. Thompson","Republican",2780,FALSE,49.2
+"2002","State Representative","37","William Ed Boykin","Republican",4378,TRUE,59
+"2002","State Representative","37","William Ray Storment","Democratic",3043,FALSE,41
+"2002","State Representative","38","Dianne Hamilton","Republican",4011,TRUE,51.7
+"2002","State Representative","38","Gary L. Whitehead","Democratic",3744,FALSE,48.3
+"2002","State Representative","39","Manuel G. Herrera","Democratic",5275,TRUE,100
+"2002","State Representative","4","Ray Begaye","Democratic",4985,TRUE,100
+"2002","State Representative","40","Nick L. Salazar","Democratic",5380,TRUE,100
+"2002","State Representative","41","Debbie А. Rodella","Democratic",5197,TRUE,100
+"2002","State Representative","42","Roberto ""Bobby"" J. Gonzales","Democratic",4293,TRUE,55.8
+"2002","State Representative","42","Joseph J. Quintana","Republican",3398,FALSE,44.2
+"2002","State Representative","43","Jeannette O. Wallace","Republican",7956,TRUE,100
+"2002","State Representative","44","Jane E. Powdrell-Culbert","Republican",5080,TRUE,64.3
+"2002","State Representative","44","Mara H. Minwegen","Democratic",2815,FALSE,35.7
+"2002","State Representative","45","Patsy G. Trujillo","Democratic",4661,TRUE,100
+"2002","State Representative","46","Ben Lujan","Democratic",6289,TRUE,100
+"2002","State Representative","47","Max Coll","Democratic",7684,TRUE,68.1
+"2002","State Representative","47","Michelle R. Parker","Republican",3598,FALSE,31.9
+"2002","State Representative","48","Luciano ""lucky"" Varela","Democratic",5713,TRUE,66.5
+"2002","State Representative","48","Richard J. Lass","Green",2874,FALSE,33.5
+"2002","State Representative","49","Don Tripp","Republican",5860,TRUE,65.7
+"2002","State Representative","49","Salomon Montano","Democratic",3059,FALSE,34.3
+"2002","State Representative","5","Irvin Harrison","Democratic",4307,TRUE,99.5
+"2002","State Representative","5","Mervin C. Tilden","",20,FALSE,0.5
+"2002","State Representative","50","Rhonda S. King","Democratic",4905,TRUE,100
+"2002","State Representative","51","Gloria C. Vaughn","Republican",2659,TRUE,59.7
+"2002","State Representative","51","Bert Atkins","Democratic",1795,FALSE,40.3
+"2002","State Representative","52","Joseph Cervantes","Democratic",2832,TRUE,62.4
+"2002","State Representative","52","Juan Jaramillo","Republican",1706,FALSE,37.6
+"2002","State Representative","53","Terry T. Marquardt","Republican",2460,TRUE,60.6
+"2002","State Representative","53","Roger Flemming","Democratic",1598,FALSE,39.4
+"2002","State Representative","54","Joe M. Stell","Democratic",3665,TRUE,100
+"2002","State Representative","55","John A. Heaton","Democratic",5865,TRUE,100
+"2002","State Representative","56","Dub Williams","Republican",5071,TRUE,86
+"2002","State Representative","56","Richard А. Obergfell","Libertarian",827,FALSE,14
+"2002","State Representative","57","Daniel Foley","Republican",5639,TRUE,66.6
+"2002","State Representative","57","Doris Mae Cherry","Democratic",2831,FALSE,33.4
+"2002","State Representative","58","Pauline J. Ponce","Democratic",2275,TRUE,52.3
+"2002","State Representative","58","James M. Hoffman","Republican",2073,FALSE,47.7
+"2002","State Representative","59","Avon W. Wilson","Republican",5403,TRUE,100
+"2002","State Representative","6","George J. Hanosh","Democratic",4011,TRUE,100
+"2002","State Representative","60","Thomas E. Swisstack","Democratic",3371,TRUE,50.1
+"2002","State Representative","60","Marsha Carter Atkin","Republican",3364,FALSE,49.9
+"2002","State Representative","61","Donald L. Whitaker","Democratic",2370,TRUE,57.7
+"2002","State Representative","61","Darrell D. Parker, Jr.","Republican",1734,FALSE,42.3
+"2002","State Representative","62","Donald E. Bratton","Republican",5950,TRUE,100
+"2002","State Representative","63","Jose А. Campos, II","Democratic",3257,TRUE,88.9
+"2002","State Representative","63","Terry Gene Martin","",408,FALSE,11.1
+"2002","State Representative","64","Anna M. Crook","Republican",5271,TRUE,100
+"2002","State Representative","65","James Roger Madalena","Democratic",4404,TRUE,100
+"2002","State Representative","66","Earlene Roberts","Republican",5240,TRUE,100
+"2002","State Representative","67","Brian K. Moore","Republican",6371,TRUE,100
+"2002","State Representative","68","Bengie Regensberg","Democratic",5923,TRUE,100
+"2002","State Representative","69","W. Ken Martinez","Democratic",4418,TRUE,100
+"2002","State Representative","7","Kandy Cordova","Democratic",4809,TRUE,100
+"2002","State Representative","70","Richard D. Vigil","Democratic",5504,TRUE,100
+"2002","State Representative","8","Fred Luna","Democratic",3463,TRUE,51.4
+"2002","State Representative","8","Jackie Farnsworth","Republican",3277,FALSE,48.6
+"2002","State Representative","9","Patricia ""PATTY"" Lundstorm","Democratic",3675,TRUE,100
+"2002","State Treasurer","New Mexico","Robert E. Vigil","Democratic",332000,TRUE,100
+"2002","United States Representative","1","Heather A. Wilson","Republican",95711,TRUE,55.3
+"2002","United States Representative","1","Richard M. Romero","Democratic",77234,FALSE,44.7
+"2002","United States Representative","2","Steve Pearce","Republican",79631,TRUE,56.2
+"2002","United States Representative","2","John Arthur Smith","Democratic",61916,FALSE,43.7
+"2002","United States Representative","2","George L. Dewey","",43,FALSE,0
+"2002","United States Representative","2","Padraig M. Lynch","",39,FALSE,0
+"2002","United States Representative","3","Tom Udall","Democratic",122950,TRUE,100
+"2004","President of the United States","New Mexico","George W. Bush And Dick Cheney","Republican",376914,TRUE,49.8
+"2004","President of the United States","New Mexico","John F. Kerry And John Edwards","Democratic",370939,FALSE,49
+"2004","President of the United States","New Mexico","Ralph Nader And Peter Miguel Camejo","Independent",4053,FALSE,0.5
+"2004","President of the United States","New Mexico","Michael Badnarik And Richard V. Campagna","Libertarian",2382,FALSE,0.3
+"2004","President of the United States","New Mexico","David Cobb And Patricia Lamarche","Green",1226,FALSE,0.2
+"2004","President of the United States","New Mexico","Michael Peroutka And Dr. Chuck Baldwin","Constitution",771,FALSE,0.1
+"2004","State Representative","1","Thomas C. Taylor","Republican",10106,TRUE,100
+"2004","State Representative","10","Henry ""kiki"" Saavedra","Democratic",5425,TRUE,100
+"2004","State Representative","11","Rick Miera","Democratic",8938,TRUE,100
+"2004","State Representative","12","Ernest H. Chavez","Democratic",5730,TRUE,100
+"2004","State Representative","13","Daniel P. Silva","Democratic",6210,TRUE,68.1
+"2004","State Representative","13","Cynthia L. Jones","Republican",2908,FALSE,31.9
+"2004","State Representative","14","Miguel P. Garcia","Democratic",5357,TRUE,72.5
+"2004","State Representative","14","Clara A. Pena","Republican",2027,FALSE,27.5
+"2004","State Representative","15","Teresa A. Zanetti","Republican",6920,TRUE,53.1
+"2004","State Representative","15","Bill B. O'Neill","Democratic",6102,FALSE,46.9
+"2004","State Representative","16","Harriet I. Ruiz","Democratic",6439,TRUE,59.5
+"2004","State Representative","16","Deborah A. Torza","Republican",4375,FALSE,40.5
+"2004","State Representative","17","Edward C. Sandoval","Democratic",9714,TRUE,100
+"2004","State Representative","18","Gail C. Beam","Democratic",10255,TRUE,100
+"2004","State Representative","19","Sheryl Williams M. Stapleton","Democratic",7190,TRUE,100
+"2004","State Representative","2","Richard Cheney","Republican",7545,TRUE,100
+"2004","State Representative","20","Ted Hobbs","Republican",10116,TRUE,100
+"2004","State Representative","21","Mimi Stewart","Democratic",6455,TRUE,100
+"2004","State Representative","22","Kathy Mccoy","Republican",11022,TRUE,100
+"2004","State Representative","23","Eric A. Youngberg","Republican",7433,TRUE,52.5
+"2004","State Representative","23","Janice Kando","Democratic",6722,FALSE,47.5
+"2004","State Representative","24","Janice E. Arnold-Jones","Republican",9569,TRUE,100
+"2004","State Representative","25","Danice R. Picraux","Democratic",9407,TRUE,100
+"2004","State Representative","26","Al Park","Democratic",4101,TRUE,60.6
+"2004","State Representative","26","Kathleen L. Leyendecker","Republican",2661,FALSE,39.4
+"2004","State Representative","27","Larry A. Larranaga","Republican",12125,TRUE,100
+"2004","State Representative","28","Jimmie C. Hall","Republican",9338,TRUE,100
+"2004","State Representative","29","Thomas Anthony Anderson","Republican",9027,TRUE,55.4
+"2004","State Representative","29","Joann B. Anders","Democratic",7279,FALSE,44.6
+"2004","State Representative","3","Sandra L. Townsend","Republican",9006,TRUE,100
+"2004","State Representative","30","Justine Fox Young","Republican",9407,TRUE,100
+"2004","State Representative","31","Greg Payne","Republican",8755,TRUE,56.6
+"2004","State Representative","31","Michael Corwin","Democratic",6719,FALSE,43.4
+"2004","State Representative","32","Dona G. Irwin","Democratic",4063,TRUE,54.5
+"2004","State Representative","32","Ida Kay Chandler","Republican",3395,FALSE,45.5
+"2004","State Representative","33","Joni Marie Gutierrez","Democratic",5852,TRUE,60.4
+"2004","State Representative","33","Samuel A. Palm","Republican",3838,FALSE,39.6
+"2004","State Representative","34","Mary Helen Garcia","Democratic",4080,TRUE,100
+"2004","State Representative","35","Antonio Lujan","Democratic",5748,TRUE,61.9
+"2004","State Representative","35","Lawrence N. Joy","Republican",3531,FALSE,38.1
+"2004","State Representative","36","Andrew Nunez","Democratic",4732,TRUE,52.1
+"2004","State Representative","36","Mary L. Thompson","Republican",4354,FALSE,47.9
+"2004","State Representative","37","William E. Boykin","Republican",6680,TRUE,51.3
+"2004","State Representative","37","Jeff Steinborn","Democratic",6336,FALSE,48.7
+"2004","State Representative","38","Dianne Hamilton","Republican",7404,TRUE,100
+"2004","State Representative","39","Manuel G. Herrera","Democratic",7483,TRUE,100
+"2004","State Representative","4","Ray Begaye","Democratic",5659,TRUE,61.5
+"2004","State Representative","4","Freda B Garnanez","Republican",3540,FALSE,38.5
+"2004","State Representative","40","Nick L. Salazar","Democratic",7679,TRUE,100
+"2004","State Representative","41","Debbie A. Rodella","Democratic",7523,TRUE,100
+"2004","State Representative","42","Roberto ""Bobby"" J. Gonzales","Democratic",10115,TRUE,100
+"2004","State Representative","43","Jeannette O. Wallace","Republican",10159,TRUE,100
+"2004","State Representative","44","Jane E. Powdrell-Culbert","Republican",12018,TRUE,100
+"2004","State Representative","45","Jim R. Trujillo","Democratic",7597,TRUE,100
+"2004","State Representative","46","Ben Lujan","Democratic",9886,TRUE,100
+"2004","State Representative","47","Peter F. Wirth","Democratic",13314,TRUE,76
+"2004","State Representative","47","F. Gregg Bemis, Jr.","Republican",4203,FALSE,24
+"2004","State Representative","48","Luciano ""Lucky"" Varela","Democratic",11676,TRUE,100
+"2004","State Representative","49","Don Tripp","Republican",7376,TRUE,60.6
+"2004","State Representative","49","Ravi Bhasker","Democratic",4793,FALSE,39.4
+"2004","State Representative","5","Irvin Harrison","Democratic",6166,TRUE,100
+"2004","State Representative","50","Rhonda S. King","Democratic",7936,TRUE,100
+"2004","State Representative","51","Gloria C. Vaughn","Republican",4586,TRUE,66.8
+"2004","State Representative","51","Gaston Sanders","Democratic",2283,FALSE,33.2
+"2004","State Representative","52","Joseph Cervantes","Democratic",4811,TRUE,63.3
+"2004","State Representative","52","Sidney Neal Goddard","Republican",2792,FALSE,36.7
+"2004","State Representative","53","Terry T. Marquardt","Republican",4294,TRUE,57.8
+"2004","State Representative","53","Roger Flemming","Democratic",3131,FALSE,42.2
+"2004","State Representative","54","Joe M. Stell","Democratic",5178,TRUE,100
+"2004","State Representative","55","John A. Heaton","Democratic",8186,TRUE,100
+"2004","State Representative","56","Dub Williams","Republican",7218,TRUE,87.5
+"2004","State Representative","56","Richard A. Obergfell","Libertarian",1028,FALSE,12.5
+"2004","State Representative","57","Dan Foley","Republican",8127,TRUE,68.1
+"2004","State Representative","57","Stephanie L. Dubois","Democratic",3813,FALSE,31.9
+"2004","State Representative","58","Candy Spence Ezzell","Republican",3632,TRUE,54.6
+"2004","State Representative","58","Pauline J. Ponce","Democratic",2823,FALSE,42.4
+"2004","State Representative","58","George G. Peterson","Libertarian",198,FALSE,3
+"2004","State Representative","59","Avon W. Wilson","Republican",7550,TRUE,100
+"2004","State Representative","6","George J. Hanosh","Democratic",5876,TRUE,100
+"2004","State Representative","60","Thomas E. Swisstack","Democratic",6193,TRUE,51.7
+"2004","State Representative","60","Glenn Walters","Republican",5785,FALSE,48.3
+"2004","State Representative","61","Donald L. Whitaker","Democratic",4308,TRUE,100
+"2004","State Representative","62","Donald E. Bratton","Republican",8795,TRUE,100
+"2004","State Representative","63","Jose A. Campos, II","Democratic",3830,TRUE,57
+"2004","State Representative","63","Russell R. Grider","Republican",2892,FALSE,43
+"2004","State Representative","64","Anna M. Crook","Republican",7691,TRUE,100
+"2004","State Representative","65","James R. Madalena","Democratic",6303,TRUE,100
+"2004","State Representative","66","Keith J. Gardner","Republican",7920,TRUE,100
+"2004","State Representative","67","Brian K. Moore","Republican",7892,TRUE,100
+"2004","State Representative","68","Hector H. Balderas","Democratic",6655,TRUE,61.8
+"2004","State Representative","68","Roger A. Gonzales","Republican",4120,FALSE,38.2
+"2004","State Representative","69","W. Ken Martinez","Democratic",6078,TRUE,100
+"2004","State Representative","7","Kandy Cordova","Democratic",5593,TRUE,54.6
+"2004","State Representative","7","John E. Butterfield","Republican",4648,FALSE,45.4
+"2004","State Representative","70","Richard D. Vigil","Democratic",8689,TRUE,100
+"2004","State Representative","8","Fred Luna","Democratic",5303,TRUE,52.1
+"2004","State Representative","8","Jackie Farnsworth","Republican",4871,FALSE,47.9
+"2004","State Representative","9","Patricia A. Lundstrom","Democratic",5304,TRUE,78.6
+"2004","State Representative","9","Michael Lee Pyles","Republican",1443,FALSE,21.4
+"2004","State Senate","1","William E. Sharer","Republican",11340,TRUE,63.6
+"2004","State Senate","1","Alfred Gordon Glass, Jr.","Democratic",6489,FALSE,36.4
+"2004","State Senate","10","John Christopher Ryan","Republican",12651,TRUE,54.3
+"2004","State Senate","10","John Hooker","Democratic",10632,FALSE,45.7
+"2004","State Senate","11","Linda M. Lopez","Democratic",8404,TRUE,64.4
+"2004","State Senate","11","Tom Benavides","Republican",4645,FALSE,35.6
+"2004","State Senate","12","Gerald P. Ortiz Y Pino","Democratic",10760,TRUE,74.1
+"2004","State Senate","12","Gwen J. Poe","Republican",3760,FALSE,25.9
+"2004","State Senate","13","Dede Feldman","Democratic",15876,TRUE,100
+"2004","State Senate","14","James G. Taylor","Democratic",6823,TRUE,54.1
+"2004","State Senate","14","Fernando E. C. De Baca","Republican",4677,FALSE,37.1
+"2004","State Senate","14","Kathleen Ann Sabo","Independent",890,FALSE,7.1
+"2004","State Senate","14","Alfred Bennett, III","Independent",223,FALSE,1.8
+"2004","State Senate","15","H. Diane Snyder","Republican",11228,TRUE,52.6
+"2004","State Senate","15","Chris Berkheimer","Democratic",10105,FALSE,47.4
+"2004","State Senate","16","Cisco McSorley","Democratic",15628,TRUE,100
+"2004","State Senate","17","Shannon Robinson","Democratic",6389,TRUE,55.8
+"2004","State Senate","17","Mary A. Gilbert","Republican",5054,FALSE,44.2
+"2004","State Senate","18","Mark L. Boitano","Republican",15271,TRUE,100
+"2004","State Senate","19","Sue Wilson Beffort","Republican",15614,TRUE,100
+"2004","State Senate","2","Steven P. Neville","Republican",14084,TRUE,100
+"2004","State Senate","20","William H. Payne","Republican",15199,TRUE,100
+"2004","State Senate","21","Kent L. Cravens","Republican",18678,TRUE,100
+"2004","State Senate","22","Leonard Tsosie","Democratic",10173,TRUE,66.1
+"2004","State Senate","22","Ernest G. Geros","Republican",5226,FALSE,33.9
+"2004","State Senate","23","Joseph J. Carraro","Republican",19614,TRUE,100
+"2004","State Senate","24","Nancy Rodriguez","Democratic",14915,TRUE,100
+"2004","State Senate","25","John T.l. Grubesic","Democratic",22598,TRUE,79.1
+"2004","State Senate","25","Robert E. Mallin","Republican",5988,FALSE,20.9
+"2004","State Senate","26","Bernadette M. Sanchez","Democratic",12702,TRUE,100
+"2004","State Senate","27","Stuart Ingle","Republican",10306,TRUE,100
+"2004","State Senate","28","Ben D. Altamirano","Democratic",15282,TRUE,100
+"2004","State Senate","29","Michael S. Sanchez","Democratic",10818,TRUE,62.7
+"2004","State Senate","29","Abran D. Gabaldon","Republican",6434,FALSE,37.3
+"2004","State Senate","3","John Pinto","Democratic",10828,TRUE,100
+"2004","State Senate","30","Joseph A. Fidel","Democratic",8471,TRUE,61.7
+"2004","State Senate","30","Gary L. Whittington","Republican",5257,FALSE,38.3
+"2004","State Senate","31","Cynthia L. Nava","Democratic",5838,TRUE,100
+"2004","State Senate","32","Timothy Z. Jennings","Democratic",7952,TRUE,100
+"2004","State Senate","33","Rod Adair","Republican",14526,TRUE,100
+"2004","State Senate","34","Vernon D. Asbill","Republican",11065,TRUE,58.8
+"2004","State Senate","34","Jeffrey B. Diamond","Democratic",7742,FALSE,41.2
+"2004","State Senate","35","John Arthur Smith","Democratic",9715,TRUE,100
+"2004","State Senate","36","Mary Jane Garcia","Democratic",9570,TRUE,58.8
+"2004","State Senate","36","Lee S. Cotter","Republican",6698,FALSE,41.2
+"2004","State Senate","37","Leonard Lee Rawson","Republican",14748,TRUE,100
+"2004","State Senate","38","Mary K. Papen","Democratic",10404,TRUE,67.9
+"2004","State Senate","38","Darl N. Miller","Republican",4919,FALSE,32.1
+"2004","State Senate","39","Phil A. Griego","Democratic",13094,TRUE,71.5
+"2004","State Senate","39","Al Lopez","Republican",5208,FALSE,28.5
+"2004","State Senate","4","Lidio G. Rainaldi","Democratic",10211,TRUE,100
+"2004","State Senate","40","Dianna J. Duran","Republican",10898,TRUE,100
+"2004","State Senate","41","Carroll H. Leavell","Republican",9042,TRUE,100
+"2004","State Senate","42","Gay G. Kernan","Republican",12881,TRUE,100
+"2004","State Senate","5","Richard C. Martinez","Democratic",13743,TRUE,100
+"2004","State Senate","6","Carlos R. Cisneros","Democratic",16256,TRUE,100
+"2004","State Senate","7","Clinton D. Harden, Jr.","Republican",9010,TRUE,50.1
+"2004","State Senate","7","Robert L. Frost","Democratic",8974,FALSE,49.9
+"2004","State Senate","8","Pete Campos","Democratic",10654,TRUE,62.9
+"2004","State Senate","8","Linda Jaramillo","Republican",6288,FALSE,37.1
+"2004","State Senate","9","Steve Komadina","Republican",14688,TRUE,100
+"2004","United States Representative","1","Heather A. Wilson","Republican",147372,TRUE,54.4
+"2004","United States Representative","1","Richard M. Romero","Democratic",123339,FALSE,45.5
+"2004","United States Representative","1","Orlin G. Cole","Republican",194,FALSE,0.1
+"2004","United States Representative","2","Steve Pearce","Republican",130498,TRUE,60.2
+"2004","United States Representative","2","Gary K. King","Democratic",86292,FALSE,39.8
+"2004","United States Representative","3","Tom Udall","Democratic",175269,TRUE,68.7
+"2004","United States Representative","3","Gregory M. Tucker","Republican",79935,FALSE,31.3
+"2006","Attorney General","New Mexico","Gary K. King","Democratic",317043,TRUE,56.9
+"2006","Attorney General","New Mexico","Jim Bibb","Republican",239997,FALSE,43.1
+"2006","Commissioner of Public Lands","New Mexico","Patrick H. Lyons","Republican",287071,TRUE,51.7
+"2006","Commissioner of Public Lands","New Mexico","Jim Baca","Democratic",268459,FALSE,48.3
+"2006","Governor","New Mexico","Bill Richardson","Democratic",383440,TRUE,68.9
+"2006","Governor","New Mexico","John Dendahl","Republican",173077,FALSE,31.1
+"2006","Secretary of State","New Mexico","Mary Herrera","Democratic",300981,TRUE,54.3
+"2006","Secretary of State","New Mexico","Vickie S. Perea","Republican",252994,FALSE,45.7
+"2006","State Auditor","New Mexico","Hector H. Balderas","Democratic",297215,TRUE,54.9
+"2006","State Auditor","New Mexico","Lorenzo Garcia","Republican",244580,FALSE,45.1
+"2006","State Representative","1","Thomas C. Taylor","Republican",5760,TRUE,69.4
+"2006","State Representative","1","Ann B. George","Democratic",2539,FALSE,30.6
+"2006","State Representative","10","Henry ""kiki"" Saavedra","Democratic",4345,TRUE,100
+"2006","State Representative","11","Rick Miera","Democratic",7127,TRUE,100
+"2006","State Representative","12","Ernest H. Chavez","Democratic",4608,TRUE,100
+"2006","State Representative","13","Daniel P. Silva","Democratic",5548,TRUE,100
+"2006","State Representative","14","Miguel P. Garcia","Democratic",4631,TRUE,77.1
+"2006","State Representative","14","Clara A. Pena","Republican",1376,FALSE,22.9
+"2006","State Representative","15","Teresa A. Zanetti","Republican",5711,TRUE,53.6
+"2006","State Representative","15","Traci Jo Cadigan","Democratic",4934,FALSE,46.4
+"2006","State Representative","16","Antonio ""Moe"" Maestas","Democratic",5703,TRUE,68.6
+"2006","State Representative","16","Storm T. Field","Republican",2612,FALSE,31.4
+"2006","State Representative","17","Edward C. Sandoval","Democratic",7965,TRUE,100
+"2006","State Representative","18","Gail Chasey","Democratic",7049,TRUE,82.8
+"2006","State Representative","18","Lance Klafeta","Republican",1468,FALSE,17.2
+"2006","State Representative","19","Sheryl Williams M. Stapleton","Democratic",4676,TRUE,76
+"2006","State Representative","19","Donald L. Thompson","Green",1478,FALSE,24
+"2006","State Representative","2","James R. J. Strickler","Republican",3905,TRUE,62.5
+"2006","State Representative","2","Alice Marie Slaven-Emond","Democratic",2340,FALSE,37.5
+"2006","State Representative","20","Richard J. Berry","Republican",7740,TRUE,100
+"2006","State Representative","21","Mimi Stewart","Democratic",4628,TRUE,100
+"2006","State Representative","22","Kathy Mccoy","Republican",7562,TRUE,58.3
+"2006","State Representative","22","Janice M. Saxton","Democratic",5414,FALSE,41.7
+"2006","State Representative","23","Eric A. Youngberg","Republican",5893,TRUE,52.7
+"2006","State Representative","23","Barbara Anne Stirling","Democratic",5298,FALSE,47.3
+"2006","State Representative","24","Janice E. Arnold-Jones","Republican",5735,TRUE,54.7
+"2006","State Representative","24","Shirley J. Abbott","Democratic",4750,FALSE,45.3
+"2006","State Representative","25","Danice R. Picraux","Democratic",7417,TRUE,100
+"2006","State Representative","26","Al Park","Democratic",3896,TRUE,100
+"2006","State Representative","27","Lorenzo A. Larranaga","Republican",9768,TRUE,100
+"2006","State Representative","28","Jimmie C. Hall","Republican",5916,TRUE,56.4
+"2006","State Representative","28","Shay Rose","Democratic",4575,FALSE,43.6
+"2006","State Representative","29","Thomas Anthony Anderson","Republican",6929,TRUE,52.8
+"2006","State Representative","29","Antonio E. Sandoval","Democratic",6199,FALSE,47.2
+"2006","State Representative","3","Paul C. Bandy","Republican",5591,TRUE,100
+"2006","State Representative","30","Justine Fox Young","Republican",5552,TRUE,56.5
+"2006","State Representative","30","John H. Mcwaters, III","Democratic",4277,FALSE,43.5
+"2006","State Representative","31","William R. Rehm","Republican",7443,TRUE,58.8
+"2006","State Representative","31","Barbara A. Scharf","Democratic",5225,FALSE,41.2
+"2006","State Representative","32","Dona G. Irwin","Democratic",3733,TRUE,61.5
+"2006","State Representative","32","Ida Kay Chandler","Republican",2332,FALSE,38.5
+"2006","State Representative","33","Joni Marie Gutierrez","Democratic",4673,TRUE,100
+"2006","State Representative","34","Mary Helen Garcia","Democratic",2511,TRUE,100
+"2006","State Representative","35","Antonio Lujan","Democratic",3162,TRUE,67.4
+"2006","State Representative","35","Lawrence N. Joy","Republican",1529,FALSE,32.6
+"2006","State Representative","36","Andrew ""Andy"" Nunez","Democratic",3486,TRUE,56
+"2006","State Representative","36","Isaac E. Chavez","Republican",2744,FALSE,44
+"2006","State Representative","37","Jeff Steinborn","Democratic",4848,TRUE,51.6
+"2006","State Representative","37","Scott W. Witt","Republican",4539,FALSE,48.4
+"2006","State Representative","38","Dianne Hamilton","Republican",6349,TRUE,100
+"2006","State Representative","39","Manuel Herrera","Democratic",5831,TRUE,100
+"2006","State Representative","4","Ray Begaye","Democratic",5835,TRUE,100
+"2006","State Representative","40","Nick L. Salazar","Democratic",5909,TRUE,100
+"2006","State Representative","41","Debbie A. Rodella","Democratic",5358,TRUE,100
+"2006","State Representative","42","Roberto J. Gonzales","Democratic",8205,TRUE,100
+"2006","State Representative","43","Jeannette O. Wallace","Republican",7916,TRUE,100
+"2006","State Representative","44","Jane E. Powdrell-Culbert","Republican",7474,TRUE,59.1
+"2006","State Representative","44","Eliot P. Gould","Democratic",5177,FALSE,40.9
+"2006","State Representative","45","Jim R. Trujillo","Democratic",5625,TRUE,100
+"2006","State Representative","46","Ben Lujan","Democratic",8008,TRUE,100
+"2006","State Representative","47","Peter Wirth","Democratic",11679,TRUE,100
+"2006","State Representative","48","Luciano Varela","Democratic",8459,TRUE,100
+"2006","State Representative","49","Don Tripp","Republican",7650,TRUE,100
+"2006","State Representative","5","Irvin Harrison","Democratic",5673,TRUE,100
+"2006","State Representative","50","Rhonda S. King","Democratic",7032,TRUE,100
+"2006","State Representative","51","Gloria C. Vaughn","Republican",3134,TRUE,100
+"2006","State Representative","52","Joseph Cervantes","Democratic",3836,TRUE,100
+"2006","State Representative","53","Nathan P. Cote","Democratic",2672,TRUE,51.9
+"2006","State Representative","53","Terry T. Marquardt","Republican",2473,FALSE,48.1
+"2006","State Representative","54","William J. Gray","Republican",2837,TRUE,54.8
+"2006","State Representative","54","Christy A. Bourgeois","Democratic",2340,FALSE,45.2
+"2006","State Representative","55","John A. Heaton","Democratic",5919,TRUE,100
+"2006","State Representative","56","Dub Williams","Republican",4500,TRUE,64.7
+"2006","State Representative","56","Carolyn D. Provencher","Democratic",2455,FALSE,35.3
+"2006","State Representative","57","Dan Foley","Republican",6145,TRUE,74.1
+"2006","State Representative","57","Cynthia G. Morrison","Green",1561,FALSE,18.8
+"2006","State Representative","57","Steven J. Gavi","",590,FALSE,7.1
+"2006","State Representative","58","Candy Spence Ezzell","Republican",2619,TRUE,54.1
+"2006","State Representative","58","Pablo J. Martinez","Democratic",2225,FALSE,45.9
+"2006","State Representative","59","Nora Espinoza","Republican",4271,TRUE,59.3
+"2006","State Representative","59","Ellen E. Wedum","Democratic",2926,FALSE,40.7
+"2006","State Representative","6","George J. Hanosh","Democratic",4629,TRUE,72
+"2006","State Representative","6","R. Grant Clawson","Republican",1802,FALSE,28
+"2006","State Representative","60","Thomas E. Swisstack","Democratic",5401,TRUE,56.8
+"2006","State Representative","60","Jim Owen","Republican",4105,FALSE,43.2
+"2006","State Representative","61","Shirley A. Tyler","Republican",1724,TRUE,50.2
+"2006","State Representative","61","Donald L. Whitaker","Democratic",1712,FALSE,49.8
+"2006","State Representative","62","Donald E. Bratton","Republican",4288,TRUE,100
+"2006","State Representative","63","Jose A. Campos, II","Democratic",3655,TRUE,100
+"2006","State Representative","64","Anna M. Crook","Republican",4753,TRUE,100
+"2006","State Representative","65","James Roger Madalena","Democratic",5422,TRUE,100
+"2006","State Representative","66","Keith Gardner","Republican",4817,TRUE,100
+"2006","State Representative","67","Brian K. Moore","Republican",5789,TRUE,100
+"2006","State Representative","69","W. Ken Martinez","Democratic",5623,TRUE,100
+"2006","State Representative","7","Andrew J. Barreras","Democratic",4311,TRUE,53.6
+"2006","State Representative","7","David A. Young","Republican",3725,FALSE,46.4
+"2006","State Representative","70","Richard D. Vigil","Democratic",5668,TRUE,100
+"2006","State Representative","8","Elias Barela","Democratic",4170,TRUE,53.1
+"2006","State Representative","8","Jackie Farnsworth","Republican",3687,FALSE,46.9
+"2006","State Representative","9","Patricia A. Lundstrom","Democratic",5007,TRUE,100
+"2006","State Treasurer","New Mexico","James B. Lewis","Democratic",331309,TRUE,60.6
+"2006","State Treasurer","New Mexico","Demesia Padilla","Republican",215017,FALSE,39.4
+"2006","United States Representative","1","Heather A. Wilson","Republican",105968,TRUE,50.2
+"2006","United States Representative","1","Patricia A. Madrid","Democratic",105106,FALSE,49.8
+"2006","United States Representative","2","Steve Pearce","Republican",90578,TRUE,59
+"2006","United States Representative","2","Albert D. Kissling","Democratic",62684,FALSE,40.9
+"2006","United States Representative","2","C. Dean Burk","",142,FALSE,0.1
+"2006","United States Representative","3","Tom Udall","Democratic",144761,TRUE,74.6
+"2006","United States Representative","3","Ronald M. Dolin","Republican",49171,FALSE,25.4
+"2006","United States Senator","New Mexico","Jeff Bingaman","Democratic",392947,TRUE,70.7
+"2006","United States Senator","New Mexico","Allen W. McCulloch, Md","Republican",162594,FALSE,29.2
+"2006","United States Senator","New Mexico","Orlin G. Cole","",368,FALSE,0.1
+"2008","President of the United States","New Mexico","Barack Obama and Joe Biden","Democratic",472415,TRUE,56.9
+"2008","President of the United States","New Mexico","John McCain and Sarah Palin","Republican",346821,FALSE,41.8
+"2008","President of the United States","New Mexico","Ralph Nader and Matt Gonzalez","Independent",5327,FALSE,0.6
+"2008","President of the United States","New Mexico","Bob Barr and Wayne A. Root","Libertarian",2428,FALSE,0.3
+"2008","President of the United States","New Mexico","Chuck Baldwin and Darrell Castle","Constitution",1597,FALSE,0.2
+"2008","President of the United States","New Mexico","Cynthia Mckinney and Rosa Clemente","Green",1552,FALSE,0.2
+"2008","State Representative","1","Thomas C. Taylor","Republican",9762,TRUE,100
+"2008","State Representative","10","Henry ""Kiki"" Saavedra","Democratic",6332,TRUE,100
+"2008","State Representative","11","Rick S. Miera","Democratic",9600,TRUE,100
+"2008","State Representative","12","Ernest H. Chavez","Democratic",6265,TRUE,65.5
+"2008","State Representative","12","Clyde C. Wheeler","Republican",2529,FALSE,26.5
+"2008","State Representative","12","Robert A. Schiller","Independent",766,FALSE,8
+"2008","State Representative","13","Eleanor Chavez","Democratic",9992,TRUE,100
+"2008","State Representative","14","Miguel P. Garcia","Democratic",6713,TRUE,77.6
+"2008","State Representative","14","Clara A. Pena","Republican",1940,FALSE,22.4
+"2008","State Representative","15","Bill B O'neill","Democratic",7532,TRUE,52.1
+"2008","State Representative","15","Teresa A. Zanetti","Republican",6929,FALSE,47.9
+"2008","State Representative","16","Antonio ""Moe"" Maestas","Democratic",9474,TRUE,100
+"2008","State Representative","17","Edward C. Sandoval","Democratic",9637,TRUE,66.6
+"2008","State Representative","17","Ronald G. Toya","Republican",4839,FALSE,33.4
+"2008","State Representative","18","Gail Chasey","Democratic",10237,TRUE,100
+"2008","State Representative","19","Sheryl M. Williams Stapleton","Democratic",7764,TRUE,100
+"2008","State Representative","2","James R. J. Strickler","Republican",6120,TRUE,63.8
+"2008","State Representative","2","Alice Marie Slaven-Emond","Democratic",3467,FALSE,36.2
+"2008","State Representative","20","Richard J. Berry","Republican",9462,TRUE,100
+"2008","State Representative","21","Mimi Stewart","Democratic",6015,TRUE,67.4
+"2008","State Representative","21","Howard Louis De La Cruz-bancroft","Republican",2912,FALSE,32.6
+"2008","State Representative","22","Kathy Mccoy","Republican",10140,TRUE,58.4
+"2008","State Representative","22","Janice M. Saxton","Democratic",7233,FALSE,41.6
+"2008","State Representative","23","Benjamin Hayden Rodefer","Democratic",8149,TRUE,51.4
+"2008","State Representative","23","Eric A. Youngberg","Republican",7713,FALSE,48.6
+"2008","State Representative","24","Janice E. Arnold-Jones","Republican",8704,TRUE,100
+"2008","State Representative","25","Danice R. Picraux","Democratic",9572,TRUE,100
+"2008","State Representative","26","Al Park","Democratic",5502,TRUE,75
+"2008","State Representative","26","Rhead A. Story","Republican",1835,FALSE,25
+"2008","State Representative","27","Lorenzo A. Larranaga","Republican",11882,TRUE,100
+"2008","State Representative","28","Jimmie C. Hall","Republican",7274,TRUE,53.6
+"2008","State Representative","28","Shay Rose","Democratic",6306,FALSE,46.4
+"2008","State Representative","29","Thomas Anthony Anderson","Republican",14871,TRUE,100
+"2008","State Representative","3","Paul C. Bandy","Republican",8335,TRUE,100
+"2008","State Representative","30","Karen E. Giannini","Democratic",6647,TRUE,50.6
+"2008","State Representative","30","Justine Fox Young","Republican",6483,FALSE,49.4
+"2008","State Representative","31","William R. Rehm","Republican",11117,TRUE,100
+"2008","State Representative","32","Dona G. Irwin","Democratic",5325,TRUE,65.4
+"2008","State Representative","32","Philip H. Skinner","Republican",2820,FALSE,34.6
+"2008","State Representative","33","Joni Marie Gutierrez","Democratic",7647,TRUE,100
+"2008","State Representative","34","Mary Helen Garcia","Democratic",5111,TRUE,100
+"2008","State Representative","35","Antonio Luján","Democratic",6937,TRUE,100
+"2008","State Representative","36","Andrew ""Andy"" Nunez","Democratic",5432,TRUE,53.6
+"2008","State Representative","36","Mike A. Tellez","Republican",4703,FALSE,46.4
+"2008","State Representative","37","Jeff Steinborn","Democratic",9305,TRUE,60.5
+"2008","State Representative","37","D. Kent Evans","Republican",6068,FALSE,39.5
+"2008","State Representative","38","Dianne Hamilton","Republican",7750,TRUE,100
+"2008","State Representative","39","Rodolpho Martinez","Democratic",7254,TRUE,100
+"2008","State Representative","4","Ray Begaye","Democratic",7646,TRUE,100
+"2008","State Representative","40","Nick L. Salazar","Democratic",8758,TRUE,100
+"2008","State Representative","41","Debbie A. Rodella","Democratic",7812,TRUE,100
+"2008","State Representative","42","Roberto ""Bobby"" J. Gonzales","Democratic",11597,TRUE,100
+"2008","State Representative","43","Jeannette O. Wallace","Republican",9677,TRUE,100
+"2008","State Representative","44","Jane E. Powdrell-Culbert","Republican",11581,TRUE,54.1
+"2008","State Representative","44","Lisa Cour","Democratic",9812,FALSE,45.9
+"2008","State Representative","45","Jim R. Trujillo","Democratic",8678,TRUE,100
+"2008","State Representative","46","Ben Lujan","Democratic",11025,TRUE,100
+"2008","State Representative","47","Brian F. Egolf, Jr.","Democratic",14305,TRUE,100
+"2008","State Representative","48","Luciano ""lucky"" Varela","Democratic",11173,TRUE,100
+"2008","State Representative","49","Don Tripp","Republican",9688,TRUE,100
+"2008","State Representative","5","Sandra D. Jeff","Democratic",6490,TRUE,74.4
+"2008","State Representative","5","Michael E. Lunnon","Republican",2229,FALSE,25.6
+"2008","State Representative","50","Rhonda S. King","Democratic",9487,TRUE,100
+"2008","State Representative","51","Gloria C. Vaughn","Republican",3819,TRUE,54.2
+"2008","State Representative","51","Douglas Matthew Post","Democratic",3222,FALSE,45.8
+"2008","State Representative","52","Joseph Cervantes","Democratic",6443,TRUE,100
+"2008","State Representative","53","Nathan P. Cote","Democratic",5864,TRUE,59
+"2008","State Representative","53","Stanford Eric Locke","Republican",4072,FALSE,41
+"2008","State Representative","54","William J. Gray","Republican",4833,TRUE,100
+"2008","State Representative","55","John A. Heaton","Democratic",5676,TRUE,54.2
+"2008","State Representative","55","Cathrynn N. Brown","Republican",4805,FALSE,45.8
+"2008","State Representative","56","Dub Williams","Republican",7288,TRUE,100
+"2008","State Representative","57","Dennis J. Kintigh","Republican",8229,TRUE,66
+"2008","State Representative","57","Mary Frances Barron","Democratic",4230,FALSE,34
+"2008","State Representative","58","Candy Spence Ezzell","Republican",4208,TRUE,61.6
+"2008","State Representative","58","George G. Peterson","Democratic",2621,FALSE,38.4
+"2008","State Representative","59","Nora Espinoza","Republican",6469,TRUE,65.2
+"2008","State Representative","59","Ellen E. Wedum","Democratic",3446,FALSE,34.8
+"2008","State Representative","6","Eliseo Lee Alcon","Democratic",5494,TRUE,62
+"2008","State Representative","6","R. Grant Clawson","Republican",3371,FALSE,38
+"2008","State Representative","60","Jack E. Thomas","Democratic",8362,TRUE,50.8
+"2008","State Representative","60","Paula Papponi","Republican",8084,FALSE,49.2
+"2008","State Representative","61","Shirley A. Tyler","Republican",4713,TRUE,100
+"2008","State Representative","62","Donald E. Bratton","Republican",8402,TRUE,100
+"2008","State Representative","63","Jose A. Campos, II","Democratic",4001,TRUE,58.8
+"2008","State Representative","63","Matthew D. Rush","Republican",2807,FALSE,41.2
+"2008","State Representative","64","Anna M. Crook","Republican",5977,TRUE,63.9
+"2008","State Representative","64","Mario Trujillo","Democratic",3370,FALSE,36.1
+"2008","State Representative","65","James Roger Madalena","Democratic",8042,TRUE,100
+"2008","State Representative","66","Keith Gardner","Republican",7330,TRUE,100
+"2008","State Representative","67","Dennis J. Roch","Republican",5496,TRUE,55.2
+"2008","State Representative","67","Craig L. Cosner","Democratic",4463,FALSE,44.8
+"2008","State Representative","68","Thomas A. Garcia","Democratic",8226,TRUE,72.8
+"2008","State Representative","68","Sylvia L. Olson","Republican",3067,FALSE,27.2
+"2008","State Representative","69","W. Ken Martinez","Democratic",7457,TRUE,100
+"2008","State Representative","7","Andrew J. Barreras","Democratic",6185,TRUE,55.5
+"2008","State Representative","7","Timothy J. Lardner","Republican",4960,FALSE,44.5
+"2008","State Representative","70","Richard D. Vigil","Democratic",7185,TRUE,69.8
+"2008","State Representative","70","Mel Root","Republican",3107,FALSE,30.2
+"2008","State Representative","8","Elias Barela","Democratic",6582,TRUE,60.6
+"2008","State Representative","8","Paul H. Gabaldon","Republican",4279,FALSE,39.4
+"2008","State Representative","9","Patricia ""Patty"" A. Lundstrom","Democratic",6511,TRUE,100
+"2008","State Senate","1","William E. Sharer","Republican",14032,TRUE,100
+"2008","State Senate","10","John Christopher Ryan","Republican",13776,TRUE,51.2
+"2008","State Senate","10","Victor Paul Raigoza","Democratic",13120,FALSE,48.8
+"2008","State Senate","11","Linda M. Lopez","Democratic",14253,TRUE,100
+"2008","State Senate","12","Gerald P. Ortiz Y Pino","Democratic",12828,TRUE,100
+"2008","State Senate","13","Dede Feldman","Democratic",17412,TRUE,100
+"2008","State Senate","14","Eric G. Griego","Democratic",10807,TRUE,100
+"2008","State Senate","15","Tim Eichenberg","Democratic",12643,TRUE,56.5
+"2008","State Senate","15","H. Diane Snyder","Republican",9728,FALSE,43.5
+"2008","State Senate","16","Cisco Mcsorley","Democratic",16369,TRUE,100
+"2008","State Senate","17","Timothy M. Keller","Democratic",9275,TRUE,100
+"2008","State Senate","18","Mark L. Boitano","Republican",13980,TRUE,100
+"2008","State Senate","19","Sue Wilson Beffort","Republican",14266,TRUE,60.4
+"2008","State Senate","19","Jason Michael Burnette","Democratic",9357,FALSE,39.6
+"2008","State Senate","2","Steven P. Neville","Republican",14223,TRUE,100
+"2008","State Senate","20","William H. Payne","Republican",14068,TRUE,100
+"2008","State Senate","21","Kent L. Cravens","Republican",15638,TRUE,57
+"2008","State Senate","21","Jessica Lynn Wolfe","Democratic",11818,FALSE,43
+"2008","State Senate","22","Lynda M. Lovejoy","Democratic",16908,TRUE,100
+"2008","State Senate","23","Sander Rue","Republican",22338,TRUE,100
+"2008","State Senate","24","Nancy Rodriguez","Democratic",15852,TRUE,100
+"2008","State Senate","25","Peter Wirth","Democratic",24902,TRUE,100
+"2008","State Senate","26","Bernadette M. Sanchez","Democratic",13750,TRUE,75.7
+"2008","State Senate","26","Spiro Gregory Vassilopoulos","Republican",4419,FALSE,24.3
+"2008","State Senate","27","Stuart Ingle","Republican",9466,TRUE,100
+"2008","State Senate","28","Howie Morales","Democratic",13546,TRUE,66.6
+"2008","State Senate","28","Joseph D. Gros","Republican",6790,FALSE,33.4
+"2008","State Senate","29","Michael S. Sanchez","Democratic",14633,TRUE,100
+"2008","State Senate","3","John Pinto","Democratic",12121,TRUE,100
+"2008","State Senate","30","David Ulibarri","Democratic",8262,TRUE,52.6
+"2008","State Senate","30","Jose A. Silva","Republican",7447,FALSE,47.4
+"2008","State Senate","31","Cynthia L. Nava","Democratic",7550,TRUE,100
+"2008","State Senate","32","Timothy Z. Jennings","Democratic",8721,TRUE,100
+"2008","State Senate","33","Rod Adair","Republican",14274,TRUE,100
+"2008","State Senate","34","Vernon D. Asbill","Republican",14122,TRUE,100
+"2008","State Senate","35","John Arthur Smith","Democratic",10636,TRUE,100
+"2008","State Senate","36","Mary Jane Garcia","Democratic",9411,TRUE,54.9
+"2008","State Senate","36","Lee S. Cotter","Republican",7736,FALSE,45.1
+"2008","State Senate","37","Stephen H. Fischmann","Democratic",13229,TRUE,51.1
+"2008","State Senate","37","Leonard Lee Rawson","Republican",12643,FALSE,48.9
+"2008","State Senate","38","Mary Kuper Papen","Democratic",12157,TRUE,100
+"2008","State Senate","39","Phil A. Griego","Democratic",16245,TRUE,100
+"2008","State Senate","4","George K. Munoz","Democratic",10897,TRUE,75.6
+"2008","State Senate","4","Beatrice L. Woodward","Republican",3515,FALSE,24.4
+"2008","State Senate","40","Dianna J. Duran","Republican",10230,TRUE,100
+"2008","State Senate","41","Carroll H. Leavell","Republican",8702,TRUE,100
+"2008","State Senate","42","Gay G. Kernan","Republican",12519,TRUE,100
+"2008","State Senate","5","Richard C. Martinez","Democratic",14975,TRUE,100
+"2008","State Senate","6","Carlos R. Cisneros","Democratic",18037,TRUE,100
+"2008","State Senate","7","Clinton D. Harden, Jr.","Republican",10891,TRUE,59.1
+"2008","State Senate","7","Thomas Jeffrey Carr","Democratic",7547,FALSE,40.9
+"2008","State Senate","8","Pete Campos","Democratic",13254,TRUE,100
+"2008","State Senate","9","John M. Sapien","Democratic",11981,TRUE,50.3
+"2008","State Senate","9","Steve Komadina","Republican",11860,FALSE,49.7
+"2008","United States Representative","1","Martin T. Heinrich","Democratic",166271,TRUE,55.7
+"2008","United States Representative","1","Darren White","Republican",132485,FALSE,44.3
+"2008","United States Representative","2","Harry Teague","Democratic",129572,TRUE,56
+"2008","United States Representative","2","Edward R. Tinsley","Republican",101980,FALSE,44
+"2008","United States Representative","3","Ben R. Lujan","Democratic",161287,TRUE,56.7
+"2008","United States Representative","3","Daniel K. East","Republican",86618,FALSE,30.5
+"2008","United States Representative","3","Carol Miller","Independent",36347,FALSE,12.8
+"2008","United States Senator","New Mexico","Tom Udall","Democratic",505122,TRUE,61.3
+"2008","United States Senator","New Mexico","Steve Pearce","Republican",318522,FALSE,38.7
+"2010","Attorney General","New Mexico","Gary K. King","Democratic",310650,TRUE,53.2
+"2010","Attorney General","New Mexico","Matthew E. Chandler","Republican",272963,FALSE,46.8
+"2010","Commissioner of Public Lands","New Mexico","Ray Bennett Powell","Democratic",297567,TRUE,51.9
+"2010","Commissioner of Public Lands","New Mexico","Matthew D. Rush","Republican",275329,FALSE,48.1
+"2010","Secretary of State","New Mexico","Dianna J. Duran","Republican",336675,TRUE,58
+"2010","Secretary of State","New Mexico","Mary Herrera","Democratic",243524,FALSE,42
+"2010","State Auditor","New Mexico","Hector Balderas","Democratic",312968,TRUE,54.7
+"2010","State Auditor","New Mexico","Errol J. Chavez","Republican",258695,FALSE,45.3
+"2010","State Representative","1","Thomas C. Taylor","Republican",8136,TRUE,100
+"2010","State Representative","10","Henry ""kiki"" Saavedra","Democratic",4093,TRUE,100
+"2010","State Representative","11","Rick S. Miera","Democratic",6602,TRUE,100
+"2010","State Representative","12","Ernest H. Chavez","Democratic",3945,TRUE,58.3
+"2010","State Representative","12","Clyde C. Wheeler","Republican",2317,FALSE,34.2
+"2010","State Representative","12","Robert A. Schiller","Independent",509,FALSE,7.5
+"2010","State Representative","13","Eleanor Chavez","Democratic",5679,TRUE,100
+"2010","State Representative","14","Miguel P. Garcia","Democratic",4177,TRUE,70.7
+"2010","State Representative","14","Clara A. Pena","Republican",1735,FALSE,29.3
+"2010","State Representative","15","Bill B. O'Neill","Democratic",5545,TRUE,50.8
+"2010","State Representative","15","Justin Alexander Horwitz","Republican",5376,FALSE,49.2
+"2010","State Representative","16","Antonio ""Moe"" Maestas","Democratic",5875,TRUE,100
+"2010","State Representative","17","Edward C. Sandoval","Democratic",7459,TRUE,100
+"2010","State Representative","18","Gail Chasey","Democratic",6608,TRUE,100
+"2010","State Representative","19","Sheryl Williams M. Stapleton","Democratic",4558,TRUE,68.1
+"2010","State Representative","19","Anthony Lawrence Romo","Republican",1609,FALSE,24
+"2010","State Representative","19","Mark Austin Curtis","Libertarian",524,FALSE,7.8
+"2010","State Representative","2","James R. J. Strickler","Republican",5935,TRUE,100
+"2010","State Representative","20","James P. White","Republican",7667,TRUE,100
+"2010","State Representative","21","Mimi Stewart","Democratic",3122,TRUE,52.1
+"2010","State Representative","21","Antoinette Marie Baca","Republican",2871,FALSE,47.9
+"2010","State Representative","22","James E. Smith","Republican",9388,TRUE,100
+"2010","State Representative","23","David L. Doyle","Republican",6429,TRUE,54.1
+"2010","State Representative","23","Benjamin Hayden Rodefer","Democratic",5450,FALSE,45.9
+"2010","State Representative","24","Conrad D. James","Republican",6366,TRUE,100
+"2010","State Representative","25","Danice R. Picraux","Democratic",5628,TRUE,64.3
+"2010","State Representative","25","Jennifer E Thornburg","Republican",3119,FALSE,35.7
+"2010","State Representative","26","Al Park","Democratic",3026,TRUE,62
+"2010","State Representative","26","Larry E. Kennedy","Republican",1851,FALSE,38
+"2010","State Representative","27","Lorenzo A. Larranaga","Republican",9680,TRUE,100
+"2010","State Representative","28","Jimmie C. Hall","Republican",6170,TRUE,60.9
+"2010","State Representative","28","Cornelia Wells Lange","Democratic",3961,FALSE,39.1
+"2010","State Representative","29","Thomas Anthony Anderson","Republican",9274,TRUE,59.1
+"2010","State Representative","29","Alexander K. Russell","Democratic",6410,FALSE,40.9
+"2010","State Representative","3","Paul C. Bandy","Republican",6997,TRUE,100
+"2010","State Representative","30","Nathaniel Gentry","Republican",5634,TRUE,58.1
+"2010","State Representative","30","Karen E. Giannini","Democratic",4061,FALSE,41.9
+"2010","State Representative","31","William R. Rehm","Republican",8184,TRUE,63.2
+"2010","State Representative","31","Michael M. Malloy","Democratic",4771,FALSE,36.8
+"2010","State Representative","32","Dona G. Irwin","Democratic",3464,TRUE,56.9
+"2010","State Representative","32","Thomas W. Walker","Republican",2622,FALSE,43.1
+"2010","State Representative","33","Joni Marie Gutierrez","Democratic",4326,TRUE,61.9
+"2010","State Representative","33","Virginia M. Robertson","Republican",2660,FALSE,38.1
+"2010","State Representative","34","Mary Helen Garcia","Democratic",2860,TRUE,100
+"2010","State Representative","35","Antonio Luján","Democratic",3708,TRUE,100
+"2010","State Representative","36","Andrew Nuñez","Democratic",3954,TRUE,55.5
+"2010","State Representative","36","Debra L. White","Republican",3175,FALSE,44.5
+"2010","State Representative","37","Terry H. Mcmillan","Republican",6110,TRUE,51.4
+"2010","State Representative","37","Jeff Steinborn","Democratic",5767,FALSE,48.6
+"2010","State Representative","38","Dianne Hamilton","Republican",6343,TRUE,100
+"2010","State Representative","39","Rodolpho S. Martinez","Democratic",4110,TRUE,56.1
+"2010","State Representative","39","Linda S. Pecotte","Republican",3216,FALSE,43.9
+"2010","State Representative","4","Ray Begaye","Democratic",5170,TRUE,100
+"2010","State Representative","40","Nick L. Salazar","Democratic",5565,TRUE,100
+"2010","State Representative","41","Debbie A. Rodella","Democratic",4911,TRUE,100
+"2010","State Representative","42","Roberto J. Gonzales","Democratic",7785,TRUE,79
+"2010","State Representative","42","Matthew John Nielsen","Republican",2070,FALSE,21
+"2010","State Representative","43","Jeannette O. Wallace","Republican",5491,TRUE,50.9
+"2010","State Representative","43","Stephanie M. Richard","Democratic",5305,FALSE,49.1
+"2010","State Representative","44","Jane E. Powdrell-Culbert","Republican",9960,TRUE,62.8
+"2010","State Representative","44","Joel A. Davis","Democratic",5905,FALSE,37.2
+"2010","State Representative","45","Jim R. Trujillo","Democratic",5853,TRUE,100
+"2010","State Representative","46","Ben Lujan","Democratic",7612,TRUE,100
+"2010","State Representative","47","Brian F. Egolf, Jr.","Democratic",11256,TRUE,75.9
+"2010","State Representative","47","Brigette F. Russell","Republican",3568,FALSE,24.1
+"2010","State Representative","48","Luciano “lucky” Varela","Democratic",7776,TRUE,78.5
+"2010","State Representative","48","Bob Walsh","Republican",2128,FALSE,21.5
+"2010","State Representative","49","Don Tripp","Republican",7562,TRUE,100
+"2010","State Representative","5","Sandra D. Jeff","Democratic",2895,TRUE,100
+"2010","State Representative","50","Rhonda S. King","Democratic",6131,TRUE,60.4
+"2010","State Representative","50","Leroy M. Candelaria","Republican",4027,FALSE,39.6
+"2010","State Representative","51","Yvette Herrell","Republican",3077,TRUE,62.9
+"2010","State Representative","51","Susan C. Medina","Democratic",1813,FALSE,37.1
+"2010","State Representative","52","Joseph Cervantes","Democratic",4031,TRUE,100
+"2010","State Representative","53","Ricky L. Little","Republican",3753,TRUE,52.9
+"2010","State Representative","53","Nathan P. Cote","Democratic",3340,FALSE,47.1
+"2010","State Representative","54","William J. Gray","Republican",3763,TRUE,100
+"2010","State Representative","55","Cathrynn N. Brown","Republican",4010,TRUE,52.2
+"2010","State Representative","55","John A. Heaton","Democratic",3673,FALSE,47.8
+"2010","State Representative","56","Zach J. Cook","Republican",5505,TRUE,100
+"2010","State Representative","57","Dennis J. Kintigh","Republican",7950,TRUE,100
+"2010","State Representative","58","Candy Spence Ezzell","Republican",2992,TRUE,66
+"2010","State Representative","58","Michael A. Trujillo","Democratic",1539,FALSE,34
+"2010","State Representative","59","Nora Espinoza","Republican",5208,TRUE,72.1
+"2010","State Representative","59","Ellen E. Wedum","Democratic",2018,FALSE,27.9
+"2010","State Representative","6","Eliseo Lee Alcon","Democratic",4346,TRUE,100
+"2010","State Representative","60","Timothy Dwight Lewis","Republican",6980,TRUE,60.9
+"2010","State Representative","60","Jack E. Thomas","Democratic",4489,FALSE,39.1
+"2010","State Representative","61","Shirley A. Tyler","Republican",2984,TRUE,100
+"2010","State Representative","62","Donald E. Bratton","Republican",6571,TRUE,100
+"2010","State Representative","63","George Dodge, Jr.","Democratic",2514,TRUE,54.4
+"2010","State Representative","63","Melinda Joy Russ","Republican",2107,FALSE,45.6
+"2010","State Representative","64","Anna M. Crook","Republican",5441,TRUE,100
+"2010","State Representative","65","James R. Madalena","Democratic",3665,TRUE,100
+"2010","State Representative","66","Keith Gardner","Republican",5560,TRUE,100
+"2010","State Representative","67","Dennis J. Roch","Republican",5578,TRUE,100
+"2010","State Representative","68","Thomas A. Garcia","Democratic",6485,TRUE,100
+"2010","State Representative","69","W. Ken Martinez","Democratic",3462,TRUE,100
+"2010","State Representative","7","David C. Chavez","Republican",4788,TRUE,54.9
+"2010","State Representative","7","Andrew J. Barreras","Democratic",3938,FALSE,45.1
+"2010","State Representative","70","Richard D. Vigil","Democratic",4631,TRUE,64.7
+"2010","State Representative","70","Mel Root","Republican",2532,FALSE,35.3
+"2010","State Representative","8","Alonzo Baldonado","Republican",4588,TRUE,53.5
+"2010","State Representative","8","Julian R Luna","Democratic",3995,FALSE,46.5
+"2010","State Representative","9","Patricia A. Lundstrom","Democratic",2570,TRUE,100
+"2010","State Treasurer","New Mexico","James B. Lewis","Democratic",313844,TRUE,54.9
+"2010","State Treasurer","New Mexico","Jim D. Schoonover","Republican",257772,FALSE,45.1
+"2010","United States Representative","1","Martin T. Heinrich","Democratic",112554,TRUE,51.9
+"2010","United States Representative","1","Jonathan L. Barela","Republican",104511,FALSE,48.1
+"2010","United States Representative","2","Steve Pearce","Republican",92137,TRUE,55.6
+"2010","United States Representative","2","Harry Teague","Democratic",73639,FALSE,44.4
+"2010","United States Representative","3","Ben R. Lujan","Democratic",111577,TRUE,55.8
+"2010","United States Representative","3","Thomas E. Mullins","Republican",88235,FALSE,44.2
+"2012","President of the United States","New Mexico","Barack Obama and Joe Biden","Democratic",392100,TRUE,53
+"2012","President of the United States","New Mexico","Mitt Romney And Paul Ryan","Republican",316801,FALSE,42.8
+"2012","President of the United States","New Mexico","Gary Johnson And James P. Gray","Libertarian",26619,FALSE,3.6
+"2012","President of the United States","New Mexico","Jill Stein And Cheri Honkala","Green",2596,FALSE,0.4
+"2012","President of the United States","New Mexico","Ross C. ""Rocky"" Anderson And Luis J. Rodriguez","New Mexico Independent",1100,FALSE,0.1
+"2012","President of the United States","New Mexico","Virgil Goode And Jim Clymer","Constitution",911,FALSE,0.1
+"2012","State Representative","1","Thomas C. Taylor","Republican",10776,TRUE,100
+"2012","State Representative","10","Henry ""Kiki"" Saavedra","Democratic",5954,TRUE,100
+"2012","State Representative","11","Rick S. Miera","Democratic",10103,TRUE,100
+"2012","State Representative","12","Ernest H. Chavez","Democratic",4736,TRUE,71.8
+"2012","State Representative","12","Clyde C. Wheeler","Republican",1856,FALSE,28.2
+"2012","State Representative","13","Patricia A. Roybal-caballero","Democratic",4452,TRUE,71.5
+"2012","State Representative","13","Jose Orozco","Republican",1772,FALSE,28.5
+"2012","State Representative","14","Miguel P. Garcia","Democratic",5723,TRUE,73.3
+"2012","State Representative","14","Clara A. Pena","Republican",2088,FALSE,26.7
+"2012","State Representative","15","Emily A. Kane","Democratic",6850,TRUE,51.2
+"2012","State Representative","15","Christopher T. Saucedo","Republican",6536,FALSE,48.8
+"2012","State Representative","16","Antonio ""Moe"" Maestas","Democratic",8162,TRUE,100
+"2012","State Representative","17","Edward C. Sandoval","Democratic",7816,TRUE,66.6
+"2012","State Representative","17","Robert D. Cain","Republican",3918,FALSE,33.4
+"2012","State Representative","18","Gail Chasey","Democratic",10034,TRUE,81.1
+"2012","State Representative","18","Tyson Jerald Cosper","Republican",2339,FALSE,18.9
+"2012","State Representative","19","Sheryl Williams M. Stapleton","Democratic",6669,TRUE,59.3
+"2012","State Representative","19","Erica J. Landry","Republican",2711,FALSE,24.1
+"2012","State Representative","19","Hessel E Yntema, III","Independent",1857,FALSE,16.5
+"2012","State Representative","2","James R. J. Strickler","Republican",6924,TRUE,100
+"2012","State Representative","20","James P. White","Republican",8717,TRUE,100
+"2012","State Representative","21","Mimi Stewart","Democratic",4961,TRUE,100
+"2012","State Representative","22","James E. Smith","Republican",11692,TRUE,100
+"2012","State Representative","23","Paul A. Pacheco","Republican",6922,TRUE,50.3
+"2012","State Representative","23","Marci S. Blaze","Democratic",6844,FALSE,49.7
+"2012","State Representative","24","Elizabeth L. Thomson","Democratic",6562,TRUE,51.1
+"2012","State Representative","24","Conrad D. James","Republican",6292,FALSE,48.9
+"2012","State Representative","25","Christine Trujillo","Democratic",8383,TRUE,63.1
+"2012","State Representative","25","Elisabeth L. Keen","Republican",4898,FALSE,36.9
+"2012","State Representative","26","Georgene Louis","Democratic",4057,TRUE,61.7
+"2012","State Representative","26","Louis Tafoya","Republican",2517,FALSE,38.3
+"2012","State Representative","27","Lorenzo A. Larranaga","Republican",9128,TRUE,59
+"2012","State Representative","27","Ronald E. Krise","Democratic",6334,FALSE,41
+"2012","State Representative","28","Jimmie C. Hall","Republican",10815,TRUE,100
+"2012","State Representative","29","Thomas Anthony Anderson","Republican",6025,TRUE,52.5
+"2012","State Representative","29","Lloyd S. Ginsberg","Democratic",5451,FALSE,47.5
+"2012","State Representative","3","Paul C. Bandy","Republican",7775,TRUE,100
+"2012","State Representative","30","Nate Gentry","Republican",6997,TRUE,53.9
+"2012","State Representative","30","Maryellen Broderick","Democratic",5981,FALSE,46.1
+"2012","State Representative","31","William R. Rehm","Republican",10426,TRUE,60.1
+"2012","State Representative","31","Joanne J. Allen","Democratic",6914,FALSE,39.9
+"2012","State Representative","32","Dona G. Irwin","Democratic",5676,TRUE,64
+"2012","State Representative","32","Thomas W. Guerra","Republican",3192,FALSE,36
+"2012","State Representative","33","Bill Mccamley","Democratic",5972,TRUE,58.2
+"2012","State Representative","33","Angelina P. Carver","Republican",4294,FALSE,41.8
+"2012","State Representative","34","Mary Helen Garcia","Democratic",4891,TRUE,100
+"2012","State Representative","35","Jeff Steinborn","Democratic",6245,TRUE,64.4
+"2012","State Representative","35","Charles D. Green","Republican",3445,FALSE,35.6
+"2012","State Representative","36","Phillip M. Archuleta","Democratic",3551,TRUE,41.7
+"2012","State Representative","36","Mike A. Tellez","Republican",3188,FALSE,37.4
+"2012","State Representative","36","Andrew ""Andy"" Nuñez","Independent",1781,FALSE,20.9
+"2012","State Representative","37","Terry H. Mcmillan","Republican",6267,TRUE,50
+"2012","State Representative","37","Joanne J. Ferrary","Democratic",6259,FALSE,50
+"2012","State Representative","38","Dianne Hamilton","Republican",7183,TRUE,54.9
+"2012","State Representative","38","Terry D. Fortenberry","Democratic",5912,FALSE,45.1
+"2012","State Representative","39","Rodolpho S. Martinez","Democratic",5067,TRUE,52.2
+"2012","State Representative","39","John L. Zimmerman","Republican",4648,FALSE,47.8
+"2012","State Representative","4","Sharon Clahchischilliage","Republican",5436,TRUE,63.4
+"2012","State Representative","4","Ray Begaye","Democratic",3141,FALSE,36.6
+"2012","State Representative","40","Nick L. Salazar","Democratic",7793,TRUE,65.8
+"2012","State Representative","40","Gary E. Martinez","Republican",4048,FALSE,34.2
+"2012","State Representative","41","Debbie A. Rodella","Democratic",8045,TRUE,100
+"2012","State Representative","42","Roberto ""Bobby"" Jesse Gonzales","Democratic",10073,TRUE,100
+"2012","State Representative","43","Stephanie Garcia Richard","Democratic",6982,TRUE,51.3
+"2012","State Representative","43","James W. Hall","Republican",6617,FALSE,48.7
+"2012","State Representative","44","Jane E. Powdrell-Culbert","Republican",10136,TRUE,100
+"2012","State Representative","45","Jim R. Trujillo","Democratic",8881,TRUE,100
+"2012","State Representative","46","Carl P. Trujillo","Democratic",10574,TRUE,100
+"2012","State Representative","47","Brian F. Egolf, Jr.","Democratic",13472,TRUE,100
+"2012","State Representative","48","Luciano ""Lucky"" Varela","Democratic",9655,TRUE,79.6
+"2012","State Representative","48","Bob Walsh","Libertarian",2477,FALSE,20.4
+"2012","State Representative","49","Don Tripp","Republican",4042,TRUE,98.7
+"2012","State Representative","49","Dell P. Washington","Democratic",53,FALSE,1.3
+"2012","State Representative","5","Sandra D. Jeff","Democratic",4180,TRUE,100
+"2012","State Representative","50","Stephen P. Easley","Democratic",7796,TRUE,55.7
+"2012","State Representative","50","Charles Larry Miller","Republican",6211,FALSE,44.3
+"2012","State Representative","51","Yvette Herrell","Republican",7750,TRUE,100
+"2012","State Representative","52","Doreen Y. Gallegos","Democratic",3959,TRUE,62.2
+"2012","State Representative","52","Arlington E. Brewbaker","Republican",2403,FALSE,37.8
+"2012","State Representative","53","Nate Cote","Democratic",2620,TRUE,53.2
+"2012","State Representative","53","Ricky L. Little","Republican",2304,FALSE,46.8
+"2012","State Representative","54","William J. Gray","Republican",1980,TRUE,100
+"2012","State Representative","55","Cathrynn N. Brown","Republican",0,TRUE,NA
+"2012","State Representative","56","Zach J. Cook","Republican",7506,TRUE,100
+"2012","State Representative","57","Jason Carl Harper","Republican",4606,TRUE,53.2
+"2012","State Representative","57","Donna I. Tillman","Democratic",4058,FALSE,46.8
+"2012","State Representative","58","Candy Spence Ezzell","Republican",3888,TRUE,62
+"2012","State Representative","58","Pablo J. Martinez","Democratic",2383,FALSE,38
+"2012","State Representative","59","Nora Espinoza","Republican",9903,TRUE,100
+"2012","State Representative","6","Eliseo Lee Alcon","Democratic",5822,TRUE,100
+"2012","State Representative","60","Tim Lewis","Republican",8319,TRUE,100
+"2012","State Representative","61","David M. Gallegos","Republican",3618,TRUE,64.3
+"2012","State Representative","61","Hector M. Ramirez","Democratic",2012,FALSE,35.7
+"2012","State Representative","62","Donald E. Bratton","Republican",7722,TRUE,100
+"2012","State Representative","63","George Dodge, Jr.","Democratic",4830,TRUE,63.4
+"2012","State Representative","63","Steven R. Hanson","Republican",2791,FALSE,36.6
+"2012","State Representative","64","Anna M. Crook","Republican",7618,TRUE,100
+"2012","State Representative","65","James Roger Madalena","Democratic",5891,TRUE,100
+"2012","State Representative","66","Bob Wooley","Republican",8012,TRUE,100
+"2012","State Representative","67","Dennis J. Roch","Republican",8489,TRUE,100
+"2012","State Representative","68","Monica Christina Youngblood","Republican",6908,TRUE,55
+"2012","State Representative","68","Eloise Gift","Democratic",5660,FALSE,45
+"2012","State Representative","69","W. Ken Martinez","Democratic",4401,TRUE,100
+"2012","State Representative","7","Kelly K. Fajardo","Republican",4522,TRUE,50.4
+"2012","State Representative","7","Andrew J. Barreras","Democratic",4445,FALSE,49.6
+"2012","State Representative","70","Tomas E. Salazar","Democratic",8227,TRUE,100
+"2012","State Representative","8","Alonzo Baldonado","Republican",6191,TRUE,53
+"2012","State Representative","8","Frank A. Otero","Democratic",5486,FALSE,47
+"2012","State Representative","9","Patricia ""Patty"" A. Lundstrom","Democratic",4497,TRUE,100
+"2012","State Senate","1","William E. Sharer","Republican",11212,TRUE,70.8
+"2012","State Senate","1","Matt Dodson","Democratic",4633,FALSE,29.2
+"2012","State Senate","10","John Christopher Ryan","Republican",10063,TRUE,54.3
+"2012","State Senate","10","Joseph J. Carraro","Independent",8474,FALSE,45.7
+"2012","State Senate","11","Linda M. Lopez","Democratic",8346,TRUE,100
+"2012","State Senate","12","Gerald P. Ortiz Y Pino","Democratic",13341,TRUE,100
+"2012","State Senate","13","Bill B. O'neill","Democratic",15516,TRUE,100
+"2012","State Senate","14","Michael Padilla","Democratic",8232,TRUE,70.7
+"2012","State Senate","14","Robert A. Schiller","Independent",3417,FALSE,29.3
+"2012","State Senate","15","Daniel A. Ivey-soto","Democratic",10927,TRUE,52.9
+"2012","State Senate","15","H. Diane Snyder","Republican",9733,FALSE,47.1
+"2012","State Senate","16","Cisco McSorley","Democratic",16636,TRUE,100
+"2012","State Senate","17","Timothy M. Keller","Democratic",7481,TRUE,64.8
+"2012","State Senate","17","Shannon Robinson","Republican",4057,FALSE,35.2
+"2012","State Senate","18","Lisa Torraco","Republican",12092,TRUE,51.8
+"2012","State Senate","18","Bill G. Tallman","Democratic",11248,FALSE,48.2
+"2012","State Senate","19","Sue Wilson Beffort","Republican",17546,TRUE,100
+"2012","State Senate","2","Steven P. Neville","Republican",14168,TRUE,100
+"2012","State Senate","20","William H. Payne","Republican",13626,TRUE,56.1
+"2012","State Senate","20","Cornelia W. Lange","Democratic",10651,FALSE,43.9
+"2012","State Senate","21","Mark Moores","Republican",14067,TRUE,56.6
+"2012","State Senate","21","Lisa K. Curtis","Democratic",10768,FALSE,43.4
+"2012","State Senate","22","Benny Shendo, Jr.","Democratic",7831,TRUE,100
+"2012","State Senate","23","Sander Rue","Republican",14327,TRUE,100
+"2012","State Senate","24","Nancy Rodriguez","Democratic",15568,TRUE,100
+"2012","State Senate","25","Peter Wirth","Democratic",26000,TRUE,100
+"2012","State Senate","26","Jacob Candelaria","Democratic",11463,TRUE,100
+"2012","State Senate","27","Stuart Ingle","Republican",12022,TRUE,100
+"2012","State Senate","28","Howie C. Morales","Democratic",11216,TRUE,100
+"2012","State Senate","29","Michael S. Sanchez","Democratic",9001,TRUE,55.4
+"2012","State Senate","29","David C. Chavez","Republican",7237,FALSE,44.6
+"2012","State Senate","3","John Pinto","Democratic",11025,TRUE,100
+"2012","State Senate","30","Clemente Sanchez","Democratic",7654,TRUE,50.9
+"2012","State Senate","30","Vickie S. Perea","Republican",7369,FALSE,49.1
+"2012","State Senate","31","Joseph Cervantes","Democratic",6755,TRUE,67.3
+"2012","State Senate","31","Brett C. Preston","Republican",3280,FALSE,32.7
+"2012","State Senate","32","Cliff R. Pirtle","Republican",5135,TRUE,53.3
+"2012","State Senate","32","Timothy Z. Jennings","Democratic",4491,FALSE,46.7
+"2012","State Senate","33","William F. Burt","Republican",12292,TRUE,65.3
+"2012","State Senate","33","Stephanie L. Dubois","Democratic",6530,FALSE,34.7
+"2012","State Senate","34","Ron Griggs","Republican",6331,TRUE,66.8
+"2012","State Senate","34","Ellen E. Wedum","Democratic",3151,FALSE,33.2
+"2012","State Senate","35","John Arthur Smith","Democratic",10446,TRUE,61
+"2012","State Senate","35","Russell G. Allen","Republican",6688,FALSE,39
+"2012","State Senate","36","Lee S. Cotter","Republican",9000,TRUE,54
+"2012","State Senate","36","Mary Jane Garcia","Democratic",7667,FALSE,46
+"2012","State Senate","37","William P. Soules","Democratic",9112,TRUE,51.9
+"2012","State Senate","37","Cathey Jo Alberson","Republican",8454,FALSE,48.1
+"2012","State Senate","38","Mary Kay Papen","Democratic",9464,TRUE,66.4
+"2012","State Senate","38","Neal L. Hooks","Republican",4783,FALSE,33.6
+"2012","State Senate","39","Phil A. Griego","Democratic",9977,TRUE,55
+"2012","State Senate","39","Aubrey Dunn","Republican",8162,FALSE,45
+"2012","State Senate","4","George K. Munoz","Democratic",8189,TRUE,100
+"2012","State Senate","40","Craig W. Brandt","Republican",9982,TRUE,55.3
+"2012","State Senate","40","Linda M. Allison","Democratic",8069,FALSE,44.7
+"2012","State Senate","41","Carroll H. Leavell","Republican",5318,TRUE,100
+"2012","State Senate","42","Gay G. Kernan","Republican",8333,TRUE,100
+"2012","State Senate","5","Richard C. Martinez","Democratic",14998,TRUE,100
+"2012","State Senate","6","Carlos R. Cisneros","Democratic",16956,TRUE,100
+"2012","State Senate","7","John Patrick Woods","Republican",12562,TRUE,100
+"2012","State Senate","8","Pete Campos","Democratic",15653,TRUE,100
+"2012","State Senate","9","John M. Sapien","Democratic",11479,TRUE,50
+"2012","State Senate","9","David L. Doyle","Republican",11462,FALSE,50
+"2012","United States Representative","1","Michelle Lujan Grisham","Democratic",162340,TRUE,59
+"2012","United States Representative","1","Janice E. Arnold-Jones","Republican",112367,FALSE,40.8
+"2012","United States Representative","1","Jeanne Pahls","Green",459,FALSE,0.2
+"2012","United States Representative","2","Steve Pearce","Republican",114572,TRUE,58.4
+"2012","United States Representative","2","Evelyn Madrid Erhard","Democratic",81512,FALSE,41.5
+"2012","United States Representative","2","Jack A. McGrann","Independent",167,FALSE,0.1
+"2012","United States Representative","3","Ben R. Lujan","Democratic",156702,TRUE,62.1
+"2012","United States Representative","3","Jefferson L. Byrd","Republican",95578,FALSE,37.9
+"2012","United States Senator","New Mexico","Martin T. Heinrich","Democratic",375114,TRUE,51.2
+"2012","United States Senator","New Mexico","Heather A. Wilson","Republican",330596,FALSE,45.1
+"2012","United States Senator","New Mexico","Jon Ross Barrie","Independent American",26529,FALSE,3.6
+"2012","United States Senator","New Mexico","Robert L. Anderson","Independent",607,FALSE,0.1
+"2016","President of the United States","New Mexico","Hillary Rodham Clinton and Timothy Michael Kaine","Democratic",384693,TRUE,49
+"2016","President of the United States","New Mexico","Donald J. Trump and Michael R. Pence","Republican",318972,FALSE,40.7
+"2016","President of the United States","New Mexico","Gary Johnson and Bill Weld","Libertarian",72334,FALSE,9.2
+"2016","President of the United States","New Mexico","Jill Stein and Ajamu Baraka","Green",5765,FALSE,0.7
+"2016","President of the United States","New Mexico","Evan McMullin and Nathan Johnson","Better for America",2510,FALSE,0.3
+"2016","President of the United States","New Mexico","Darrell Castle and Scott Bradley","Constitution",75,FALSE,0
+"2016","President of the United States","New Mexico","Gloria La Riva and Dennis Banks","Party for Socialism and Liberation",65,FALSE,0
+"2016","President of the United States","New Mexico","Roque ""Rocky"" De La Fuente and Michael Steinberg","American Delta",0,FALSE,0
+"2016","Secretary of State","New Mexico","Maggie Toulouse Oliver","Democratic",432741,TRUE,56.4
+"2016","Secretary of State","New Mexico","Nora Espinoza","Republican",334084,FALSE,43.6
+"2016","State Representative","1","Rodney D. Montoya","Republican",10717,TRUE,100
+"2016","State Representative","10","G Andres Romero","Democratic",4817,TRUE,67.4
+"2016","State Representative","10","Robert A. Schiller","Independent",2329,FALSE,32.6
+"2016","State Representative","11","Javier I. Martinez","Democratic",10118,TRUE,100
+"2016","State Representative","12","Patricio R. Ruiloba","Democratic",5036,TRUE,100
+"2016","State Representative","13","Patricia A. Roybal Caballero","Democratic",5525,TRUE,100
+"2016","State Representative","14","Miguel P. Garcia","Democratic",6209,TRUE,100
+"2016","State Representative","15","Sarah Maestas Barnes","Republican",7358,TRUE,53.2
+"2016","State Representative","15","Ane C. Romero","Democratic",6467,FALSE,46.8
+"2016","State Representative","16","Antonio ""Moe"" Maestas","Democratic",8256,TRUE,100
+"2016","State Representative","17","Deborah A. Armstrong","Democratic",8640,TRUE,100
+"2016","State Representative","18","Gail Chasey","Democratic",9922,TRUE,100
+"2016","State Representative","19","Sheryl Williams M. Stapleton","Democratic",8289,TRUE,100
+"2016","State Representative","2","James R.J. Strickler","Republican",6083,TRUE,72
+"2016","State Representative","2","Kenneth R. Robinson","Democratic",2365,FALSE,28
+"2016","State Representative","20","Jim Dines","Republican",7350,TRUE,57.7
+"2016","State Representative","20","Giovanni Alexander Haqani","Democratic",5389,FALSE,42.3
+"2016","State Representative","21","Debra Marie Sarinana","Democratic",4685,TRUE,100
+"2016","State Representative","22","James E. Smith","Republican",9630,TRUE,56.2
+"2016","State Representative","22","John M. Wallace","Democratic",7510,FALSE,43.8
+"2016","State Representative","23","Daymon B. Ely","Democratic",7127,TRUE,50.4
+"2016","State Representative","23","Paul A. Pacheco","Republican",7022,FALSE,49.6
+"2016","State Representative","24","Elizabeth L. Thomson","Democratic",6798,TRUE,52.3
+"2016","State Representative","24","Christina Marie Hall","Republican",6198,FALSE,47.7
+"2016","State Representative","25","Christine Trujillo","Democratic",9807,TRUE,100
+"2016","State Representative","26","Georgene Louis","Democratic",4800,TRUE,100
+"2016","State Representative","27","Lorenzo A. Larrañaga","Republican",9110,TRUE,58.5
+"2016","State Representative","27","Ronald E. Krise","Democratic",6457,FALSE,41.5
+"2016","State Representative","28","Jimmie C. Hall","Republican",10279,TRUE,100
+"2016","State Representative","29","David E. Adkins","Republican",6977,TRUE,50
+"2016","State Representative","29","Ronnie Martinez","Democratic",6968,FALSE,50
+"2016","State Representative","3","Paul C. Bandy","Republican",8299,TRUE,100
+"2016","State Representative","30","Nate Gentry","Republican",6841,TRUE,52.2
+"2016","State Representative","30","Natalie R. Figueroa","Democratic",6267,FALSE,47.8
+"2016","State Representative","31","William R. Rehm","Republican",10760,TRUE,60.4
+"2016","State Representative","31","Robert L. Scott","Democratic",7051,FALSE,39.6
+"2016","State Representative","32","Candie G. Sweetser","Democratic",4480,TRUE,51.3
+"2016","State Representative","32","Vicki K. Chavez","Republican",4251,FALSE,48.7
+"2016","State Representative","33","Bill Mccamley","Democratic",6599,TRUE,64.6
+"2016","State Representative","33","Neal L. Hooks","Republican",3613,FALSE,35.4
+"2016","State Representative","34","Bealquin Bill Gomez","Democratic",5757,TRUE,100
+"2016","State Representative","35","Angelica Rubio","Democratic",6407,TRUE,63
+"2016","State Representative","35","Joseph E. Bishop","Republican",3762,FALSE,37
+"2016","State Representative","36","Nathan P. Small","Democratic",5427,TRUE,56.5
+"2016","State Representative","36","Andrew Nunez","Republican",4173,FALSE,43.5
+"2016","State Representative","37","Joanne J. Ferrary","Democratic",7483,TRUE,52.5
+"2016","State Representative","37","Terry H. Mcmillan","Republican",6757,FALSE,47.5
+"2016","State Representative","38","Rebecca L. Dow","Republican",7136,TRUE,54.8
+"2016","State Representative","38","Mary E. Hotvedt","Democratic",5886,FALSE,45.2
+"2016","State Representative","39","Rodolpho S. Martinez","Democratic",5099,TRUE,51.2
+"2016","State Representative","39","John L. Zimmerman","Republican",4869,FALSE,48.8
+"2016","State Representative","4","Sharon E. Clahchischilliage","Republican",5038,TRUE,54.3
+"2016","State Representative","4","Glojean B. Todacheene","Democratic",4241,FALSE,45.7
+"2016","State Representative","40","Nick L. Salazar","Democratic",9033,TRUE,100
+"2016","State Representative","41","Debbie A. Rodella","Democratic",8067,TRUE,100
+"2016","State Representative","42","Roberto ""Bobby"" Jesse Gonzales","Democratic",10637,TRUE,100
+"2016","State Representative","43","Stephanie Garcia Richard","Democratic",8446,TRUE,58.9
+"2016","State Representative","43","Sharon Stover","Republican",5893,FALSE,41.1
+"2016","State Representative","44","Jane E. Powdrell-Culbert","Republican",12245,TRUE,100
+"2016","State Representative","45","Jim R. Trujillo","Democratic",9425,TRUE,100
+"2016","State Representative","46","Carl P. Trujillo","Democratic",11560,TRUE,100
+"2016","State Representative","47","Brian F. Egolf, Jr.","Democratic",13740,TRUE,78.9
+"2016","State Representative","47","Roger Andrew Gonzales","Republican",3667,FALSE,21.1
+"2016","State Representative","48","Linda M. Trujillo","Democratic",10572,TRUE,100
+"2016","State Representative","49","Don Tripp","Republican",8849,TRUE,100
+"2016","State Representative","5","Doreen W. Johnson","Democratic",7547,TRUE,100
+"2016","State Representative","50","Matthew Mcqueen","Democratic",8181,TRUE,58.5
+"2016","State Representative","50","Jeremy Ryan Tremko","Republican",5802,FALSE,41.5
+"2016","State Representative","51","Yvette S. Herrell","Republican",6445,TRUE,65.9
+"2016","State Representative","51","Denise A. Lang","Democratic",3342,FALSE,34.1
+"2016","State Representative","52","Doreen Ybarra Gallegos","Democratic",5790,TRUE,100
+"2016","State Representative","53","Ricky L. Little","Republican",2797,TRUE,51.3
+"2016","State Representative","53","Willie D. Madrid","Democratic",2654,FALSE,48.7
+"2016","State Representative","54","James G. Townsend","Republican",7086,TRUE,76
+"2016","State Representative","54","Freddie Joe Nichols III","Independent",2236,FALSE,24
+"2016","State Representative","55","Cathrynn N. Brown","Republican",9279,TRUE,100
+"2016","State Representative","56","Zach J. Cook","Republican",7672,TRUE,100
+"2016","State Representative","57","Jason Carl Harper","Republican",6117,TRUE,55
+"2016","State Representative","57","Donna I. Tillman","Democratic",5013,FALSE,45
+"2016","State Representative","58","Candy Spence Ezzell","Republican",5001,TRUE,100
+"2016","State Representative","59","Greg Nibert","Republican",8594,TRUE,71.3
+"2016","State Representative","59","Richard James Garcia","Democratic",3464,FALSE,28.7
+"2016","State Representative","6","Eliseo Lee Alcon","Democratic",6700,TRUE,100
+"2016","State Representative","60","Tim D. Lewis","Republican",9824,TRUE,100
+"2016","State Representative","61","David M. Gallegos","Republican",4735,TRUE,100
+"2016","State Representative","62","Larry R. Scott","Republican",7948,TRUE,100
+"2016","State Representative","63","George Dodge, Jr.","Democratic",5131,TRUE,100
+"2016","State Representative","64","Randal S. Crowder","Republican",7717,TRUE,100
+"2016","State Representative","65","Derrick J. Lente","Democratic",7150,TRUE,100
+"2016","State Representative","66","Bob Wooley","Republican",8411,TRUE,100
+"2016","State Representative","67","Dennis J. Roch","Republican",8444,TRUE,100
+"2016","State Representative","68","Monica C. Youngblood","Republican",9637,TRUE,100
+"2016","State Representative","69","Harry Garcia","Democratic",6125,TRUE,100
+"2016","State Representative","7","Kelly K. Fajardo","Republican",5148,TRUE,56.5
+"2016","State Representative","7","Arturo Fierro","Democratic",3964,FALSE,43.5
+"2016","State Representative","70","Tomas E. Salazar","Democratic",8112,TRUE,100
+"2016","State Representative","8","Alonzo Baldonado","Republican",7251,TRUE,61.7
+"2016","State Representative","8","Jim D. Danner","Democratic",4493,FALSE,38.3
+"2016","State Representative","9","Patricia A. Lundstrom","Democratic",6438,TRUE,100
+"2016","State Senate","1","William E. Sharer","Republican",11170,TRUE,69.8
+"2016","State Senate","1","Rebecca Morgan","Democratic",4824,FALSE,30.2
+"2016","State Senate","10","Candace Ruth Gould","Republican",10530,TRUE,50.9
+"2016","State Senate","10","David J. Simon","Democratic",10151,FALSE,49.1
+"2016","State Senate","11","Linda M. Lopez","Democratic",8776,TRUE,100
+"2016","State Senate","12","Gerald P. Ortiz Y Pino","Democratic",12922,TRUE,100
+"2016","State Senate","13","Bill B. O'Neill","Democratic",14089,TRUE,65.9
+"2016","State Senate","13","Aubrey B. Dunn","Republican",7294,FALSE,34.1
+"2016","State Senate","14","Michael Padilla","Democratic",9668,TRUE,100
+"2016","State Senate","15","Daniel A. Ivey-soto","Democratic",11321,TRUE,55.8
+"2016","State Senate","15","Eric Lyon Burton","Republican",8978,FALSE,44.2
+"2016","State Senate","16","Cisco McSorley","Democratic",16721,TRUE,100
+"2016","State Senate","17","Mimi Stewart","Democratic",8456,TRUE,100
+"2016","State Senate","18","Bill G. Tallman","Democratic",12203,TRUE,50.9
+"2016","State Senate","18","Lisa Torraco","Republican",11750,FALSE,49.1
+"2016","State Senate","19","James P. White","Republican",14905,TRUE,61.3
+"2016","State Senate","19","Harold W. Murphree","Democratic",9413,FALSE,38.7
+"2016","State Senate","2","Steven P. Neville","Republican",15057,TRUE,100
+"2016","State Senate","20","William H. Payne","Republican",16893,TRUE,100
+"2016","State Senate","21","Mark David Moores","Republican",14164,TRUE,56.1
+"2016","State Senate","21","Gregory B. Frazier","Democratic",11087,FALSE,43.9
+"2016","State Senate","22","Benny Shendo Jr.","Democratic",12434,TRUE,100
+"2016","State Senate","23","Sander Rue","Republican",11794,TRUE,51.7
+"2016","State Senate","23","Joy I. Garratt","Democratic",11001,FALSE,48.3
+"2016","State Senate","24","Nancy Rodriguez","Democratic",16155,TRUE,100
+"2016","State Senate","25","Peter Wirth","Democratic",26958,TRUE,100
+"2016","State Senate","26","Jacob Candelaria","Democratic",11330,TRUE,100
+"2016","State Senate","27","Stuart Ingle","Republican",12571,TRUE,100
+"2016","State Senate","28","Howie C. Morales","Democratic",15041,TRUE,100
+"2016","State Senate","29","Gregory A. Baca","Republican",8962,TRUE,55
+"2016","State Senate","29","Michael S. Sanchez","Democratic",7346,FALSE,45
+"2016","State Senate","3","John Pinto","Democratic",12516,TRUE,100
+"2016","State Senate","30","Clemente Sanchez","Democratic",11952,TRUE,100
+"2016","State Senate","31","Joseph Cervantes","Democratic",9437,TRUE,100
+"2016","State Senate","32","Cliff R. Pirtle","Republican",8478,TRUE,100
+"2016","State Senate","33","William F. Burt","Republican",14647,TRUE,100
+"2016","State Senate","34","Ron Griggs","Republican",11534,TRUE,100
+"2016","State Senate","35","John Arthur Smith","Democratic",12501,TRUE,100
+"2016","State Senate","36","Jeff Steinborn","Democratic",10557,TRUE,59.7
+"2016","State Senate","36","Lee S. Cotter","Republican",7119,FALSE,40.3
+"2016","State Senate","37","William P. Soules","Democratic",11364,TRUE,55.5
+"2016","State Senate","37","Cecelia H. Levatino","Republican",9127,FALSE,44.5
+"2016","State Senate","38","Mary Kay Papen","Democratic",9586,TRUE,67.1
+"2016","State Senate","38","Charles R. Wendler","Republican",4695,FALSE,32.9
+"2016","State Senate","39","Elizabeth Stefanics","Democratic",9609,TRUE,51
+"2016","State Senate","39","(Ted) Theodore Barela","Republican",9228,FALSE,49
+"2016","State Senate","4","George K. Munoz","Democratic",12018,TRUE,100
+"2016","State Senate","40","Craig W. Brandt","Republican",12490,TRUE,55.3
+"2016","State Senate","40","Linda Sanchez Allison","Democratic",10099,FALSE,44.7
+"2016","State Senate","41","Carroll H. Leavell","Republican",8995,TRUE,100
+"2016","State Senate","42","Gay G. Kernan","Republican",15199,TRUE,100
+"2016","State Senate","5","Richard C. Martinez","Democratic",15518,TRUE,100
+"2016","State Senate","6","Carlos R. Cisneros","Democratic",17677,TRUE,100
+"2016","State Senate","7","John Patrick Woods","Republican",12747,TRUE,100
+"2016","State Senate","8","Pete Campos","Democratic",14241,TRUE,100
+"2016","State Senate","9","John M. Sapien","Democratic",12724,TRUE,50.4
+"2016","State Senate","9","Diego L. Espinoza","Republican",12534,FALSE,49.6
+"2016","United States Representative","1","Michelle Lujan Grisham","Democratic",181068,TRUE,65.2
+"2016","United States Representative","1","Richard Gregory Priem","Republican",96763,FALSE,34.8
+"2016","United States Representative","2","Steve Pearce","Republican",143331,TRUE,62.8
+"2016","United States Representative","2","Merrie Lee Soules","Democratic",84916,FALSE,37.2
+"2016","United States Representative","2","Jack A. McGrann","Republican",9,FALSE,0
+"2016","United States Representative","3","Ben R. Lujan","Democratic",170418,TRUE,62.5
+"2016","United States Representative","3","Michael H. Romero","Republican",102340,FALSE,37.5
+"2018","Attorney General","New Mexico","Hector Balderas","Democratic",427074,TRUE,62.2
+"2018","Attorney General","New Mexico","Michael Eugene Hendricks","Republican",230380,FALSE,33.5
+"2018","Attorney General","New Mexico","A. Blair Dunn","Libertarian",29678,FALSE,4.3
+"2018","Commissioner of Public Lands","New Mexico","Stephanie Garcia Richard","Democratic",351748,TRUE,51.3
+"2018","Commissioner of Public Lands","New Mexico","Patrick H. Lyons","Republican",296759,FALSE,43.3
+"2018","Commissioner of Public Lands","New Mexico","Michael G. Lucero","Libertarian",36877,FALSE,5.4
+"2018","Governor","New Mexico","Michelle Lujan Grisham and Howie C. Morales","Democratic",397827,TRUE,57.2
+"2018","Governor","New Mexico","Steve Pearce and Michelle Garcia Holmes","Republican",297431,FALSE,42.8
+"2018","Secretary of State","New Mexico","Maggie Toulouse Oliver","Democratic",398600,TRUE,58.1
+"2018","Secretary of State","New Mexico","Gavin S. Clarkson","Republican",256456,FALSE,37.4
+"2018","Secretary of State","New Mexico","Ginger G. Grider","Libertarian",31424,FALSE,4.6
+"2018","State Auditor","New Mexico","Brian S. Colon","Democratic",395181,TRUE,57.6
+"2018","State Auditor","New Mexico","Wayne A. Johnson","Republican",291004,FALSE,42.4
+"2018","State Representative","1","Rodney D. Montoya","Republican",8512,TRUE,100
+"2018","State Representative","10","G. Andres Romero","Democratic",4917,TRUE,100
+"2018","State Representative","11","Javier I. Martinez","Democratic",9875,TRUE,100
+"2018","State Representative","12","Patricio R. Ruiloba","Democratic",4326,TRUE,100
+"2018","State Representative","13","Patricia A. Roybal Caballero","Democratic",4749,TRUE,100
+"2018","State Representative","14","Miguel P. Garcia","Democratic",5367,TRUE,100
+"2018","State Representative","15","Dayan M. Hochman","Democratic",6583,TRUE,52.1
+"2018","State Representative","15","Brad Winter","Republican",6043,FALSE,47.9
+"2018","State Representative","16","Antonio ""Moe"" Maestas","Democratic",7694,TRUE,100
+"2018","State Representative","17","Deborah A. Armstrong","Democratic",7027,TRUE,65
+"2018","State Representative","17","Ray L. Gallegos","Republican",3789,FALSE,35
+"2018","State Representative","18","Gail Chasey","Democratic",9677,TRUE,100
+"2018","State Representative","19","Sheryl M. Williams Stapleton","Democratic",7944,TRUE,100
+"2018","State Representative","2","James R.J. Strickler","Republican",5437,TRUE,100
+"2018","State Representative","20","Abbas A. Akhil","Democratic",5892,TRUE,50.5
+"2018","State Representative","20","Jim Dines","Republican",5779,FALSE,49.5
+"2018","State Representative","21","Debra Marie Sarinana","Democratic",4077,TRUE,100
+"2018","State Representative","22","Gregg William Schmedes","Republican",8198,TRUE,50.4
+"2018","State Representative","22","Jessica P. Velasquez","Democratic",8058,FALSE,49.6
+"2018","State Representative","23","Daymon B. Ely","Democratic",7294,TRUE,57.1
+"2018","State Representative","23","Brenda Diane Boatman","Republican",5472,FALSE,42.9
+"2018","State Representative","24","Elizabeth L. Thomson","Democratic",6734,TRUE,58
+"2018","State Representative","24","Trey Stephen Morris","Republican",4872,FALSE,42
+"2018","State Representative","25","Christine Trujillo","Democratic",8081,TRUE,69
+"2018","State Representative","25","Joan Antoinette Marentes","Republican",3637,FALSE,31
+"2018","State Representative","26","Georgene Louis","Democratic",4313,TRUE,100
+"2018","State Representative","27","William B. Pratt","Democratic",7199,TRUE,50.7
+"2018","State Representative","27","Robert S. Godshall","Republican",7006,FALSE,49.3
+"2018","State Representative","28","Melanie Ann Stansbury","Democratic",7335,TRUE,53.7
+"2018","State Representative","28","Jimmie C. Hall","Republican",6326,FALSE,46.3
+"2018","State Representative","29","Joy I. Garratt","Democratic",7296,TRUE,54.1
+"2018","State Representative","29","David E. Adkins","Republican",6184,FALSE,45.9
+"2018","State Representative","3","Paul C. Bandy","Republican",6225,TRUE,77.5
+"2018","State Representative","3","Mary P. Schildmeyer","Democratic",1803,FALSE,22.5
+"2018","State Representative","30","Natalie R. Figueroa","Democratic",6773,TRUE,58
+"2018","State Representative","30","John L. Jones","Republican",4898,FALSE,42
+"2018","State Representative","31","William R. Rehm","Republican",9675,TRUE,64.3
+"2018","State Representative","31","William Arnold Wiley Jr.","Libertarian",5374,FALSE,35.7
+"2018","State Representative","32","Candie G. Sweetser","Democratic",4842,TRUE,64.1
+"2018","State Representative","32","Laura C. Boyd","Republican",2717,FALSE,35.9
+"2018","State Representative","33","Micaela Lara Cadena","Democratic",5779,TRUE,65.4
+"2018","State Representative","33","Charles R. Wendler","Republican",3057,FALSE,34.6
+"2018","State Representative","34","Raymundo Lara","Democratic",4635,TRUE,100
+"2018","State Representative","35","Angelica Rubio","Democratic",5778,TRUE,64.8
+"2018","State Representative","35","Jonathan Kyle Allen","Republican",3145,FALSE,35.2
+"2018","State Representative","36","Nathan P. Small","Democratic",5260,TRUE,60.5
+"2018","State Representative","36","David H. Tofsted","Republican",3434,FALSE,39.5
+"2018","State Representative","37","Joanne J. Ferrary","Democratic",7741,TRUE,59.7
+"2018","State Representative","37","Bev Courtney","Republican",5218,FALSE,40.3
+"2018","State Representative","38","Rebecca L. Dow","Republican",6620,TRUE,54.2
+"2018","State Representative","38","Karen C. Whitlock","Democratic",5585,FALSE,45.8
+"2018","State Representative","39","Rodolpho S. Martinez","Democratic",5278,TRUE,58.1
+"2018","State Representative","39","Lee S. Cotter","Republican",3799,FALSE,41.9
+"2018","State Representative","4","Anthony Allison","Democratic",4093,TRUE,52.2
+"2018","State Representative","4","Sharon E. Clahchischilliage","Republican",3754,FALSE,47.8
+"2018","State Representative","40","Joseph L. Sanchez","Democratic",8261,TRUE,81.2
+"2018","State Representative","40","T Tweeti Blancett","Independent",1907,FALSE,18.8
+"2018","State Representative","41","Susan K. Herrera","Democratic",7907,TRUE,100
+"2018","State Representative","42","Roberto ""Bobby"" Jesse Gonzales","Democratic",10418,TRUE,100
+"2018","State Representative","43","Christine Chandler","Democratic",8300,TRUE,62.2
+"2018","State Representative","43","Lisa Shin","Republican",5054,FALSE,37.8
+"2018","State Representative","44","Jane E. Powdrell-Culbert","Republican",8116,TRUE,54.7
+"2018","State Representative","44","Benton Howell","Democratic",6712,FALSE,45.3
+"2018","State Representative","45","Jim R. Trujillo","Democratic",9590,TRUE,100
+"2018","State Representative","46","Andrea D. Romero","Democratic",8611,TRUE,75.2
+"2018","State Representative","46","Heather Nordquist","Democratic",2843,FALSE,24.8
+"2018","State Representative","47","Brian F. Egolf, Jr.","Democratic",14481,TRUE,100
+"2018","State Representative","48","Linda M. Trujillo","Democratic",10759,TRUE,100
+"2018","State Representative","49","Gail ""Missy"" Armstrong","Republican",7484,TRUE,100
+"2018","State Representative","5","Doreen W. Johnson","Democratic",6439,TRUE,100
+"2018","State Representative","50","Matthew Mcqueen","Democratic",7486,TRUE,58.9
+"2018","State Representative","50","Jarratt Applewhite","Independent",5219,FALSE,41.1
+"2018","State Representative","51","Rachel A. Black","Republican",5486,TRUE,64.3
+"2018","State Representative","51","Jeff Swanson","Democratic",3045,FALSE,35.7
+"2018","State Representative","52","Doreen Ybarra Gallegos","Democratic",4552,TRUE,66.6
+"2018","State Representative","52","David L. Cheek","Republican",2284,FALSE,33.4
+"2018","State Representative","53","Willie D. Madrid","Democratic",2425,TRUE,53.3
+"2018","State Representative","53","Ricky L. Little","Republican",2128,FALSE,46.7
+"2018","State Representative","54","James G. Townsend","Republican",6764,TRUE,100
+"2018","State Representative","55","Cathrynn N. Brown","Republican",7754,TRUE,100
+"2018","State Representative","56","Zach J. Cook","Republican",6646,TRUE,100
+"2018","State Representative","57","Jason Carl Harper","Republican",5250,TRUE,51.1
+"2018","State Representative","57","Billie Ann Helean","Democratic",5033,FALSE,48.9
+"2018","State Representative","58","Candy Spence Ezzell","Republican",3857,TRUE,100
+"2018","State Representative","59","Greg Nibert","Republican",7862,TRUE,76.9
+"2018","State Representative","59","Carl M. Swinney","Libertarian",2357,FALSE,23.1
+"2018","State Representative","6","Eliseo Lee Alcon","Democratic",5860,TRUE,100
+"2018","State Representative","60","Tim D. Lewis","Republican",6124,TRUE,52.8
+"2018","State Representative","60","Alexis Jimenez","Democratic",5468,FALSE,47.2
+"2018","State Representative","61","David M. Gallegos","Republican",3526,TRUE,100
+"2018","State Representative","62","Larry R. Scott","Republican",6561,TRUE,100
+"2018","State Representative","63","Martin Ruben Zamora","Republican",2956,TRUE,50.2
+"2018","State Representative","63","George Dodge, Jr.","Democratic",2932,FALSE,49.8
+"2018","State Representative","64","Randal S. Crowder","Republican",5679,TRUE,100
+"2018","State Representative","65","Derrick J. Lente","Democratic",6351,TRUE,100
+"2018","State Representative","66","Phelps Anderson","Republican",6793,TRUE,100
+"2018","State Representative","67","Jackey O. Chatfield","Republican",5814,TRUE,62.4
+"2018","State Representative","67","Mark D. Mcdonald","Democratic",3500,FALSE,37.6
+"2018","State Representative","68","Karen C. Bash","Democratic",6872,TRUE,58
+"2018","State Representative","68","Monica C. Youngblood","Republican",4978,FALSE,42
+"2018","State Representative","69","Harry Garcia","Democratic",5699,TRUE,100
+"2018","State Representative","7","Kelly K. Fajardo","Republican",4290,TRUE,54.5
+"2018","State Representative","7","Leroy Baca","Democratic",3576,FALSE,45.5
+"2018","State Representative","70","Tomas E. Salazar","Democratic",6920,TRUE,100
+"2018","State Representative","8","Alonzo Baldonado","Republican",6398,TRUE,59.7
+"2018","State Representative","8","Mary Jo Jaramillo","Democratic",4321,FALSE,40.3
+"2018","State Representative","9","Patricia ""Patty"" A. Lundstrom","Democratic",5297,TRUE,100
+"2018","State Treasurer","New Mexico","Tim Eichenberg","Democratic",394274,TRUE,57.9
+"2018","State Treasurer","New Mexico","Arthur L. Castillo","Republican",286126,FALSE,42.1
+"2018","United States Representative","1","Debra A. Haaland","Democratic",147300,TRUE,59.4
+"2018","United States Representative","1","Janice E. Arnold-Jones","Republican",90372,FALSE,36.4
+"2018","United States Representative","1","Lloyd J. Princeton","Libertarian",10330,FALSE,4.2
+"2018","United States Representative","2","Xochitl Torres Small","Democratic",101327,TRUE,50.9
+"2018","United States Representative","2","Yvette Herrell","Republican",97558,FALSE,49.1
+"2018","United States Representative","3","Ben R. Lujan","Democratic",154878,TRUE,63.7
+"2018","United States Representative","3","Jerald Steve Mcfall","Republican",75998,FALSE,31.3
+"2018","United States Representative","3","Christopher Manning","Libertarian",12156,FALSE,5
+"2018","United States Senator","New Mexico","Martin T. Heinrich","Democratic",376459,TRUE,54.3
+"2018","United States Senator","New Mexico","Mick Rich","Republican",211788,FALSE,30.5
+"2018","United States Senator","New Mexico","Gary E. Johnson","Libertarian",105359,FALSE,15.2
+"2020","President of the United States","New Mexico","Joseph R. Biden And Kamala D. Harris","Democratic",501270,TRUE,55.2
+"2020","President of the United States","New Mexico","Donald J. Trump And Michael ""Mike"" R. Pence","Republican",401554,FALSE,44.2
+"2020","President of the United States","New Mexico","Jo Jorgensen and Jeremy ""Spike"" Cohen","Libertarian",5225,FALSE,0.6
+"2020","President of the United States","New Mexico","Howie Hawkins and Angela Nicole Walker","Green",342,FALSE,0
+"2020","President of the United States","New Mexico","Sheila ""Samm"" Tittle and David Carl Sandige","Constitution",37,FALSE,0
+"2020","President of the United States","New Mexico","Gloria La Riva and Sunil Freeman","Party for Socialism and Liberation",16,FALSE,0
+"2020","State Representative","1","Rodney D. Montoya","Republican",11324,TRUE,100
+"2020","State Representative","10","G Andres Romero","Democratic",5621,TRUE,62
+"2020","State Representative","10","Dinah Glenda Vargas","Republican",3441,FALSE,38
+"2020","State Representative","11","Javier I. Martinez","Democratic",11213,TRUE,77.6
+"2020","State Representative","11","Adrian Anthony Trujillo Sr.","Republican",3237,FALSE,22.4
+"2020","State Representative","12","Brittney Aileene Barreras","Independent",4183,TRUE,74.1
+"2020","State Representative","12","Art De La Cruz","Democratic",1462,FALSE,25.9
+"2020","State Representative","13","Patricia A. Roybal Caballero","Democratic",6147,TRUE,66.3
+"2020","State Representative","13","Kayla Renee Marshall","Republican",3119,FALSE,33.7
+"2020","State Representative","14","Miguel P. Garcia","Democratic",6835,TRUE,100
+"2020","State Representative","15","Dayan ""Day"" M. Hochman-Vigil","Democratic",8899,TRUE,55.6
+"2020","State Representative","15","Ali Ennenga","Republican",6531,FALSE,40.8
+"2020","State Representative","15","Ranota Q. Banks","Libertarian",574,FALSE,3.6
+"2020","State Representative","16","Antonio ""Moe"" Maestas","Democratic",8670,TRUE,63.4
+"2020","State Representative","16","Antoinette Bernice Taft","Republican",5003,FALSE,36.6
+"2020","State Representative","17","Deborah A. Armstrong","Democratic",8764,TRUE,63.7
+"2020","State Representative","17","Kimberly Ann Kaehr-Macmillan","Republican",4383,FALSE,31.9
+"2020","State Representative","17","Scott Goodman","Libertarian",612,FALSE,4.4
+"2020","State Representative","18","Gail Chasey","Democratic",10709,TRUE,100
+"2020","State Representative","19","Sheryl Williams M. Stapleton","Democratic",8922,TRUE,74.4
+"2020","State Representative","19","Stephen J. Cecco","Republican",2474,FALSE,20.6
+"2020","State Representative","19","Mark Austin Curtis","Libertarian",600,FALSE,5
+"2020","State Representative","2","James R.J. Strickler","Republican",7831,TRUE,100
+"2020","State Representative","20","Meredith A. Dixon","Democratic",8015,TRUE,53.5
+"2020","State Representative","20","Michael Eugene Hendricks","Republican",6961,FALSE,46.5
+"2020","State Representative","21","Debra Marie Sarinana","Democratic",4950,TRUE,69.8
+"2020","State Representative","21","Paul Ryan Mckenney","Libertarian",2142,FALSE,30.2
+"2020","State Representative","22","Stefani Lord","Republican",10300,TRUE,51.3
+"2020","State Representative","22","Jessica P. Velasquez","Democratic",9794,FALSE,48.7
+"2020","State Representative","23","Daymon B. Ely","Democratic",8987,TRUE,54.8
+"2020","State Representative","23","Ellis C. Mcmath","Republican",7402,FALSE,45.2
+"2020","State Representative","24","Elizabeth L. Thomson","Democratic",8624,TRUE,59
+"2020","State Representative","24","Amy L. Smith","Republican",6000,FALSE,41
+"2020","State Representative","25","Christine Trujillo","Democratic",9003,TRUE,61.5
+"2020","State Representative","25","Sarah Rich-Jackson","Republican",4535,FALSE,31
+"2020","State Representative","25","Stephen A. Verchinski","Green",677,FALSE,4.6
+"2020","State Representative","25","Jocelynn Renee Paden","Libertarian",413,FALSE,2.8
+"2020","State Representative","26","Georgene Louis","Democratic",5794,TRUE,100
+"2020","State Representative","27","Marian Matthews","Democratic",8802,TRUE,51
+"2020","State Representative","27","Robert S. Godshall","Republican",8460,FALSE,49
+"2020","State Representative","27","Jason Morris Barker","Independent",0,FALSE,0
+"2020","State Representative","28","Melanie Ann Stansbury","Democratic",8907,TRUE,52.8
+"2020","State Representative","28","Thomas Ray Stull","Republican",7248,FALSE,43
+"2020","State Representative","28","Robert Jason Vaillancourt","Libertarian",706,FALSE,4.2
+"2020","State Representative","29","Joy I. Garratt","Democratic",10890,TRUE,54.4
+"2020","State Representative","29","Adelious De Stith","Republican",9135,FALSE,45.6
+"2020","State Representative","3","T. Ryan Lane","Republican",9113,TRUE,100
+"2020","State Representative","30","Natalie R. Figueroa","Democratic",8313,TRUE,57.1
+"2020","State Representative","30","John L. Jones","Republican",5784,FALSE,39.8
+"2020","State Representative","30","Randall K. Sobien","Libertarian",452,FALSE,3.1
+"2020","State Representative","31","William R. Rehm","Republican",10794,TRUE,53.2
+"2020","State Representative","31","Julie Ford Brenning","Democratic",9013,FALSE,44.5
+"2020","State Representative","31","Steven Ray Penhall","Libertarian",465,FALSE,2.3
+"2020","State Representative","32","Candie G. Sweetser","Democratic",5251,TRUE,54.3
+"2020","State Representative","32","J. Scott Chandler","Republican",4421,FALSE,45.7
+"2020","State Representative","33","Micaela Lara Cadena","Democratic",6905,TRUE,62.4
+"2020","State Representative","33","Beth E. Miller","Republican",4161,FALSE,37.6
+"2020","State Representative","34","Raymundo Lara","Democratic",6179,TRUE,65.9
+"2020","State Representative","34","Dawn E. Ladd","Republican",3201,FALSE,34.1
+"2020","State Representative","35","Angelica Rubio","Democratic",7019,TRUE,61
+"2020","State Representative","35","Richelle A. Ponder","Republican",4481,FALSE,39
+"2020","State Representative","36","Nathan P. Small","Democratic",6627,TRUE,54
+"2020","State Representative","36","Brandi L. Polanco","Republican",5641,FALSE,46
+"2020","State Representative","37","Joanne J. Ferrary","Democratic",9353,TRUE,53.6
+"2020","State Representative","37","Isabella Solis","Republican",8095,FALSE,46.4
+"2020","State Representative","38","Rebecca L. Dow","Republican",8539,TRUE,56.9
+"2020","State Representative","38","Karen C. Whitlock","Democratic",6135,FALSE,40.9
+"2020","State Representative","38","William Parrish Kinney","Libertarian",322,FALSE,2.1
+"2020","State Representative","39","Luis M. Terrazas","Republican",5967,TRUE,52.8
+"2020","State Representative","39","Rodolpho S. Martinez","Democratic",5336,FALSE,47.2
+"2020","State Representative","4","Anthony Allison","Democratic",5991,TRUE,54.3
+"2020","State Representative","4","P. Mark Duncan","Republican",5048,FALSE,45.7
+"2020","State Representative","40","Roger Evan Montoya","Democratic",7372,TRUE,56.9
+"2020","State Representative","40","Justin J. Salazar-Torrez","Republican",5576,FALSE,43.1
+"2020","State Representative","41","Susan K. Herrera","Democratic",9557,TRUE,100
+"2020","State Representative","42","Kristina Ortez","Democratic",10812,TRUE,74.3
+"2020","State Representative","42","Linda H. Calhoun","Republican",3733,FALSE,25.7
+"2020","State Representative","43","Christine Chandler","Democratic",10056,TRUE,61.6
+"2020","State Representative","43","David E. Hampton","Republican",6265,FALSE,38.4
+"2020","State Representative","44","Jane E. Powdrell-Culbert","Republican",10457,TRUE,52.1
+"2020","State Representative","44","Gary J. Tripp","Democratic",8948,FALSE,44.6
+"2020","State Representative","44","Jeremy B. Myers","Libertarian",676,FALSE,3.4
+"2020","State Representative","45","Linda Michelle Serrato","Democratic",11297,TRUE,82.9
+"2020","State Representative","45","Helen M. Milenski","Libertarian",2335,FALSE,17.1
+"2020","State Representative","46","Andrea Romero","Democratic",12584,TRUE,77.1
+"2020","State Representative","46","Jay C. Groseclose","Republican",3737,FALSE,22.9
+"2020","State Representative","47","Brian F. Egolf, Jr.","Democratic",16187,TRUE,80.6
+"2020","State Representative","47","Raye G. Byford","Republican",3884,FALSE,19.4
+"2020","State Representative","48","Tara L. Lujan","Democratic",12520,TRUE,100
+"2020","State Representative","49","Gail ""Missy"" Armstrong","Republican",9192,TRUE,100
+"2020","State Representative","5","Doreen Wonda Johnson","Democratic",9097,TRUE,100
+"2020","State Representative","50","Matthew Mcqueen","Democratic",8695,TRUE,52.6
+"2020","State Representative","50","Christina L. Estrada","Republican",7320,FALSE,44.3
+"2020","State Representative","50","Jerry D. Gage","Libertarian",516,FALSE,3.1
+"2020","State Representative","51","Rachel A. Black","Republican",7632,TRUE,65.3
+"2020","State Representative","51","Jeff Swanson","Democratic",4057,FALSE,34.7
+"2020","State Representative","52","Doreen Yvonne Gallegos","Democratic",5794,TRUE,65.2
+"2020","State Representative","52","John Foreman","Republican",3098,FALSE,34.8
+"2020","State Representative","53","Willie D. Madrid","Democratic",3364,TRUE,50.3
+"2020","State Representative","53","Ricky L. Little","Republican",3324,FALSE,49.7
+"2020","State Representative","54","James G. Townsend","Republican",9741,TRUE,100
+"2020","State Representative","55","Cathrynn N. Brown","Republican",11028,TRUE,100
+"2020","State Representative","56","Zach J. Cook","Republican",7647,TRUE,65.9
+"2020","State Representative","56","Laura L. Childress","Democratic",3951,FALSE,34.1
+"2020","State Representative","57","Jason Carl Harper","Republican",8220,TRUE,52.2
+"2020","State Representative","57","Billie Ann Helean","Democratic",7536,FALSE,47.8
+"2020","State Representative","58","Candy Spence Ezzell","Republican",5304,TRUE,100
+"2020","State Representative","59","Greg Nibert","Republican",10127,TRUE,73.5
+"2020","State Representative","59","Kimble Lee Kearns","Democratic",3649,FALSE,26.5
+"2020","State Representative","6","Eliseo L. Alcon","Democratic",6391,TRUE,59.4
+"2020","State Representative","6","Karen Vanessa Chavez","Republican",4367,FALSE,40.6
+"2020","State Representative","60","Joshua Nathaniel Hernandez","Republican",11504,TRUE,100
+"2020","State Representative","61","Randall T. Pettigrew","Republican",5068,TRUE,100
+"2020","State Representative","62","Larry R. Scott","Republican",9391,TRUE,100
+"2020","State Representative","63","Martin Ruben Zamora","Republican",4679,TRUE,58.8
+"2020","State Representative","63","Randal W. Brown","Democratic",3281,FALSE,41.2
+"2020","State Representative","64","Randal S. Crowder","Republican",8732,TRUE,100
+"2020","State Representative","65","Derrick J. Lente","Democratic",7690,TRUE,77.1
+"2020","State Representative","65","Phillip D. Salazar","Republican",2289,FALSE,22.9
+"2020","State Representative","66","Phelps Anderson","Republican",9232,TRUE,100
+"2020","State Representative","67","Jackey O. Chatfield","Republican",9230,TRUE,100
+"2020","State Representative","68","Karen C. Bash","Democratic",8515,TRUE,52.5
+"2020","State Representative","68","Giovanni Coppola","Republican",7696,FALSE,47.5
+"2020","State Representative","69","Harry Garcia","Democratic",5865,TRUE,63.8
+"2020","State Representative","69","Roy Randall Ryan","Republican",3331,FALSE,36.2
+"2020","State Representative","7","Kelly K. Fajardo","Republican",6215,TRUE,59.2
+"2020","State Representative","7","Santos Griego","Democratic",4288,FALSE,40.8
+"2020","State Representative","70","Ambrose M. Castellano","Democratic",7211,TRUE,64.1
+"2020","State Representative","70","Nathan M. Dial","Republican",4041,FALSE,35.9
+"2020","State Representative","8","Alonzo Baldonado","Republican",8863,TRUE,63.4
+"2020","State Representative","8","Paul Matthew Kinzelman","Democratic",5111,FALSE,36.6
+"2020","State Representative","9","Patricia ""Patty"" A. Lundstrom","Democratic",7580,TRUE,100
+"2020","State Senate","1","William E. Sharer","Republican",14506,TRUE,100
+"2020","State Senate","10","Katy M. Duhigg","Democratic",13508,TRUE,52.5
+"2020","State Senate","10","Candace Thompson Gould","Republican",12202,FALSE,47.5
+"2020","State Senate","11","Linda M. Lopez","Democratic",9189,TRUE,69.4
+"2020","State Senate","11","Marylinda A. Price","Republican",4047,FALSE,30.6
+"2020","State Senate","12","Gerald P. Ortiz Y Pino","Democratic",14057,TRUE,77.5
+"2020","State Senate","12","Lisa Meyer-Hagen","Republican",4080,FALSE,22.5
+"2020","State Senate","13","Bill B. O'Neill","Democratic",15648,TRUE,63.1
+"2020","State Senate","13","Michaela M. Chavez","Republican",8464,FALSE,34.1
+"2020","State Senate","13","Frederick J. Snoy II","Libertarian",678,FALSE,2.7
+"2020","State Senate","14","Michael Padilla","Democratic",10116,TRUE,65.8
+"2020","State Senate","14","Mary Kay Ingham","Republican",5267,FALSE,34.2
+"2020","State Senate","15","Daniel A. Ivey-soto","Democratic",13825,TRUE,60.1
+"2020","State Senate","15","Sandra B. Rausch","Republican",9197,FALSE,39.9
+"2020","State Senate","16","Antoinette Sedillo Lopez","Democratic",18612,TRUE,78.2
+"2020","State Senate","16","Chelsea Ann Flanders","Republican",5201,FALSE,21.8
+"2020","State Senate","17","Mimi Stewart","Democratic",8741,TRUE,65.8
+"2020","State Senate","17","Rodney D. Deskin","Republican",4550,FALSE,34.2
+"2020","State Senate","18","Bill Tallman","Democratic",14724,TRUE,55.1
+"2020","State Senate","18","Ryan Alexandra Chavez","Republican",11995,FALSE,44.9
+"2020","State Senate","19","Gregg William Schmedes","Republican",15581,TRUE,53.9
+"2020","State Senate","19","Claudia M. Risner","Democratic",12185,FALSE,42.2
+"2020","State Senate","19","John Douglas McDivitt","Libertarian",1119,FALSE,3.9
+"2020","State Senate","2","Steven P. Neville","Republican",16631,TRUE,100
+"2020","State Senate","20","Martin E. Hickey","Democratic",15091,TRUE,54.1
+"2020","State Senate","20","John C. Morton","Republican",12806,FALSE,45.9
+"2020","State Senate","21","Mark David Moores","Republican",15488,TRUE,53.2
+"2020","State Senate","21","Athena Ann Christodoulou","Democratic",13612,FALSE,46.8
+"2020","State Senate","22","Benny Shendo Jr.","Democratic",13247,TRUE,66.6
+"2020","State Senate","22","Susan E. Aguayo","Republican",6639,FALSE,33.4
+"2020","State Senate","23","Harold James Pope Jr.","Democratic",15435,TRUE,52.1
+"2020","State Senate","23","Sander Rue","Republican",14172,FALSE,47.9
+"2020","State Senate","24","Nancy Rodriguez","Democratic",18930,TRUE,80.5
+"2020","State Senate","24","Leighton Craig Cornish","Republican",3963,FALSE,16.9
+"2020","State Senate","24","Scott E. Milenski","Libertarian",626,FALSE,2.7
+"2020","State Senate","25","Peter Wirth","Democratic",30314,TRUE,82.4
+"2020","State Senate","25","Ricardo Arturo Vargas","Republican",6465,FALSE,17.6
+"2020","State Senate","26","Jacob R. Candelaria","Democratic",12237,TRUE,65.8
+"2020","State Senate","26","Manuel Lardizabal","Republican",6362,FALSE,34.2
+"2020","State Senate","27","Stuart Ingle","Republican",13826,TRUE,100
+"2020","State Senate","28","Siah Correa Hemphill","Democratic",11574,TRUE,50.9
+"2020","State Senate","28","James S. Williams","Republican",11182,FALSE,49.1
+"2020","State Senate","29","Gregory A. Baca","Republican",9599,TRUE,51.1
+"2020","State Senate","29","Paul A. Baca","Democratic",9200,FALSE,48.9
+"2020","State Senate","3","Shannon Dawn Pinto","Democratic",11932,TRUE,67.5
+"2020","State Senate","3","Arthur Pierce Allison","Republican",5750,FALSE,32.5
+"2020","State Senate","30","Joshua A. Sanchez","Republican",10048,TRUE,51.1
+"2020","State Senate","30","Pamela M. Cordova","Democratic",9606,FALSE,48.9
+"2020","State Senate","31","Joseph Cervantes","Democratic",9908,TRUE,66
+"2020","State Senate","31","John Thomas Roberts","Republican",5109,FALSE,34
+"2020","State Senate","32","Cliff R. Pirtle","Republican",9620,TRUE,100
+"2020","State Senate","33","William F. Burt","Republican",14697,TRUE,69
+"2020","State Senate","33","Denise A. Lang-Browne","Democratic",6591,FALSE,31
+"2020","State Senate","34","Ron Griggs","Republican",12392,TRUE,70.2
+"2020","State Senate","34","Darren Murray Kugler","Democratic",5272,FALSE,29.8
+"2020","State Senate","35","Crystal R. Diamond","Republican",11252,TRUE,58.1
+"2020","State Senate","35","Neomi O. Martinez-Parra","Democratic",8124,FALSE,41.9
+"2020","State Senate","36","Jeff Steinborn","Democratic",11259,TRUE,56.3
+"2020","State Senate","36","Kimberly A. Skaggs","Republican",8752,FALSE,43.7
+"2020","State Senate","37","William P. Soules","Democratic",14714,TRUE,56.8
+"2020","State Senate","37","David W. Gallus","Republican",11196,FALSE,43.2
+"2020","State Senate","38","Carrie Hamblen","Democratic",9639,TRUE,62.5
+"2020","State Senate","38","Charles Richard Wendler","Republican",5780,FALSE,37.5
+"2020","State Senate","39","Elizabeth ""Liz"" Stefanics","Democratic",12270,TRUE,55.5
+"2020","State Senate","39","Joseph C. Tiano","Republican",9827,FALSE,44.5
+"2020","State Senate","4","George K. Munoz","Democratic",11938,TRUE,67.9
+"2020","State Senate","4","Angela R. Olive","Republican",5648,FALSE,32.1
+"2020","State Senate","40","Craig W. Brandt","Republican",20201,TRUE,100
+"2020","State Senate","41","David M. Gallegos","Republican",11333,TRUE,100
+"2020","State Senate","42","Gay G. Kernan","Republican",17839,TRUE,100
+"2020","State Senate","5","Leo Jaramillo","Democratic",15642,TRUE,68.9
+"2020","State Senate","5","Diamantina Prado Storment","Republican",6118,FALSE,26.9
+"2020","State Senate","5","Lee G. Weinland","Libertarian",950,FALSE,4.2
+"2020","State Senate","6","Roberto ""Bobby"" Jesse Gonzales","Democratic",19344,TRUE,100
+"2020","State Senate","7","Pat Woods","Republican",14238,TRUE,100
+"2020","State Senate","8","Pete Campos","Democratic",13439,TRUE,65
+"2020","State Senate","8","Melissa Kay Fryzel","Republican",7243,FALSE,35
+"2020","State Senate","9","Brenda Grace Mc Kenna","Democratic",16084,TRUE,53.9
+"2020","State Senate","9","John Stahlman Clark","Republican",13744,FALSE,46.1
+"2020","United States Representative","1","Deb Haaland","Democratic",186874,TRUE,58.2
+"2020","United States Representative","1","Michelle Garcia Holmes","Republican",134297,FALSE,41.8
+"2020","United States Representative","2","Yvette Herrell","Republican",142141,TRUE,53.7
+"2020","United States Representative","2","Xochitl Torres Small","Democratic",122417,FALSE,46.3
+"2020","United States Representative","2","Steve Jones","Independent",0,FALSE,0
+"2020","United States Representative","3","Teresa Leger Fernandez","Democratic",186191,TRUE,58.7
+"2020","United States Representative","3","Alexis M. Johnson","Republican",130972,FALSE,41.3
+"2020","United States Senator","New Mexico","Ben R. Lujan","Democratic",474106,TRUE,52.1
+"2020","United States Senator","New Mexico","Mark V. Ronchetti","Republican",418168,FALSE,46
+"2020","United States Senator","New Mexico","Bob Walsh","Libertarian",17054,FALSE,1.9
+"2022","Attorney General","New Mexico","Raul Torrez","Democratic",387994,TRUE,55.4
+"2022","Attorney General","New Mexico","Jeremy Michael Gay","Republican",312358,FALSE,44.6
+"2022","Commissioner of Public Lands","New Mexico","Stephanie Garcia Richard","Democratic",379002,TRUE,54.9
+"2022","Commissioner of Public Lands","New Mexico","Jefferson L. Byrd","Republican",309175,FALSE,44.8
+"2022","Commissioner of Public Lands","New Mexico","Larry E. Marker","Independent",2115,FALSE,0.3
+"2022","Governor","New Mexico","Michelle Lujan Grisham and Howie C. Morales","Democratic",369526,TRUE,52.6
+"2022","Governor","New Mexico","Mark V. Ronchetti and Ant L. Thornton","Republican",323059,FALSE,46
+"2022","Governor","New Mexico","Karen Evette Bedonie and Efren Gallardo Jr.","Libertarian",9624,FALSE,1.4
+"2022","Secretary of State","New Mexico","Maggie Toulouse Oliver","Democratic",383895,TRUE,55.2
+"2022","Secretary of State","New Mexico","Audrey Trujillo","Republican",298950,FALSE,43
+"2022","Secretary of State","New Mexico","Mayna Erika Myers","Libertarian",12414,FALSE,1.8
+"2022","State Auditor","New Mexico","Joseph M. Maestas","Democratic",399204,TRUE,62.1
+"2022","State Auditor","New Mexico","Travis Steven Sanchez","Libertarian",243817,FALSE,37.9
+"2022","State Representative","1","Rodney D. Montoya","Republican",9182,TRUE,100
+"2022","State Representative","10","G. Andres Romero","Democratic",4506,TRUE,58.7
+"2022","State Representative","10","Mary Kay Ingham","Republican",3172,FALSE,41.3
+"2022","State Representative","11","Javier I. Martinez","Democratic",8859,TRUE,78.1
+"2022","State Representative","11","Lisa Meyer-Hagen","Republican",2478,FALSE,21.9
+"2022","State Representative","12","Art De La Cruz","Democratic",4359,TRUE,100
+"2022","State Representative","13","Patricia A. Roybal Caballero","Democratic",3889,TRUE,100
+"2022","State Representative","14","Miguel P. Garcia","Democratic",5679,TRUE,73.9
+"2022","State Representative","14","Solomon Pena","Republican",2002,FALSE,26.1
+"2022","State Representative","15","Dayan ""Day"" Mercedes Hochman-Vigil","Democratic",7574,TRUE,60.7
+"2022","State Representative","15","Kimberly Ann Kaehr-Macmillan","Republican",4379,FALSE,35.1
+"2022","State Representative","15","Laura E. Gutierrez","Independent",535,FALSE,4.3
+"2022","State Representative","16","Antonio ""Moe"" Maestas","Democratic",7575,TRUE,100
+"2022","State Representative","17","Cynthia D. Borrego","Democratic",6150,TRUE,52.8
+"2022","State Representative","17","Ellis C. Mcmath","Republican",5495,FALSE,47.2
+"2022","State Representative","18","Gail Chasey","Democratic",10288,TRUE,84.8
+"2022","State Representative","18","Scott Troy Cannon","Republican",1851,FALSE,15.2
+"2022","State Representative","19","Janelle I. Anyanonu","Democratic",4014,TRUE,64
+"2022","State Representative","19","Kathleen M. Jackson","Republican",1434,FALSE,22.9
+"2022","State Representative","19","Enrique Jesus Cardiel","Independent",820,FALSE,13.1
+"2022","State Representative","2","P. Mark Duncan","Republican",5462,TRUE,70.2
+"2022","State Representative","2","Matt Dodson","Independent",2318,FALSE,29.8
+"2022","State Representative","20","Meredith A. Dixon","Democratic",6900,TRUE,56.4
+"2022","State Representative","20","Robert A. Salazar","Republican",5338,FALSE,43.6
+"2022","State Representative","21","Debra Marie Sarinana","Democratic",5410,TRUE,100
+"2022","State Representative","22","Stefani Lord","Republican",8813,TRUE,56.2
+"2022","State Representative","22","Augustine N. Montoya","Democratic",6879,FALSE,43.8
+"2022","State Representative","23","Alan T. Martinez","Republican",7242,TRUE,53.6
+"2022","State Representative","23","Ramon M. Montano","Democratic",6271,FALSE,46.4
+"2022","State Representative","24","Elizabeth L. Thomson","Democratic",7545,TRUE,59.3
+"2022","State Representative","24","Khalid Emshadi","Republican",5183,FALSE,40.7
+"2022","State Representative","25","Christine Trujillo","Democratic",9187,TRUE,100
+"2022","State Representative","26","Eleanor Chavez","Democratic",4026,TRUE,60.4
+"2022","State Representative","26","Patrick B. Sais","Republican",2636,FALSE,39.6
+"2022","State Representative","27","Marian Matthews","Democratic",7725,TRUE,54.1
+"2022","State Representative","27","Robert S. Godshall","Republican",6556,FALSE,45.9
+"2022","State Representative","28","Pamelya P. Herndon","Democratic",7552,TRUE,52.3
+"2022","State Representative","28","Nicole Chavez","Republican",6879,FALSE,47.7
+"2022","State Representative","29","Joy I. Garratt","Democratic",7349,TRUE,53.2
+"2022","State Representative","29","Gregory G. Cunningham","Republican",6455,FALSE,46.8
+"2022","State Representative","3","T. Ryan Lane","Republican",8272,TRUE,100
+"2022","State Representative","30","Natalie R. Figueroa","Democratic",6737,TRUE,54.9
+"2022","State Representative","30","Kurstin S. Johnson","Republican",5539,FALSE,45.1
+"2022","State Representative","31","William R. Rehm","Republican",8538,TRUE,54.9
+"2022","State Representative","31","Athena Ann Christodoulou","Democratic",7004,FALSE,45.1
+"2022","State Representative","32","Jenifer M. Jones","Republican",3776,TRUE,50.2
+"2022","State Representative","32","Candie G. Sweetser","Democratic",3740,FALSE,49.8
+"2022","State Representative","33","Micaela Lara Cadena","Democratic",4908,TRUE,60.1
+"2022","State Representative","33","Charles Richard Wendler","Republican",3259,FALSE,39.9
+"2022","State Representative","34","Raymundo Lara","Democratic",3604,TRUE,96
+"2022","State Representative","34","Mark W. Vieth","Republican",149,FALSE,4
+"2022","State Representative","35","Angelica Rubio","Democratic",4879,TRUE,59.6
+"2022","State Representative","35","Richelle A. Peugh-Swafford","Republican",3313,FALSE,40.4
+"2022","State Representative","36","Nathan P. Small","Democratic",5098,TRUE,52.2
+"2022","State Representative","36","Kimberly A. Skaggs","Republican",4666,FALSE,47.8
+"2022","State Representative","37","Joanne J. Ferrary","Democratic",5557,TRUE,57.3
+"2022","State Representative","37","Rene Ezequiel Rodriguez","Republican",4140,FALSE,42.7
+"2022","State Representative","38","Tara Jaramillo","Democratic",4489,TRUE,50.7
+"2022","State Representative","38","Sandra Kay Hammack","Republican",4359,FALSE,49.3
+"2022","State Representative","39","Luis M. Terrazas","Republican",6395,TRUE,53.3
+"2022","State Representative","39","Rodolpho S. Martinez","Democratic",5607,FALSE,46.7
+"2022","State Representative","4","Anthony Allison","Democratic",5976,TRUE,100
+"2022","State Representative","40","Joseph L. Sanchez","Democratic",7337,TRUE,73.2
+"2022","State Representative","40","Jerald Steve Mcfall","Republican",2692,FALSE,26.8
+"2022","State Representative","41","Susan K. Herrera","Democratic",7510,TRUE,100
+"2022","State Representative","42","Kristina Ortez","Democratic",9253,TRUE,100
+"2022","State Representative","43","Christine Chandler","Democratic",9173,TRUE,100
+"2022","State Representative","44","Kathleen M. Cates","Democratic",7415,TRUE,51
+"2022","State Representative","44","Jane E. Powdrell-Culbert","Republican",7118,FALSE,49
+"2022","State Representative","45","Linda Michelle Serrato","Democratic",9124,TRUE,100
+"2022","State Representative","46","Andrea D. Romero","Democratic",10920,TRUE,77.6
+"2022","State Representative","46","Jay C. Groseclose","Republican",3154,FALSE,22.4
+"2022","State Representative","47","Reena C. Szczepanski","Democratic",14538,TRUE,100
+"2022","State Representative","48","Tara L. Lujan","Democratic",9251,TRUE,100
+"2022","State Representative","49","Gail ""Missy"" Armstrong","Republican",8746,TRUE,100
+"2022","State Representative","5","Doreen Wonda Johnson","Democratic",7214,TRUE,100
+"2022","State Representative","50","Matthew Mcqueen","Democratic",11986,TRUE,100
+"2022","State Representative","51","John Block","Republican",5848,TRUE,63
+"2022","State Representative","51","Sharonlee Cummins","Democratic",3434,FALSE,37
+"2022","State Representative","52","Doreen Yvonne Gallegos","Democratic",4205,TRUE,61.1
+"2022","State Representative","52","John Foreman","Republican",2678,FALSE,38.9
+"2022","State Representative","53","Willie D. Madrid","Democratic",3232,TRUE,51.1
+"2022","State Representative","53","Elizabeth Lee Winterrowd","Republican",3087,FALSE,48.9
+"2022","State Representative","54","James G. Townsend","Republican",7020,TRUE,100
+"2022","State Representative","55","Cathrynn N. Brown","Republican",7424,TRUE,100
+"2022","State Representative","56","Harlan H. Vincent","Republican",7749,TRUE,67.3
+"2022","State Representative","56","Elaine Allen","Independent",3773,FALSE,32.7
+"2022","State Representative","57","Jason Carl Harper","Republican",6082,TRUE,51.8
+"2022","State Representative","57","Michelle Eleanor Sandoval","Democratic",5654,FALSE,48.2
+"2022","State Representative","58","Candy Spence Ezzell","Republican",4088,TRUE,100
+"2022","State Representative","59","Greg Nibert","Republican",7332,TRUE,100
+"2022","State Representative","6","Eliseo Lee Alcon","Democratic",4905,TRUE,62.8
+"2022","State Representative","6","Jerri D. Rowe","Republican",2906,FALSE,37.2
+"2022","State Representative","60","Joshua Nathaniel Hernandez","Republican",7359,TRUE,100
+"2022","State Representative","61","Randall T. Pettigrew","Republican",3061,TRUE,100
+"2022","State Representative","62","Larry R. Scott","Republican",6476,TRUE,100
+"2022","State Representative","63","Martin Zamora","Republican",4765,TRUE,100
+"2022","State Representative","64","Andrea R. Reeb","Republican",5868,TRUE,67.5
+"2022","State Representative","64","David M. Lansford","Independent",2822,FALSE,32.5
+"2022","State Representative","65","Derrick J. Lente","Democratic",6213,TRUE,100
+"2022","State Representative","66","Jimmy G. Mason","Republican",5548,TRUE,81.2
+"2022","State Representative","66","Andrew G. Kennedy","Libertarian",1282,FALSE,18.8
+"2022","State Representative","67","Jackey O. Chatfield","Republican",8444,TRUE,100
+"2022","State Representative","68","Charlotte L. Little","Democratic",5647,TRUE,50.2
+"2022","State Representative","68","Robert Henry Moss","Republican",5611,FALSE,49.8
+"2022","State Representative","69","Harry Garcia","Democratic",5050,TRUE,100
+"2022","State Representative","7","Tanya R. Mirabal Moya","Republican",4615,TRUE,57.5
+"2022","State Representative","7","Danny M. Bernal Jr.","Democratic",3412,FALSE,42.5
+"2022","State Representative","70","Ambrose M. Castellano","Democratic",7223,TRUE,100
+"2022","State Representative","8","Brian G. Baca","Republican",8503,TRUE,99.1
+"2022","State Representative","8","Paul Matthew Kinzelman","Democratic",78,FALSE,0.9
+"2022","State Representative","9","Patricia A. Lundstrom","Democratic",5277,TRUE,100
+"2022","State Treasurer","New Mexico","Laura M. Montoya","Democratic",369480,TRUE,53.2
+"2022","State Treasurer","New Mexico","Harry B. Montoya","Republican",324615,FALSE,46.8
+"2022","United States Representative","1","Melanie Ann Stansbury","Democratic",156420,TRUE,55.8
+"2022","United States Representative","1","Michelle Garcia Holmes","Republican",124001,FALSE,44.2
+"2022","United States Representative","1","Victoria L. Gonzales","Independent",0,FALSE,0
+"2022","United States Representative","2","Gabriel Vasquez","Democratic",96831,TRUE,50.4
+"2022","United States Representative","2","Yvette Herrell","Republican",95202,FALSE,49.6
+"2022","United States Representative","2","Eliseo Luna","Democratic",0,FALSE,0
+"2022","United States Representative","3","Teresa Leger Fernandez","Democratic",133900,TRUE,58.3
+"2022","United States Representative","3","Alexis Martinez Johnson","Republican",95826,FALSE,41.7
+"2024","President of the United States","New Mexico","Kamala D. Harris and Timothy Walz","Democratic",478254,TRUE,52.9
+"2024","President of the United States","New Mexico","Donald J. Trump and JD Vance","Republican",422042,FALSE,46.7
+"2024","President of the United States","New Mexico","Robert F. Kennedy, Jr and Nicole Shanahan","Independent",2554,FALSE,0.3
+"2024","President of the United States","New Mexico","Jill Stein and Rudolph Ware","Green",503,FALSE,0.1
+"2024","President of the United States","New Mexico","Chase Oliver and Mike Ter Maat","Libertarian",319,FALSE,0
+"2024","President of the United States","New Mexico","Claudia De La Cruz and Karina Garcia","Party for Socialism and Liberation",134,FALSE,0
+"2024","President of the United States","New Mexico","Laura Ebke and Trisha Butler","Liberal Party USA",0,FALSE,0
+"2024","State Representative","1","Rodney D. Montoya","Republican",11369,TRUE,100
+"2024","State Representative","10","G. Andres Romero","Democratic",6767,TRUE,100
+"2024","State Representative","11","Javier I. Martinez","Democratic",10071,TRUE,74.8
+"2024","State Representative","11","Bart H. Kinney, III","Republican",3385,FALSE,25.2
+"2024","State Representative","12","Art De La Cruz","Democratic",5732,TRUE,100
+"2024","State Representative","13","Patricia A. Roybal Caballero","Democratic",5816,TRUE,100
+"2024","State Representative","14","Miguel P. Garcia","Democratic",7310,TRUE,71.9
+"2024","State Representative","14","Konnie L. Legried","Republican",2851,FALSE,28.1
+"2024","State Representative","15","Dayan “Day” M. Hochman-Vigil","Democratic",10232,TRUE,100
+"2024","State Representative","16","Yanira Gurrola Valenzuela","Democratic",8005,TRUE,59.1
+"2024","State Representative","16","Leland Benwood H. Bohannon","Republican",5543,FALSE,40.9
+"2024","State Representative","17","Cynthia D. Borrego","Democratic",7860,TRUE,54.1
+"2024","State Representative","17","Joshua Taylor Neal","Republican",6676,FALSE,45.9
+"2024","State Representative","18","Marianna A. Anaya","Democratic",11668,TRUE,100
+"2024","State Representative","19","Janelle I. Anyanonu","Democratic",5626,TRUE,72.1
+"2024","State Representative","19","Leanna K. Derrick","Republican",2181,FALSE,27.9
+"2024","State Representative","2","P. Mark Duncan","Republican",8606,TRUE,100
+"2024","State Representative","20","Meredith A. Dixon","Democratic",8227,TRUE,55.9
+"2024","State Representative","20","Tracy Major","Republican",6495,FALSE,44.1
+"2024","State Representative","21","Debra Marie Sarinana","Democratic",6850,TRUE,100
+"2024","State Representative","22","Stefani Lord","Republican",10473,TRUE,56.5
+"2024","State Representative","22","Fred Ponzlov","Democratic",6479,FALSE,35
+"2024","State Representative","22","Zachary P. Withers","Independent",1572,FALSE,8.5
+"2024","State Representative","23","Alan T. Martinez","Republican",9195,TRUE,54.5
+"2024","State Representative","23","Frank James Smith, Jr","Democratic",7674,FALSE,45.5
+"2024","State Representative","24","Elizabeth L. Thomson","Democratic",9141,TRUE,59.5
+"2024","State Representative","24","David J. Daffron","Republican",6219,FALSE,40.5
+"2024","State Representative","25","Cristina S. Parajon","Democratic",10022,TRUE,68.8
+"2024","State Representative","25","Denis Litvinenko","Republican",4552,FALSE,31.2
+"2024","State Representative","26","Eleanor Chavez","Democratic",5430,TRUE,58.2
+"2024","State Representative","26","Patrick B. Sais","Republican",3892,FALSE,41.8
+"2024","State Representative","27","Marian Matthews","Democratic",9000,TRUE,53.8
+"2024","State Representative","27","Gregory R. Gallegos","Republican",7727,FALSE,46.2
+"2024","State Representative","28","Pamelya P. Herndon","Democratic",9403,TRUE,55.9
+"2024","State Representative","28","Marcie M. May","Republican",7406,FALSE,44.1
+"2024","State Representative","29","Joy I. Garratt","Democratic",9536,TRUE,54.1
+"2024","State Representative","29","Gregory G. Cunningham","Republican",8080,FALSE,45.9
+"2024","State Representative","3","William A. Hall, II","Republican",10332,TRUE,100
+"2024","State Representative","30","Elizabeth Diane Torres-Velasquez","Democratic",7987,TRUE,54.1
+"2024","State Representative","30","Lori Lee Robertson","Republican",6766,FALSE,45.9
+"2024","State Representative","31","Nicole Chavez","Republican",9597,TRUE,52.3
+"2024","State Representative","31","Vicky G. Estrada-Bustillo","Democratic",8750,FALSE,47.7
+"2024","State Representative","32","Jenifer M. Jones","Republican",6017,TRUE,61.4
+"2024","State Representative","32","Linda S. Alvarez","Democratic",3784,FALSE,38.6
+"2024","State Representative","33","Micaela Lara Cadena","Democratic",8095,TRUE,100
+"2024","State Representative","34","Raymundo Lara","Democratic",5081,TRUE,57.8
+"2024","State Representative","34","Larry M. Sedillo","Republican",3713,FALSE,42.2
+"2024","State Representative","35","Angelica Rubio","Democratic",8345,TRUE,100
+"2024","State Representative","36","Nathan P. Small","Democratic",7394,TRUE,51.9
+"2024","State Representative","36","Kimberly A. Skaggs","Republican",6847,FALSE,48.1
+"2024","State Representative","37","Joanne J. Ferrary","Democratic",9479,TRUE,100
+"2024","State Representative","38","Rebecca Dow","Republican",6034,TRUE,51.6
+"2024","State Representative","38","Tara Jaramillo","Democratic",5658,FALSE,48.4
+"2024","State Representative","39","Luis M. Terrazas","Republican",7766,TRUE,53.5
+"2024","State Representative","39","Gabrielle Begay","Democratic",6749,FALSE,46.5
+"2024","State Representative","4","Joseph Franklin Hernandez","Democratic",5641,TRUE,55.7
+"2024","State Representative","4","Lincoln Mark","Republican",4478,FALSE,44.3
+"2024","State Representative","40","Joseph L. Sanchez","Democratic",8001,TRUE,61.2
+"2024","State Representative","40","Diego M. Olivas","Republican",5068,FALSE,38.8
+"2024","State Representative","41","Susan K. Herrera","Democratic",8741,TRUE,100
+"2024","State Representative","42","Kristina Ortez","Democratic",11133,TRUE,100
+"2024","State Representative","43","Christine Chandler","Democratic",11094,TRUE,100
+"2024","State Representative","44","Kathleen M. Cates","Democratic",9166,TRUE,52.9
+"2024","State Representative","44","Ali Ennenga","Republican",8158,FALSE,47.1
+"2024","State Representative","45","Linda Michelle Serrato","Democratic",10767,TRUE,100
+"2024","State Representative","46","Andrea D. Romero","Democratic",12735,TRUE,100
+"2024","State Representative","47","Reena C. Szczepanski","Democratic",15772,TRUE,100
+"2024","State Representative","48","Tara L. Lujan","Democratic",10883,TRUE,100
+"2024","State Representative","49","Gail ""Missy"" Armstrong","Republican",10865,TRUE,100
+"2024","State Representative","5","Doreen Wonda Johnson","Democratic",8800,TRUE,100
+"2024","State Representative","50","Matthew Mcqueen","Democratic",12029,TRUE,61.6
+"2024","State Representative","50","Kenneth Donald Brennan","Republican",7490,FALSE,38.4
+"2024","State Representative","51","John Block","Republican",7510,TRUE,61.1
+"2024","State Representative","51","Ashlie L. Myers","Democratic",4777,FALSE,38.9
+"2024","State Representative","52","Doreen Yvonne Gallegos","Democratic",7157,TRUE,100
+"2024","State Representative","53","Sarah Angelina Silva","Democratic",4871,TRUE,50.9
+"2024","State Representative","53","Elizabeth Lee Winterrowd","Republican",4704,FALSE,49.1
+"2024","State Representative","54","Jonathan Allen Henry","Republican",8281,TRUE,83.5
+"2024","State Representative","54","Christian Scott Ehmling","Libertarian",1631,FALSE,16.5
+"2024","State Representative","55","Cathrynn N. Brown","Republican",9919,TRUE,100
+"2024","State Representative","56","Harlan H. Vincent","Republican",10948,TRUE,100
+"2024","State Representative","57","Catherine Jeanette Cullen","Republican",8374,TRUE,50.4
+"2024","State Representative","57","Michelle Eleanor Sandoval","Democratic",8244,FALSE,49.6
+"2024","State Representative","58","Angelita Mejia","Republican",5813,TRUE,100
+"2024","State Representative","59","Jared A. Hembree","Republican",9544,TRUE,100
+"2024","State Representative","6","Eliseo Lee Alcon","Democratic",5933,TRUE,58.9
+"2024","State Representative","6","Paul L. Spencer","Republican",4137,FALSE,41.1
+"2024","State Representative","60","Joshua N. Hernandez","Republican",8166,TRUE,57.2
+"2024","State Representative","60","Luke Nicholas Jungmann","Democratic",6113,FALSE,42.8
+"2024","State Representative","61","Randall T. Pettigrew","Republican",4879,TRUE,100
+"2024","State Representative","62","Elaine Sena Cortez","Republican",8993,TRUE,100
+"2024","State Representative","63","Martin Zamora","Republican",6547,TRUE,100
+"2024","State Representative","64","Andrea R. Reeb","Republican",10029,TRUE,100
+"2024","State Representative","65","Derrick J. Lente","Democratic",7760,TRUE,100
+"2024","State Representative","66","Jimmy G. Mason","Republican",8367,TRUE,100
+"2024","State Representative","67","Jackey O. Chatfield","Republican",9387,TRUE,100
+"2024","State Representative","68","Charlotte L. Little","Democratic",7654,TRUE,52.2
+"2024","State Representative","68","Nathan T. Brooks","Republican",6999,FALSE,47.8
+"2024","State Representative","69","Michelle P. Abeyta","Democratic",6277,TRUE,100
+"2024","State Representative","7","Tanya R. Mirabal Moya","Republican",7789,TRUE,100
+"2024","State Representative","70","Anita Amalia Gonzales","Democratic",8333,TRUE,100
+"2024","State Representative","8","Brian G. Baca","Republican",11123,TRUE,100
+"2024","State Representative","9","Patricia A. Lundstrom","Republican",7008,TRUE,100
+"2024","State Senate","1","William E. Sharer","Republican",14505,TRUE,100
+"2024","State Senate","10","Katy Duhigg","Democratic",15846,TRUE,57.6
+"2024","State Senate","10","Rudy B Mora","Republican",11669,FALSE,42.4
+"2024","State Senate","11","Linda M. Lopez","Democratic",9665,TRUE,100
+"2024","State Senate","12","Jay C. Block","Republican",13643,TRUE,52.4
+"2024","State Senate","12","Phillip Ramirez","Democratic",12382,FALSE,47.6
+"2024","State Senate","13","M. Debbie O'malley","Democratic",14921,TRUE,100
+"2024","State Senate","14","Michael Padilla","Democratic",11343,TRUE,100
+"2024","State Senate","15","Heather Jean Berghmans","Democratic",12920,TRUE,60.7
+"2024","State Senate","15","Craig Degenhardt","Republican",8368,FALSE,39.3
+"2024","State Senate","16","Antoinette Sedillo Lopez","Democratic",18219,TRUE,100
+"2024","State Senate","17","Mimi Stewart","Democratic",9117,TRUE,100
+"2024","State Senate","18","Natalie R. Figueroa","Democratic",15131,TRUE,58.1
+"2024","State Senate","18","Kurstin S. Johnson","Republican",10930,FALSE,41.9
+"2024","State Senate","19","Ant L. Thornton","Republican",17400,TRUE,57
+"2024","State Senate","19","William Burton Scott","Democratic",13111,FALSE,43
+"2024","State Senate","2","Steve D. Lanier","Republican",16832,TRUE,78.5
+"2024","State Senate","2","Songtree L. Pioche","Democratic",4613,FALSE,21.5
+"2024","State Senate","20","Martin E. Hickey","Democratic",14222,TRUE,57.5
+"2024","State Senate","20","Wayne A Yevoli","Republican",10497,FALSE,42.5
+"2024","State Senate","21","Nicole L. Tobiassen","Republican",15715,TRUE,52.8
+"2024","State Senate","21","Athena Ann Christodoulou","Democratic",14044,FALSE,47.2
+"2024","State Senate","22","Benny Shendo, Jr","Democratic",13954,TRUE,100
+"2024","State Senate","23","Harold James Pope, Jr","Democratic",13267,TRUE,53.4
+"2024","State Senate","23","Terry Lynne Aragon","Republican",11577,FALSE,46.6
+"2024","State Senate","24","Linda M. Trujillo","Democratic",18058,TRUE,100
+"2024","State Senate","25","Peter Wirth","Democratic",28248,TRUE,100
+"2024","State Senate","26","Antonio ""Moe"" Maestas","Democratic",13716,TRUE,100
+"2024","State Senate","27","Patrick Henry Boone, IV","Republican",15673,TRUE,100
+"2024","State Senate","28","Gabriel J. Ramos","Republican",11370,TRUE,55.4
+"2024","State Senate","28","Chris M. Ponce","Democratic",9146,FALSE,44.6
+"2024","State Senate","29","Joshua A. Sanchez","Republican",13589,TRUE,59.3
+"2024","State Senate","29","Tina R. Garcia","Democratic",9329,FALSE,40.7
+"2024","State Senate","3","Shannon Dawn Pinto","Democratic",13949,TRUE,100
+"2024","State Senate","30","Angel M. Charley","Democratic",11748,TRUE,100
+"2024","State Senate","31","Joseph Cervantes","Democratic",8849,TRUE,100
+"2024","State Senate","32","Candy Spence Ezzell","Republican",12468,TRUE,100
+"2024","State Senate","33","Nicholas Allan Paul","Republican",16252,TRUE,100
+"2024","State Senate","34","James G. Townsend","Republican",14050,TRUE,100
+"2024","State Senate","35","Crystal Diamond Brantley","Republican",17801,TRUE,100
+"2024","State Senate","36","Jeff Steinborn","Democratic",11150,TRUE,56
+"2024","State Senate","36","David H. Tofsted","Republican",8766,FALSE,44
+"2024","State Senate","37","William Peter Soules","Democratic",15693,TRUE,100
+"2024","State Senate","38","Carrie Hamblen","Democratic",8642,TRUE,50.9
+"2024","State Senate","38","Samantha R. Barncastle Salopek","Republican",8321,FALSE,49.1
+"2024","State Senate","39","Elizabeth Liz Stefanics","Democratic",16368,TRUE,100
+"2024","State Senate","4","George K. Munoz","Democratic",13077,TRUE,100
+"2024","State Senate","40","Craig W. Brandt","Republican",14345,TRUE,54
+"2024","State Senate","40","Amina N. Everett","Democratic",12217,FALSE,46
+"2024","State Senate","41","David M. Gallegos","Republican",11145,TRUE,100
+"2024","State Senate","42","Larry R. Scott","Republican",15578,TRUE,100
+"2024","State Senate","5","Leo Jaramillo","Democratic",16168,TRUE,100
+"2024","State Senate","6","Roberto ""Bobby"" Jesse Gonzales","Democratic",18953,TRUE,100
+"2024","State Senate","7","Pat Woods","Republican",13706,TRUE,100
+"2024","State Senate","8","Pete Campos","Democratic",14996,TRUE,100
+"2024","State Senate","9","Cindy Nava","Democratic",15585,TRUE,55.9
+"2024","State Senate","9","Audrey Trujillo","Republican",12316,FALSE,44.1
+"2024","United States Representative","1","Melanie Ann Stansbury","Democratic",193158,TRUE,56.4
+"2024","United States Representative","1","Steve Jones","Republican",149391,FALSE,43.6
+"2024","United States Representative","2","Gabriel Vasquez","Democratic",138039,TRUE,52.1
+"2024","United States Representative","2","Yvette Herrell","Republican",126866,FALSE,47.9
+"2024","United States Representative","3","Teresa Leger Fernandez","Democratic",162076,TRUE,56.4
+"2024","United States Representative","3","Sharon E. Clahchischilliage","Republican",125485,FALSE,43.6
+"2024","United States Senator","New Mexico","Martin Heinrich","Democratic",496787,TRUE,55.1
+"2024","United States Senator","New Mexico","Nella Louise Domenici","Republican",404676,FALSE,44.9

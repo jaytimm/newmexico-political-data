@@ -24,6 +24,37 @@ pacman::p_load(
 
 
 
+This project integrates a collection of New Mexico political geography and election data into a unified dataset.
+
+
+## Dataset Components
+
+### Precinct Boundaries with District Crosswalk
+Voting Tabulation Districts (VTDs) from the New Mexico Secretary of State's 2020 redistricting cycle. Spatial geometries defining precinct boundaries with county and VTD identifiers, including congressional district, state house district, and state senate district assignments as properties.
+
+**File:** `data/boundaries/nm_vtd_with_districts_2021.geojson`  
+**Format:** GeoJSON with precinct geometries and district assignments
+
+### Precinct-Level Election Results
+Precinct-by-precinct vote totals broken down by party (Democratic, Republican, and other) for all Congressional races, State legislative races, and Statewide offices/elections  (Governor, U.S. Senate, presidential electors, and other statewide positions) from 2000-2024. 
+
+Derived from election information made available at https://electionstats.sos.nm.gov/.
+
+**File:** `data/elections/nm_precinct_level_results_2000-24.csv`  
+**Format:** CSV with vote totals by precinct, election year, and party
+
+
+### Statewide Election Results
+Final statewide vote tallies, winners, and vote percentages for all races from 2000-2024. Includes presidential, gubernatorial, U.S. Senate, U.S. House, state legislative, and other statewide offices. 
+
+Derived from election information made available at https://electionstats.sos.nm.gov/.
+
+**File:** `data/elections/nm_statewide_results_2000-24.csv`  
+**Format:** CSV with race outcomes and vote shares by election year
+
+
+
+
 # New Mexico Political Data
 
 ## Overview
@@ -87,7 +118,6 @@ nm_vtd_map <- sf::st_read("data-raw/gstore.rgis/NM_VTD_20211002.geojson")
 
 # Save for future use
 dir.create("data/boundaries", showWarnings = FALSE, recursive = TRUE)
-saveRDS(nm_vtd_map, "data/boundaries/nm_vtd_map_2021.rds")
 ```
 
 
@@ -141,8 +171,8 @@ bigun <- bigun99 |>
 
 
 ## not a problem for any totals or win calculations.  The placement of voter privacy row relative to county name breaks fill-down process in creation of 'pc' column -- not a horrible problem: two precincts in two races are broken -- underlying data issue, and could be solved here -- 
-prob_precincts <- bigun |> filter(pc == 'Voter Privacy', division_name != 'Voter Privacy') |>
-  distinct(election_date, office_name, district_type, district_name)
+# prob_precincts <- bigun |> filter(pc == 'Voter Privacy', division_name != 'Voter Privacy') |>
+#   distinct(election_date, office_name, district_type, district_name)
 
 
 # ============================================================
@@ -210,7 +240,13 @@ total_votes <- df |>
 
 # Join total votes and calculate other
 precinct_level <- precinct_wide |>
-  left_join(total_votes, by = c("election_date", "office_name", "district_type", "district_name", "pc", "division_name")) |>
+  left_join(total_votes, by = c("election_date", 
+                                "office_name", 
+                                "district_type", 
+                                "district_name", 
+                                "pc", 
+                                "division_name")) |>
+  
   mutate(other = votes_cast - (dem + rep)) |>
   select(election_date, office_name, district_type, district_name, 
          pc, division_name, dem, rep, other, votes_cast) |>
@@ -237,11 +273,20 @@ precinct_districts <- precinct_level |>
   rename(COUNTY_NAM = county_nam, VTD_NUM = vtd_num)
 
 
-# Save for future use
+# Join district crosswalk to VTD map
+nm_vtd_with_districts <- nm_vtd_map |>
+  mutate(VTD_NUM = as.character(VTD_NUM)) |>
+  left_join(precinct_districts, by = c("COUNTY_NAM", "VTD_NUM"))
+
+# Save outputs
+dir.create("data/boundaries", showWarnings = FALSE, recursive = TRUE)
 dir.create("data/elections", showWarnings = FALSE, recursive = TRUE)
-saveRDS(precinct_districts, "data/boundaries/nm_precinct_districts_2021.rds")
-saveRDS(precinct_level, "data/elections/nm_precinct_level_results_2000-24.rds")
-saveRDS(final_results, "data/elections/nm_election_results_2000-24.rds")
+
+sf::st_write(nm_vtd_with_districts, "data/boundaries/nm_vtd_with_districts_2021.geojson", delete_dsn = TRUE)
+write.csv(precinct_level, "data/elections/nm_precinct_results_2000-24.csv", row.names = FALSE)
+write.csv(final_results, "data/elections/nm_election_results_2000-24.csv", row.names = FALSE)
+```
+
 ```
 
 
@@ -271,6 +316,22 @@ precinct_results <- readRDS("data/elections/nm_precinct_level_results_2000-24.rd
 
 # Load statewide results
 final_results <- readRDS("data/elections/nm_election_results_2000-24.rds")
+
+
+###
+
+
+# Load precinct boundaries with district crosswalk
+nm_vtd_with_districts <- sf::st_read("data/boundaries/nm_vtd_with_districts_2021.geojson")
+
+# Load precinct-level State House results
+statehouse_results <- read.csv("data/elections/nm_precinct_results_statehouse_2000-24.csv")
+
+# Load precinct-level Congressional results
+congress_results <- read.csv("data/elections/nm_precinct_results_congress_2000-24.csv")
+
+# Load statewide results
+statewide_results <- read.csv("data/elections/nm_statewide_results_2000-24.csv")
 ```
 
 
