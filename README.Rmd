@@ -8,8 +8,6 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(knitr)
-library(dplyr)
-library(kableExtra)
 ```
 
 # New Mexico Political Data
@@ -34,29 +32,15 @@ All data covers general elections from 2000 through 2024.
 
 The table below shows which offices have data available for each election year. For district-based offices (U.S. Representative, State Senate, State Representative), the number in parentheses indicates how many districts are included.
 
-```{r composition-table, results='asis'}
+```{r composition-table}
 # Read the composition table CSV
 comp_table <- read.csv("data/data_composition.csv", stringsAsFactors = FALSE, check.names = FALSE, na.strings = "")
 
 # Replace any NA values with empty strings
 comp_table[is.na(comp_table)] <- ""
 
-# Generate HTML table with no wrapping (GitHub markdown supports HTML tables)
-cat('<table style="white-space: nowrap;">\n')
-cat('<thead><tr><th align="left">Office</th>')
-for (col in 2:ncol(comp_table)) {
-  cat(paste0('<th align="center">', names(comp_table)[col], '</th>'))
-}
-cat('</tr></thead>\n<tbody>\n')
-for (i in 1:nrow(comp_table)) {
-  cat('<tr>')
-  cat(paste0('<td style="white-space: nowrap;">', comp_table[i, 1], '</td>'))
-  for (j in 2:ncol(comp_table)) {
-    cat(paste0('<td align="center" style="white-space: nowrap;">', comp_table[i, j], '</td>'))
-  }
-  cat('</tr>\n')
-}
-cat('</tbody></table>\n')
+# Generate markdown table
+knitr::kable(comp_table, format = "markdown", align = c("l", rep("c", ncol(comp_table) - 1)))
 ```
 
 ## Data Files
