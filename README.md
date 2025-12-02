@@ -71,11 +71,14 @@ many districts are included.
 
 ## Data Processing
 
-The raw election data was processed to: - Aggregate votes across
-different vote channels (early voting, election day, absentee) - Exclude
-judicial races and voter privacy suppressions - Create both statewide
-totals and precinct-level breakdowns by party - Add district crosswalks
-to the precinct boundary map (extracted from 2024 election data)
+The raw election data was processed to:
+
+-   Aggregate votes across different vote channels (early voting,
+    election day, absentee)
+-   Exclude judicial races and voter privacy suppressions
+-   Create both statewide totals and precinct-level breakdowns by party
+-   Add district crosswalks to the precinct boundary map (extracted from
+    2024 election data)
 
 The processing script is available in `scripts/process_election_data.R`.
 
@@ -86,20 +89,17 @@ The processing script is available in `scripts/process_election_data.R`.
 -   Precinct boundaries are from the 2020 redistricting cycle
 -   District assignments in the boundary file are derived from election
     result data
--   **Important:** While precinct-level election data goes back to 2000,
+-   **Important:** While precinct-level election data goes back to 2004,
     the precinct boundary map is only valid for precinct results from
     2022 onward (when the 2020 redistricting boundaries took effect).
     Earlier election results use different precinct boundaries that do
     not match this map.
--   **2000/2002 Data:** Precinct-level data is not available for 2000
-    and 2002 elections. These years only have county-level results,
-    which were processed from separate files in the `adds` folder. The
-    adds files contain election results in a different format than the
-    main data files and were converted to match the standard structure.
-    These files are not included in the larger online database queries
-    from the Secretary of State website and must be individually
-    downloaded. County-level totals are available for these years, but
-    precinct-level breakdowns are not.
+-   **Adds Files:** Some 2000 and 2002 election results are not included
+    in the larger online database queries from the Secretary of State
+    website and must be individually downloaded. These files are stored
+    in the `adds` folder and contain election results in a different
+    format than the main data files. They were converted to match the
+    standard structure and combined with the main dataset.
 
 ## Quick Start
 
