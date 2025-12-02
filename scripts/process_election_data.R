@@ -51,7 +51,10 @@ bigun <- bigun99 |>
   filter(district_type %in% c('Congressional District',
                               'State Representative District',
                               'State Senate District',
-                              'State')) |>
+                              'State',
+                              ##
+                              'Governor and Lieutenant Governor District')) |>
+  
   mutate(pc = ifelse(grepl('[0-9]', division_name), 
                      NA, division_name)) |>
   mutate(election_date = ifelse(is.character(election_date) & nchar(election_date) == 4,
@@ -64,7 +67,8 @@ bigun <- bigun99 |>
   
   ### 2010 weirdness.
   mutate(office_name = gsub('Governor and Lieutenant Governor', 'Governor', office_name),
-         district_name = gsub('Governor and Lieutenant Governor', 'New Mexico', district_name)) |>
+         district_name = gsub('Governor and Lieutenant Governor', 'New Mexico', district_name),
+         district_type = gsub('Governor and Lieutenant Governor', 'State', district_type)) |>
   
   tidyr::fill(pc, .direction = 'down') |>
   select(election_type, election_date, office_name, district_type, district_name,

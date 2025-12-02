@@ -35,7 +35,7 @@ many districts are included.
 | President of the United States | X |  | X |  | X |  | X |  | X |  | X |  | X |
 | United States Senator | X | X |  | X | X |  | X | X |  | X | X |  | X |
 | United States Representative | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) |
-| Governor |  | X |  | X |  |  |  | X |  | X |  | X |  |
+| Governor |  | X |  | X |  | X |  | X |  | X |  | X |  |
 | Attorney General |  | X |  | X |  | X |  | X |  | X |  | X |  |
 | Secretary of State |  | X |  | X |  | X |  | X | X | X |  | X |  |
 | State Treasurer |  | X |  | X |  | X |  | X |  | X |  | X |  |
