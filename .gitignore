@@ -23,3 +23,6 @@ Thumbs.db
 # Raw data folder
 data-raw/
 raw-data/
+
+# R Markdown source files (README.md is the rendered output)
+README.Rmd
