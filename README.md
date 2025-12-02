@@ -32,17 +32,17 @@ many districts are included.
 
 | Office | 2000 | 2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 | 2022 | 2024 |
 |:--------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Attorney General |  | X |  | X |  | X |  | X |  | X |  | X |  |
-| Commissioner of Public Lands |  |  |  | X |  | X |  | X |  | X |  | X |  |
-| Governor |  | X |  | X |  |  |  | X |  | X |  | X |  |
 | President of the United States | X |  | X |  | X |  | X |  | X |  | X |  | X |
-| Secretary of State |  | X |  | X |  | X |  | X | X | X |  | X |  |
-| State Auditor |  | X |  | X |  | X |  | X |  | X |  | X |  |
-| State Representative | X (70) | X (70) | X (70) | X (69) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) |
-| State Senate | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |
-| State Treasurer |  | X |  | X |  | X |  | X |  | X |  | X |  |
-| United States Representative | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) |
 | United States Senator | X | X |  | X | X |  | X | X |  | X | X |  | X |
+| United States Representative | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) |
+| Governor |  | X |  | X |  |  |  | X |  | X |  | X |  |
+| Attorney General |  | X |  | X |  | X |  | X |  | X |  | X |  |
+| Secretary of State |  | X |  | X |  | X |  | X | X | X |  | X |  |
+| State Treasurer |  | X |  | X |  | X |  | X |  | X |  | X |  |
+| State Auditor |  | X |  | X |  | X |  | X |  | X |  | X |  |
+| Commissioner of Public Lands |  |  |  | X |  | X |  | X |  | X |  | X |  |
+| State Senate | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |
+| State Representative | X (70) | X (70) | X (70) | X (69) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) |
 
 ## Data Files
 

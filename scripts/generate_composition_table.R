@@ -17,7 +17,30 @@ df <- read.csv("data/elections/nm_election_results_2000-24.csv",
 years_in_data <- sort(unique(df$election_date))
 all_years <- seq(2000, 2024, by = 2)  # Even years only (general elections)
 years <- all_years
-offices <- sort(unique(df$office_name))
+
+# Define office order: Federal (Pres first), then Governor, then other statewide, then legislature
+office_order <- c(
+  # Federal
+  "President of the United States",
+  "United States Senator",
+  "United States Representative",
+  # Governor
+  "Governor",
+  # Other statewide (descending importance)
+  "Attorney General",
+  "Secretary of State",
+  "State Treasurer",
+  "State Auditor",
+  "Commissioner of Public Lands",
+  # State legislature
+  "State Senate",
+  "State Representative"
+)
+
+# Get offices from data and order them
+offices_in_data <- unique(df$office_name)
+offices <- c(office_order[office_order %in% offices_in_data],
+             sort(offices_in_data[!offices_in_data %in% office_order]))  # Add any others at end
 
 # Create composition table
 composition <- data.frame(Office = offices, stringsAsFactors = FALSE)
