@@ -35,14 +35,14 @@ many districts are included.
 | Attorney General |  | X |  | X |  | X |  | X |  | X |  | X |  |
 | Commissioner of Public Lands |  |  |  | X |  | X |  | X |  | X |  | X |  |
 | Governor |  | X |  | X |  |  |  | X |  | X |  | X |  |
-| President of the United States |  |  | X |  | X |  | X |  | X |  | X |  | X |
-| Secretary of State |  |  |  | X |  | X |  | X | X | X |  | X |  |
+| President of the United States | X |  | X |  | X |  | X |  | X |  | X |  | X |
+| Secretary of State |  | X |  | X |  | X |  | X | X | X |  | X |  |
 | State Auditor |  | X |  | X |  | X |  | X |  | X |  | X |  |
 | State Representative | X (70) | X (70) | X (70) | X (69) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) | X (70) |
 | State Senate | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |  | X (42) |
 | State Treasurer |  | X |  | X |  | X |  | X |  | X |  | X |  |
 | United States Representative | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) | X (3) |
-| United States Senator |  |  |  | X | X |  | X | X |  | X | X |  | X |
+| United States Senator | X | X |  | X | X |  | X | X |  | X | X |  | X |
 
 ## Data Files
 
@@ -91,6 +91,15 @@ The processing script is available in `scripts/process_election_data.R`.
     2022 onward (when the 2020 redistricting boundaries took effect).
     Earlier election results use different precinct boundaries that do
     not match this map.
+-   **2000/2002 Data:** Precinct-level data is not available for 2000
+    and 2002 elections. These years only have county-level results,
+    which were processed from separate files in the `adds` folder. The
+    adds files contain election results in a different format than the
+    main data files and were converted to match the standard structure.
+    These files are not included in the larger online database queries
+    from the Secretary of State website and must be individually
+    downloaded. County-level totals are available for these years, but
+    precinct-level breakdowns are not.
 
 ## Quick Start
 

@@ -36,8 +36,10 @@ nm_vtd_map <- sf::st_read("data-raw/gstore.rgis/NM_VTD_20211002.geojson")
 # names appear in separate rows from precinct results, and vote channels
 # (early voting, election day, etc.) are broken out separately.
 
-# Read all raw CSV files
-fs <- list.files("data-raw/electionstats.sos.nm.gov/", full.names = TRUE)
+# Read all raw CSV files (excluding adds folder - processed separately)
+fs <- list.files("data-raw/electionstats.sos.nm.gov/", 
+                 pattern = "^elstats_search", 
+                 full.names = TRUE)
 bigun99 <- lapply(fs, read.csv) |> data.table::rbindlist()
 
 # ============================================================================
@@ -52,13 +54,33 @@ bigun <- bigun99 |>
                               'State')) |>
   mutate(pc = ifelse(grepl('[0-9]', division_name), 
                      NA, division_name)) |>
-  mutate(election_date = format(as.Date(election_date), "%Y")) |>
+  mutate(election_date = ifelse(is.character(election_date) & nchar(election_date) == 4,
+                                election_date,  # Already a year string (from adds)
+                                format(as.Date(election_date), "%Y"))) |>  # Convert date to year
+  
+  ## corrections
   mutate(vote_channel = ifelse(is.na(vote_channel), 'Election Day 2000', vote_channel)) |>
   mutate(division_name = sub(' - .*$', '', division_name)) |>
+  
+  ### 2010 weirdness.
+  mutate(office_name = gsub('Governor and Lieutenant Governor', 'Governor', office_name),
+         district_name = gsub('Governor and Lieutenant Governor', 'New Mexico', district_name)) |>
+  
   tidyr::fill(pc, .direction = 'down') |>
   select(election_type, election_date, office_name, district_type, district_name,
          candidate_name, division_type, pc, division_name,
          vote_channel, is_winner, candidate_party_name, votes)
+
+# Process and combine adds files (2000/2002 county-level data in different format)
+# Add after bigun is created so structure matches (after column selection)
+source("scripts/process_adds_files.R")
+if (exists("adds_combined") && !is.null(adds_combined) && nrow(adds_combined) > 0) {
+  # Convert adds_combined to match bigun structure (already has correct columns)
+  adds_df <- as.data.frame(adds_combined)
+  # Combine with bigun
+  bigun <- rbind(bigun, adds_df)
+  cat("Combined", nrow(adds_combined), "rows from adds files with bigun\n")
+}
 
 # Note: The placement of voter privacy rows relative to county names can
 # break the fill-down process in creation of 'pc' column. This affects

@@ -1,4 +1,11 @@
 "election_date","office_name","district_name","candidate_name","candidate_party_name","votes","is_winner","pct"
+"2000","President of the United States","New Mexico","Al Gore and Joe Lieberman","Democratic",286783,TRUE,47.9
+"2000","President of the United States","New Mexico","George W. Bush and Dick Cheney","Republican",286417,FALSE,47.8
+"2000","President of the United States","New Mexico","Ralph Nader and Winona La Duke","Green",21251,FALSE,3.6
+"2000","President of the United States","New Mexico","Harry Browne and Art Olivier","Libertarian",2058,FALSE,0.3
+"2000","President of the United States","New Mexico","Pat Buchanan and Ezola Foster","Reform",1392,FALSE,0.2
+"2000","President of the United States","New Mexico","John Hagelin and Nat Goldhaber","Natural Law",361,FALSE,0.1
+"2000","President of the United States","New Mexico","Howard Phillips and J. Curtis Frazier","Constitution",343,FALSE,0.1
 "2000","State Representative","1","James Nicholas Tinnin, Jr.","Republican",4943,TRUE,56.5
 "2000","State Representative","1","Jerry Sandel","Democratic",3800,FALSE,43.5
 "2000","State Representative","10","Henry ""Kiki"" Saavedra","Democratic",3194,TRUE,72.2
@@ -193,12 +200,16 @@
 "2000","United States Representative","2","Michael A. Montoya","Democratic",72614,FALSE,41.9
 "2000","United States Representative","3","Tom Udall","Democratic",135040,TRUE,67.2
 "2000","United States Representative","3","Lisa L. Lutz","Republican",65979,FALSE,32.8
+"2000","United States Senator","New Mexico","Jeff Bingaman","Democratic",363744,TRUE,61.7
+"2000","United States Senator","New Mexico","Bill Redmond","Republican",225517,FALSE,38.3
 "2002","Attorney General","New Mexico","Patricia A. Madrid","Democratic",273183,TRUE,57.1
 "2002","Attorney General","New Mexico","Rob Perry","Republican",179718,FALSE,37.6
 "2002","Attorney General","New Mexico","Ann Tyner Gleason","Green",25192,FALSE,5.3
 "2002","Governor","New Mexico","Bill Richardson and Diane D. Denish","Democratic",268693,TRUE,55.5
 "2002","Governor","New Mexico","John A. Sanchez and Rod Adair","Republican",189074,FALSE,39
 "2002","Governor","New Mexico","David E. Bacon and Kathleen M. Sanchez","Green",26466,FALSE,5.5
+"2002","Secretary of State","New Mexico","Rebecca D. Vigil-Giron","Democratic",269922,TRUE,57.7
+"2002","Secretary of State","New Mexico","Sharon Clahchischilliage","Republican",198083,FALSE,42.3
 "2002","State Auditor","New Mexico","Domingo P. Martinez","Democratic",238507,TRUE,52.2
 "2002","State Auditor","New Mexico","Tom Benavides","Republican",218756,FALSE,47.8
 "2002","State Representative","1","Thomas C. Taylor","Republican",6440,TRUE,100
@@ -314,6 +325,8 @@
 "2002","United States Representative","2","George L. Dewey","",43,FALSE,0
 "2002","United States Representative","2","Padraig M. Lynch","",39,FALSE,0
 "2002","United States Representative","3","Tom Udall","Democratic",122950,TRUE,100
+"2002","United States Senator","New Mexico","Pete V. Domenici","Republican",314301,TRUE,65
+"2002","United States Senator","New Mexico","Gloria Tristani","Democratic",169039,FALSE,35
 "2004","President of the United States","New Mexico","George W. Bush And Dick Cheney","Republican",376914,TRUE,49.8
 "2004","President of the United States","New Mexico","John F. Kerry And John Edwards","Democratic",370939,FALSE,49
 "2004","President of the United States","New Mexico","Ralph Nader And Peter Miguel Camejo","Independent",4053,FALSE,0.5
