@@ -20,6 +20,8 @@ This dataset contains:
 -   **Precinct-level election results** with vote totals by party
     (Democratic, Republican, other)
 -   **Statewide election results** with winners and vote percentages
+-   **County-level statewide election results** with vote totals by
+    county for statewide offices
 
 All data covers general elections from 2000 through 2024.
 
@@ -59,15 +61,22 @@ many districts are included.
 
 ### Election Results
 
--   **File:** `data/elections/nm_precinct_results_2000-24.csv`
+-   **File:** `data/elections/nm_precinct_results_2004-24.csv`
 
 -   **Description:** Precinct-by-precinct vote totals broken down by
-    party (Democratic, Republican, other) for all races from 2000-2024.
+    party (Democratic, Republican, other) for all races from 2004-2024.
 
 -   **File:** `data/elections/nm_election_results_2000-24.csv`
 
 -   **Description:** Statewide election results with winners, vote
     totals, and vote percentages for all races from 2000-2024.
+
+-   **File:** `data/elections/nm_county_statewide_results_2000-24.csv`
+
+-   **Description:** County-level election results for statewide offices
+    (Governor, Attorney General, Secretary of State, State Treasurer,
+    State Auditor, Commissioner of Public Lands, President, U.S.
+    Senator) with vote totals and percentages by county from 2000-2024.
 
 ## Data Processing
 
@@ -77,6 +86,7 @@ The raw election data was processed to:
     election day, absentee)
 -   Exclude judicial races and voter privacy suppressions
 -   Create both statewide totals and precinct-level breakdowns by party
+-   Create county-level breakdowns for statewide offices
 -   Add district crosswalks to the precinct boundary map (extracted from
     2024 election data)
 
@@ -110,8 +120,11 @@ Load the data files in R:
 nm_vtd <- sf::st_read("data/boundaries/nm_vtd_with_districts_2021.geojson")
 
 # Load precinct-level election results
-precinct_results <- read.csv("data/elections/nm_precinct_results_2000-24.csv")
+precinct_results <- read.csv("data/elections/nm_precinct_results_2004-24.csv")
 
 # Load statewide election results
 statewide_results <- read.csv("data/elections/nm_election_results_2000-24.csv")
+
+# Load county-level statewide election results
+county_statewide_results <- read.csv("data/elections/nm_county_statewide_results_2000-24.csv")
 ```

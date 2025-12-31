@@ -100,7 +100,12 @@ df <- bigun |>
   filter(division_type %in% c("Precinct", "County")) |>
   filter(vote_channel != "Voter Privacy") |>
   filter(!pc %in% c('Fed', 'Voter Privacy')) |>
-  mutate(votes = as.numeric(votes))
+  mutate(votes = as.numeric(votes)) |>
+  mutate(candidate_name = gsub(' and .*$', '', candidate_name, ignore.case = T)) |>
+  
+  mutate(candidate_party_name = ifelse(candidate_party_name == '' & 
+                                         !candidate_name %in% c("Total Ballots Cast", "Total Votes Cast"), 
+                                       'No Party Affiliation', candidate_party_name))
 
 # ============================================================================
 # TABLE 1: FINAL RESULTS (Statewide)
@@ -114,6 +119,12 @@ final_results <- df |>
   group_by(election_date, office_name, district_name, candidate_name, 
            candidate_party_name) |>
   summarise(votes = sum(votes, na.rm = TRUE), .groups = "drop") |>
+  # Correction for error in raw SOS data: 2012 State Representative race
+  # Note: This is a data error in the raw Secretary of State data for Cathrynn N. Brown -- district 55 -- 
+  mutate(votes = ifelse(election_date == "2012" & 
+                        office_name == "State Representative" & 
+                        candidate_name == "Cathrynn N. Brown",
+                        8853, votes)) |>
   group_by(election_date, office_name, district_name) |>
   mutate(
     is_winner = votes == max(votes),
@@ -121,6 +132,37 @@ final_results <- df |>
   ) |>
   ungroup() |>
   arrange(election_date, office_name, district_name, desc(votes))
+
+# ============================================================================
+# TABLE 1B: COUNTY-LEVEL STATEWIDE ELECTIONS
+# ============================================================================
+# Calculate county-level vote totals for statewide offices only.
+
+statewide_offices <- c("Governor", "Attorney General", "Secretary of State", 
+                      "State Treasurer", "State Auditor", "Commissioner of Public Lands",
+                      "President of the United States", "United States Senator")
+
+county_statewide_results <- df |>
+  filter(division_type == "County") |>
+  filter(!candidate_name %in% c("Total Ballots Cast", "Total Votes Cast")) |>
+  filter(office_name %in% statewide_offices) |>
+  group_by(election_date, office_name, district_name, candidate_name, 
+           candidate_party_name, pc) |>
+  summarise(votes = sum(votes, na.rm = TRUE), .groups = "drop") |>
+  # Correction for error in raw SOS data: 2012 State Representative race
+  # Note: This is a data error in the raw Secretary of State data for Cathrynn N. Brown -- district 55 -- 
+  mutate(votes = ifelse(election_date == "2012" & 
+                        office_name == "State Representative" & 
+                        candidate_name == "Cathrynn N. Brown",
+                        8853, votes)) |>
+  group_by(election_date, office_name, district_name, pc) |>
+  mutate(
+    is_winner = votes == max(votes),
+    pct = round(votes / sum(votes) * 100, 1)
+  ) |>
+  ungroup() |>
+  arrange(election_date, office_name, district_name, pc, desc(votes)) |>
+  rename(county_name = pc)
 
 # ============================================================================
 # TABLE 2: PRECINCT-LEVEL D/R/OTHER
@@ -131,7 +173,7 @@ final_results <- df |>
 # Map parties to D/R/Other
 precinct_data <- df |>
   filter(division_type == "Precinct") |>
-  filter(candidate_name != "Total Votes Cast") |>
+  filter(!candidate_name %in% c("Total Ballots Cast", "Total Votes Cast")) |>
   mutate(party_collapsed = case_when(
     candidate_party_name == "Democratic" ~ "dem",
     candidate_party_name == "Republican" ~ "rep",
@@ -213,9 +255,12 @@ sf::st_write(nm_vtd_with_districts,
              "data/boundaries/nm_vtd_with_districts_2021.geojson", 
              delete_dsn = TRUE)
 write.csv(precinct_level, 
-          "data/elections/nm_precinct_results_2000-24.csv", 
+          "data/elections/nm_precinct_results_2004-24.csv", 
           row.names = FALSE)
 write.csv(final_results, 
           "data/elections/nm_election_results_2000-24.csv", 
+          row.names = FALSE)
+write.csv(county_statewide_results, 
+          "data/elections/nm_county_statewide_results_2000-24.csv", 
           row.names = FALSE)
 
